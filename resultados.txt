@@ -726,3 +726,76 @@ A-ASTORGA MONTI ANASTASIA CAROLINA-NUEVO JUEGO-Hora: Wed May 24 2023 11:24:58 GM
 A-ASTORGA MONTI ANASTASIA CAROLINA-LEVEL1
 A-ASTORGA MONTI ANASTASIA CAROLINA-NUEVO JUEGO-Hora: Wed May 24 2023 11:25:03 GMT-0400 (hora estándar de Chile)
 A-ASTORGA MONTI ANASTASIA CAROLINA-LEVEL1
+A-ASTORGA MONTI ANASTASIA CAROLINA-NUEVO JUEGO-Hora: Wed May 24 2023 11:44:57 GMT-0400 (hora estándar de Chile)
+A-ASTORGA MONTI ANASTASIA CAROLINA-LEVEL1
+A-AVILA GONZALEZ DAVID JESUS-NUEVO JUEGO-Hora: Wed May 24 2023 11:45:38 GMT-0400 (hora estándar de Chile)
+A-AVILA GONZALEZ DAVID JESUS-LEVEL1
+A-AVILA GONZALEZ DAVID JESUS-NUEVO JUEGO-Hora: Wed May 24 2023 12:13:09 GMT-0400 (hora estándar de Chile)
+A-AVILA GONZALEZ DAVID JESUS-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-NUEVO JUEGO-Hora: Wed May 24 2023 15:51:35 GMT-0400 (hora estándar de Chile)
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-LEVEL1
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-AVENDAÑO PALMA JAVIERA FRANCISCAEstado-CLICK en estrella. RESULT: color incorrecto -> estrella no seleccionada.
+A-AVENDAÑO PALMA JAVIERA FRANCISCAEstado-CLICK en estrella. RESULT: color incorrecto -> estrella no seleccionada.
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-Estado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-Estado-El usuario ha seleccionado la estrella 1
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-Estado-Estrellas seleccionadas hasta el momento: [1]
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-Estado-CLICK para enviar estrellas.
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-Estado-Se va a comparar con los valores por defecto de los autómatas.
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-Estado-El niño ha elegido las estrellas: [1]
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-resultado-level1-El resultado correcto es: [["0","1","2"],["25","26","27"],["28","29","30"]]
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-resultado-level1RESULTADO INCORRECTO
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-Estado-Las estrellas del niño junto con los autómatas son: [1,"29","30"]
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-Estado-CLICK para enviar estrellas.
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-Estado-Se va a comparar con los valores por defecto de los autómatas.
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-resultado-level1-El resultado correcto es: [["0","1","2"],["25","26","27"],["28","29","30"]]
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-Estado-Las estrellas del niño junto con los autómatas son: ["26","27"]
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-Estado-El niño ha elegido las estrellas: []
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-resultado-level1RESULTADO CORRECTO
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-AVENDAÑO PALMA JAVIERA FRANCISCAEstado-CLICK en estrella. RESULT: color incorrecto -> estrella no seleccionada.
+A-AVENDAÑO PALMA JAVIERA FRANCISCAEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-AVENDAÑO PALMA JAVIERA FRANCISCAEstado-El usuario ha seleccionado la estrella 1
+A-AVENDAÑO PALMA JAVIERA FRANCISCAEstado-Estrellas seleccionadas hasta el momento: [1]
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-Estado-CLICK en estrella. RESULT: color incorrecto -> estrella no seleccionada.
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-Estado-CLICK en estrella. RESULT: color incorrecto -> estrella no seleccionada.
+A-AVENDAÑO PALMA JAVIERA FRANCISCAEstado-CLICK en estrella. RESULT: color incorrecto -> estrella no seleccionada.
+A-AVENDAÑO PALMA JAVIERA FRANCISCAEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-AVENDAÑO PALMA JAVIERA FRANCISCAEstado-El usuario ha seleccionado la estrella 29
+A-AVENDAÑO PALMA JAVIERA FRANCISCAEstado-Estrellas seleccionadas hasta el momento: [29]
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-Estado-CLICK en estrella. RESULT: número máximo de estrellas elegidas -> estrella no seleccionada.
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-Estado-CLICK para enviar estrellas.
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-Estado-Se va a comparar con los valores por defecto de los autómatas.
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-Estado-El niño ha elegido las estrellas: [29]
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-Estado-Las estrellas del niño junto con los autómatas son: [29,"26","27"]
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-resultado-level1-El resultado correcto es: [["0","1","2"],["25","26","27"],["28","29","30"]]
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-resultado-level1RESULTADO INCORRECTO
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-Estado-CLICK en estrella. RESULT: número máximo de estrellas elegidas -> estrella no seleccionada.
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-Estado-CLICK para enviar estrellas.
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-Estado-Se va a comparar con los valores por defecto de los autómatas.
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-Estado-El niño ha elegido las estrellas: []
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-Estado-Las estrellas del niño junto con los autómatas son: ["1","2"]
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-resultado-level1-El resultado correcto es: [["0","1","2"],["25","26","27"],["28","29","30"]]
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-resultado-level1RESULTADO CORRECTO
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-NUEVO JUEGO-Hora: Wed May 24 2023 16:48:12 GMT-0400 (hora estándar de Chile)
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-LEVEL1

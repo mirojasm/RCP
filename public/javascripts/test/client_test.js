@@ -46,6 +46,7 @@ var imgmapa = {
   1222: "e45.png",
   2222: "e33.png",
 };
+const context = [];
 
 //Evita el GoBack
 history.pushState(null, null, document.URL);
@@ -1576,7 +1577,10 @@ function colorToSpanish(color) {
 
 $("#SendMessageButton").click((e) => {
   e.preventDefault();
+  
   const message = $("#message-to-send").val();
+
+  context.push({'role':'user', 'content':message});
   const li = $("<li class='message my-message' ></li>").text(message);
   $(".chat-history ul").append(li);
   $("#message-to-send").val("");
@@ -1591,11 +1595,12 @@ $("#SendMessageButton").click((e) => {
     headers: {
       "Content-Type": "application/json",
     },
-    body: JSON.stringify({ message }),
+    body: JSON.stringify({context}),
   })
     .then((res) => res.json())
     .then((data) => {
       $(".chat-history ul li.loading-message").remove();
+      context.push({'role':'assistant', 'content':data.response});
 
       const li = $("<li class='message other-message' ></li>").text(
         data.response

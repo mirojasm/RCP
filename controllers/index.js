@@ -1,5 +1,6 @@
 var config = require("../settings.js");
 const { generateResponse } = require("../openai/index.js");
+const { generateResponseFromMessages } = require("../openai/index.js");
 
 /*
  * Atiende a las solicitudes realizadas al home de la app.
@@ -86,10 +87,13 @@ router.get("/constelaciones_test", function (req, res) {
 });
 
 router.post("/api/openai", function (req, res) {
-  generateResponse(req.body.message).then((response) => {
+  console.log(req.body.context)
+  generateResponseFromMessages(req.body.context).then((response) => {
     res.json({ response });
   });
 });
+
+
 /* Prueba Final --------------------------- */
 
 router.get("/b", function (req, res) {
