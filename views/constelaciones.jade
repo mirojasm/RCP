@@ -1,0 +1,80 @@
+doctype html
+html
+  head
+    title
+    link(rel='stylesheet', href='/bootstrap/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/introjs.css')
+    script(src='/javascripts/jquery.min.js')
+    script(src='/bootstrap/js/bootstrap.min.js')
+    script(src='javascripts/kinetic-v4.5.5.min.js')
+    meta(name='apple-mobile-web-app-capable', content='yes')
+    meta(name='mobile-web-app-capable', content='yes')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes')
+  body
+
+    .top.header.text-center(style='')
+      
+    .gameContainer.container-fluid
+            img#image-final-level
+            #col2.col2.col-xs-7.col-md-7.col-lg-7
+              // Column 2 start
+              .chat_icon
+              .col-xs-12.chat-col
+                .directionsContainer.col-xs-12.hidden
+                  #datos.col-xs-6
+                    h4 Datos
+                    |         Grupo: 
+                    label#lb_grupo(for='lb_grupo')
+                    br
+                    |         Etapa: 
+                    label#lb_etapa(for='lb_etapa')
+                .chatHeader.col-xs-12
+                  h3 GRUPO ALFA
+                  p PETA, ZETA, FELIPE y Tú
+                .chatContainer.col-xs-12(data-intro='En el chat verás tus mensajes y los de tus compañeros en color negro, y los de Felipe en azul' data-step=4)
+                  div
+                    .chat_container
+                      ul#chat.commentList.comments.clear
+                        .writing
+                          img.writing-img(src='../images/writing.gif')
+                          p.writing-text X está escribiendo ...
+                .choicesContainer.col-xs-12#choicesTime(data-intro='Podrás comunicarte por el chat seleccionando lo que quieras decir' data-step=5).pre-scrollable
+                  div
+                    h5 Escoge un mensaje para enviar
+                    .btn-group-vertical.choices
+                .choicesContainer.col-xs-12#selectionTime
+
+                  div
+                    h4 Es hora de seleccionar estrellas 
+                    .btn-group-vertical#selectionTimeButton
+                .objective-color.hidden.col-xs-12(data-intro='Y aquí cuál es la etapa, tu grupo y tu color asignado' data-step=3)
+                  blockquote.blockquote 
+                    p Dees buscar estrellas de color:
+                    p#lb_color
+            #col1.col1.col-xs-5.col-md-5.col-lg-5(data-intro='A la derecha de tu pantalla tienes el cielo, donde puedes realizar acciones para ayudar a Felipe' data-step=1)
+              // Column 1 start
+              // Column 1 end
+              .col-xs-12.btn-sec
+                .b1
+                  button.btn-stars(type='button')
+                .b2
+                  button.btn-objective(type='button')
+                .b3
+                  button#clickMe(type='button', value='clickme', onclick='introJs().start();')
+              .colCanvas#colCanvas
+              .mapa
+                img.img-mapa
+              .erase_button.btn.btn-danger deshacer
+              .objective(data-intro='Aquí verás la constelación que busca Felipe' data-step=2)
+                img#obj_game.hidden(src='../images/level_1_1.png')
+            
+    .footer.text-center
+
+    script(type='text/javascript', src='/javascripts/socket.io-1.3.5.js')
+    script(src='/javascripts/jquery.emoji.js')
+    script(type='text/javascript', src='/javascripts/constelaciones.js', id='clientConst', host=host, port=port)
+    script(type='text/javascript', src='/javascripts/client.js', id='client', host=host, port=port, imageNames=imageNames)
+    script(type='text/javascript', src='/javascripts/intro.js')
+    script.
+      introJs().start();

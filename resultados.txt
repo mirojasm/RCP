@@ -1,0 +1,720 @@
+A-ALVAREZ PEREZ NICOLAS JOAQUIN-NUEVO JUEGO-Hora: Mon Jan 21 2019 12:44:41 GMT-0300 (hora de verano de Chile)
+A-ALVAREZ PEREZ NICOLAS JOAQUIN-LEVEL1
+A-ALVAREZ PEREZ NICOLAS JOAQUIN-nodo-35
+A-ALVAREZ PEREZ NICOLAS JOAQUIN-mensaje-Veo varios botones que podrían servir de algo
+A-ALVAREZ PEREZ NICOLAS JOAQUIN-nodo-46
+A-ALVAREZ PEREZ NICOLAS JOAQUIN-mensaje-Me da lata
+A-ALVAREZ PEREZ NICOLAS JOAQUIN-nodo-43
+A-ALVAREZ PEREZ NICOLAS JOAQUIN-mensaje-Da lo mismo empecemos
+B-ALVAREZ PEREZ NICOLAS JOAQUIN-NUEVO JUEGO-Hora-Mon Jan 21 2019 12:46:13 GMT-0300 (hora de verano de Chile)
+B-ALVAREZ PEREZ NICOLAS JOAQUIN-LEVEL1
+A-ALVAREZ PEREZ NICOLAS JOAQUIN-nodo-51
+B-ALVAREZ PEREZ NICOLAS JOAQUIN-mensaje-No veo nada que parezca útil
+A-ALVAREZ PEREZ NICOLAS JOAQUIN-nodo-39
+B-ALVAREZ PEREZ NICOLAS JOAQUIN-mensaje-Lo voy a intentar.
+A-ALVAREZ PEREZ NICOLAS JOAQUIN-nodo-44
+B-ALVAREZ PEREZ NICOLAS JOAQUIN-mensaje-Busca tu color y empecemos
+A-ALVAREZ PEREZ NICOLAS JOAQUIN-nodo-18
+B-ALVAREZ PEREZ NICOLAS JOAQUIN-mensaje-Sí, ¿Ustedes ven algo más que parezca relevante?
+A-ALVAREZ PEREZ NICOLAS JOAQUIN-nodo-14
+B-ALVAREZ PEREZ NICOLAS JOAQUIN-mensaje-Excelente, estamos listos para comenzar, recuerden mantenerse coordinados.
+B-ASTORGA MONTI ANASTASIA CAROLINA-NUEVO JUEGO-Hora-Mon Oct 14 2019 10:47:15 GMT+0200 (hora de verano de Europa central)
+B-ASTORGA MONTI ANASTASIA CAROLINA-LEVEL1
+A-ASTORGA MONTI ANASTASIA CAROLINA-nodo-35
+B-ASTORGA MONTI ANASTASIA CAROLINA-mensaje-Veo varios botones que podrían servir de algo
+A-ASTORGA MONTI ANASTASIA CAROLINA-nodo-39
+B-ASTORGA MONTI ANASTASIA CAROLINA-mensaje-Lo voy a intentar.
+A-ASTORGA MONTI ANASTASIA CAROLINA-nodo-44
+B-ASTORGA MONTI ANASTASIA CAROLINA-mensaje-Busca tu color y empecemos
+A-ASTORGA MONTI ANASTASIA CAROLINA-nodo-26
+B-ASTORGA MONTI ANASTASIA CAROLINA-mensaje-Empecemos, pero mantengámonos comunicados mientras buscamos las constelaciones
+A-ASTORGA MONTI ANASTASIA CAROLINA-nodo-175
+B-ASTORGA MONTI ANASTASIA CAROLINA-mensaje-No sé cuál es mi color
+A-ASTORGA MONTI ANASTASIA CAROLINA-nodo-128
+B-ASTORGA MONTI ANASTASIA CAROLINA-mensaje-Mi color es [$].
+A-ASTORGA MONTI ANASTASIA CAROLINA-nodo-164
+B-ASTORGA MONTI ANASTASIA CAROLINA-mensaje-Seleccionen sus átomos
+A-ASTORGA MONTI ANASTASIA CAROLINA-nodo-152
+B-ASTORGA MONTI ANASTASIA CAROLINA-mensaje-¡Hagan lo que dije!
+A-ASTORGA MONTI ANASTASIA CAROLINA-nodo-139
+B-ASTORGA MONTI ANASTASIA CAROLINA-mensaje-No estoy de acuerdo Elisa Electrón.
+B-ASTORGA MONTI ANASTASIA CAROLINA-Estado-Tiempo para elegir las estrellas:
+B-ASTORGA MONTI ANASTASIA CAROLINA-Estado-CLICK en átomos. RESULT: color incorrecto -> átomo no seleccionada.
+B-ASTORGA MONTI ANASTASIA CAROLINA-Estado-CLICK en átomos. RESULT: átomos correctamente seleccionada.
+B-ASTORGA MONTI ANASTASIA CAROLINA-Estado-El usuario ha seleccionado el átomo 1
+B-ASTORGA MONTI ANASTASIA CAROLINA-Estado-Átomos seleccionadas hasta el momento: [1]
+B-ASTORGA MONTI ANASTASIA CAROLINA-Estado-numero maximo de átomo coincide con las seleccionadas. Se activa botón para enviar respuestas.
+B-ASTORGA MONTI ANASTASIA CAROLINA-Estado-CLICK para enviar estrellas.
+B-ASTORGA MONTI ANASTASIA CAROLINA-Estado-Se va a comparar con los valores por defecto de los autómatas.
+B-ASTORGA MONTI ANASTASIA CAROLINA-Estado-El niño ha elegido las estrellas: [1]
+B-ASTORGA MONTI ANASTASIA CAROLINA-Estado-Las estrellas del niño junto con los autómatas son: [1,"32","39"]
+B-ASTORGA MONTI ANASTASIA CAROLINA-resultado-level1-El resultado correcto es: [["10","17","24"],["15","22","29"],["25","32","39"]]
+B-ASTORGA MONTI ANASTASIA CAROLINA-resultado-level1RESULTADO INCORRECTO
+A-ASTORGA MONTI ANASTASIA CAROLINA-nodo-7
+B-ASTORGA MONTI ANASTASIA CAROLINA-mensaje-Ya sé cómo lo vamos a hacer
+A-ASTORGA MONTI ANASTASIA CAROLINA-nodo-127
+A-ASTORGA MONTI ANASTASIA CAROLINA-nodo-110
+B-ASTORGA MONTI ANASTASIA CAROLINA-mensaje-¡Escogimos bien los átomos! 
+A-ASTORGA MONTI ANASTASIA CAROLINA-nodo-106
+B-ASTORGA MONTI ANASTASIA CAROLINA-LEVEL4
+A-ASTORGA MONTI ANASTASIA CAROLINA-nodo-123
+A-ASTORGA MONTI ANASTASIA CAROLINA-nodo-130
+A-ASTORGA MONTI ANASTASIA CAROLINA-nodo-85
+B-ASTORGA MONTI ANASTASIA CAROLINA-mensaje-Voy a seleccionar el átomo de mi color
+A-ASTORGA MONTI ANASTASIA CAROLINA-nodo-75
+B-ASTORGA MONTI ANASTASIA CAROLINA-mensaje-Ya, ahora si podemos seguir.
+A-ASTORGA MONTI ANASTASIA CAROLINA-nodo-71
+B-ASTORGA MONTI ANASTASIA CAROLINA-mensaje-Seleccionen sus átomos
+A-ASTORGA MONTI ANASTASIA CAROLINA-nodo-50
+B-ASTORGA MONTI ANASTASIA CAROLINA-mensaje-Voy a elegir los átomos [#] y [#]
+A-ASTORGA MONTI ANASTASIA CAROLINA-nodo-45
+B-ASTORGA MONTI ANASTASIA CAROLINA-mensaje-Sí, estoy de acuerdo Elisa Electrón.
+B-ASTORGA MONTI ANASTASIA CAROLINA-Estado-Tiempo para elegir las estrellas:
+B-ASTORGA MONTI ANASTASIA CAROLINA-Estado-CLICK en átomos. RESULT: color incorrecto -> átomo no seleccionada.
+B-ASTORGA MONTI ANASTASIA CAROLINA-Estado-CLICK en átomos. RESULT: color incorrecto -> átomo no seleccionada.
+B-ASTORGA MONTI ANASTASIA CAROLINA-Estado-CLICK en átomos. RESULT: átomos correctamente seleccionada.
+B-ASTORGA MONTI ANASTASIA CAROLINA-Estado-El usuario ha seleccionado el átomo 7
+B-ASTORGA MONTI ANASTASIA CAROLINA-Estado-Átomos seleccionadas hasta el momento: [7]
+B-ASTORGA MONTI ANASTASIA CAROLINA-Estado-CLICK en átomos. RESULT: átomos correctamente seleccionada.
+B-ASTORGA MONTI ANASTASIA CAROLINA-Estado-El usuario ha seleccionado el átomo 0
+B-ASTORGA MONTI ANASTASIA CAROLINA-Estado-Átomos seleccionadas hasta el momento: [7,0]
+B-ASTORGA MONTI ANASTASIA CAROLINA-Estado-numero maximo de átomo coincide con las seleccionadas. Se activa botón para enviar respuestas.
+B-ASTORGA MONTI ANASTASIA CAROLINA-Estado-CLICK para enviar estrellas.
+B-ASTORGA MONTI ANASTASIA CAROLINA-Estado-Se va a comparar con los valores por defecto de los autómatas.
+B-ASTORGA MONTI ANASTASIA CAROLINA-Estado-El niño ha elegido las estrellas: [7,0]
+B-ASTORGA MONTI ANASTASIA CAROLINA-Estado-Las estrellas del niño junto con los autómatas son: [7,0,"19","26"]
+B-ASTORGA MONTI ANASTASIA CAROLINA-resultado-level4-El resultado correcto es: [["0","2","8","15"],["11","13","19","26"],["22","24","30","37"]]
+B-ASTORGA MONTI ANASTASIA CAROLINA-resultado-level4RESULTADO INCORRECTO
+A-ASTORGA MONTI ANASTASIA CAROLINA-nodo-106
+B-ASTORGA MONTI ANASTASIA CAROLINA-mensaje-Para la próxima deberíamos ponernos de acuerdo.
+A-ASTORGA MONTI ANASTASIA CAROLINA-nodo-160
+B-ASTORGA MONTI ANASTASIA CAROLINA-mensaje-Sigamos nomás. 
+A-ASTORGA MONTI ANASTASIA CAROLINA-nodo-153
+B-ASTORGA MONTI ANASTASIA CAROLINA-mensaje-Mejor continuemos 
+A-ASTORGA MONTI ANASTASIA CAROLINA-nodo-164
+B-ASTORGA MONTI ANASTASIA CAROLINA-LEVEL6
+A-ASTORGA MONTI ANASTASIA CAROLINA-nodo-165
+B-ASTORGA MONTI ANASTASIA CAROLINA-mensaje-Sigamos nomás.
+A-ASTORGA MONTI ANASTASIA CAROLINA-nodo-168
+B-ASTORGA MONTI ANASTASIA CAROLINA-mensaje-Bueno, apurémonos.
+
+A-ASTORGA MONTI ANASTASIA CAROLINA-nodo-59
+B-ASTORGA MONTI ANASTASIA CAROLINA-mensaje-Juan Protón selecciona tu las de color [$] y  [$] y tu Elisa Electrón el de color [$]
+A-ASTORGA MONTI ANASTASIA CAROLINA-nodo-33
+B-ASTORGA MONTI ANASTASIA CAROLINA-mensaje-Si tú Juan Protón escoges las de color [$] y  [$], tú Elisa Electrón escoges el [$] y yo el [$], formamos la misma molécula objetivo, porque tiene los mismos colores y no nos repetiremos.
+A-ASTORGA MONTI ANASTASIA CAROLINA-nodo-38
+B-ASTORGA MONTI ANASTASIA CAROLINA-mensaje-No estoy de acuerdo Juan Protón.
+A-ASTORGA MONTI ANASTASIA CAROLINA-nodo-87
+B-ASTORGA MONTI ANASTASIA CAROLINA-mensaje-Seleccionen sus átomos
+A-ASTORGA MONTI ANASTASIA CAROLINA-nodo-75
+B-ASTORGA MONTI ANASTASIA CAROLINA-mensaje-¡Hagan lo que dije!
+A-ASTORGA MONTI ANASTASIA CAROLINA-nodo-65
+B-ASTORGA MONTI ANASTASIA CAROLINA-mensaje-No estoy de acuerdo Juan Protón.
+B-ASTORGA MONTI ANASTASIA CAROLINA-Estado-Tiempo para elegir las estrellas:
+B-ASTORGA MONTI ANASTASIA CAROLINA-Estado-CLICK en átomos. RESULT: átomos correctamente seleccionada.
+B-ASTORGA MONTI ANASTASIA CAROLINA-Estado-El usuario ha seleccionado el átomo 0
+B-ASTORGA MONTI ANASTASIA CAROLINA-Estado-Átomos seleccionadas hasta el momento: [0]
+B-ASTORGA MONTI ANASTASIA CAROLINA-Estado-CLICK en átomos. RESULT: átomo correctamente seleccionada.
+B-ASTORGA MONTI ANASTASIA CAROLINA-Estado-El usuario ha seleccionado el átomo 1
+B-ASTORGA MONTI ANASTASIA CAROLINA-Estado-Átomos seleccionadas hasta el momento: [0,1]
+B-ASTORGA MONTI ANASTASIA CAROLINA-Estado-numero maximo de átomos coincide con las seleccionadas. Se activa botón para enviar respuestas.
+B-ASTORGA MONTI ANASTASIA CAROLINA-Estado-CLICK en átomos. RESULT: número máximo de átomos elegidas -> átomo no seleccionada.
+B-ASTORGA MONTI ANASTASIA CAROLINA-Estado-numero maximo de átomos coincide con las seleccionadas. Se activa botón para enviar respuestas.
+B-ASTORGA MONTI ANASTASIA CAROLINA-Estado-numero maximo de átomo coincide con las seleccionadas. Se activa botón para enviar respuestas.
+B-ASTORGA MONTI ANASTASIA CAROLINA-Estado-CLICK para enviar estrellas.
+B-ASTORGA MONTI ANASTASIA CAROLINA-Estado-Se va a comparar con los valores por defecto de los autómatas.
+B-ASTORGA MONTI ANASTASIA CAROLINA-Estado-El niño ha elegido las estrellas: [0,1]
+B-ASTORGA MONTI ANASTASIA CAROLINA-Estado-Las estrellas del niño junto con los autómatas son: [0,1,"19","23","24","25"]
+B-ASTORGA MONTI ANASTASIA CAROLINA-resultado-level6-El resultado correcto es: [["8","9","10","14","15","16"],["17","18","19","23","24","25"],["29","30","31","35","36","37"]]
+B-ASTORGA MONTI ANASTASIA CAROLINA-resultado-level6RESULTADO INCORRECTO
+A-ASTORGA MONTI ANASTASIA CAROLINA-nodo-4
+B-ASTORGA MONTI ANASTASIA CAROLINA-mensaje-Para la próxima deberíamos ponernos de acuerdo en el color que le toca a cada uno.
+A-ASTORGA MONTI ANASTASIA CAROLINA-nodo-21
+B-ASTORGA MONTI ANASTASIA CAROLINA-mensaje-¡En la próxima saldrá mejor, sigamos!
+B-ASTORGA MONTI ANASTASIA CAROLINA-LEVEL8
+A-ASTORGA MONTI ANASTASIA CAROLINA-nodo-142
+B-ASTORGA MONTI ANASTASIA CAROLINA-mensaje-Busquen los átomos
+A-ASTORGA MONTI ANASTASIA CAROLINA-nodo-148
+B-ASTORGA MONTI ANASTASIA CAROLINA-mensaje-Bueno, apurémonos
+B-ASTORGA MONTI ANASTASIA CAROLINA-NUEVO JUEGO-Hora-Mon Oct 14 2019 16:01:59 GMT+0200 (hora de verano de Europa central)
+B-ASTORGA MONTI ANASTASIA CAROLINA-LEVEL1
+B-ASTORGA MONTI ANASTASIA CAROLINA-NUEVO JUEGO-Hora-Mon Oct 14 2019 16:31:24 GMT+0200 (hora de verano de Europa central)
+B-ASTORGA MONTI ANASTASIA CAROLINA-LEVEL1
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-NUEVO JUEGO-Hora: Sun Nov 22 2020 18:16:41 GMT-0300 (hora de verano de Chile)
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-LEVEL1
+A-AVILA GONZALEZ DAVID JESUS-NUEVO JUEGO-Hora: Thu May 18 2023 18:22:49 GMT-0400 (hora estándar de Chile)
+A-AVILA GONZALEZ DAVID JESUS-LEVEL1
+A-AVILA GONZALEZ DAVID JESUS-nodo-3
+A-AVILA GONZALEZ DAVID JESUS-mensaje- Veo varios botones pero no sé cómo funcionan. ¿Tú sabes algo?
+A-AVILA GONZALEZ DAVID JESUS-nodo-6
+A-AVILA GONZALEZ DAVID JESUS-mensaje-Parece que sí. ¿Estás de acuerdo Peta?
+A-AVILA GONZALEZ DAVID JESUS-nodo-10
+A-AVILA GONZALEZ DAVID JESUS-mensaje-Sí, sabiendo nuestros colores nos podremos coordinar más fácilmente
+A-AVILA GONZALEZ DAVID JESUS-nodo-14
+A-AVILA GONZALEZ DAVID JESUS-mensaje-Excelente, estamos listos para comenzar, recuerden mantenerse coordinados.
+A-AVILA GONZALEZ DAVID JESUS-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-AVILA GONZALEZ DAVID JESUS-nodo-124
+A-AVILA GONZALEZ DAVID JESUS-mensaje-¿Qué color les tocó a ustedes?
+A-AVILA GONZALEZ DAVID JESUS-nodo-128
+A-AVILA GONZALEZ DAVID JESUS-mensaje-Mi color es [$].
+A-AVILA GONZALEZ DAVID JESUS-nodo-164
+A-AVILA GONZALEZ DAVID JESUS-mensaje-Seleccionen sus estrellas
+A-AVILA GONZALEZ DAVID JESUS-nodo-152
+A-AVILA GONZALEZ DAVID JESUS-mensaje-¡Hagan lo que dije!
+A-AVILA GONZALEZ DAVID JESUS-nodo-138
+A-AVILA GONZALEZ DAVID JESUS-mensaje-Sí, estoy de acuerdo Zeta.
+A-AVILA GONZALEZ DAVID JESUS-Estado-Tiempo para elegir las estrellas:
+A-AVILA GONZALEZ DAVID JESUSEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-AVILA GONZALEZ DAVID JESUSEstado-El usuario ha seleccionado la estrella 28
+A-AVILA GONZALEZ DAVID JESUSEstado-Estrellas seleccionadas hasta el momento: [28]
+A-AVILA GONZALEZ DAVID JESUS-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-AVILA GONZALEZ DAVID JESUS-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-AVILA GONZALEZ DAVID JESUSEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-AVILA GONZALEZ DAVID JESUSEstado-El usuario ha seleccionado la estrella 28
+A-AVILA GONZALEZ DAVID JESUSEstado-Estrellas seleccionadas hasta el momento: [28]
+A-AVILA GONZALEZ DAVID JESUS-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-AVILA GONZALEZ DAVID JESUS-Estado-CLICK en estrella. RESULT: número máximo de estrellas elegidas -> estrella no seleccionada.
+A-AVILA GONZALEZ DAVID JESUS-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-AVILA GONZALEZ DAVID JESUS-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-AVILA GONZALEZ DAVID JESUS-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-AVILA GONZALEZ DAVID JESUSEstado-CLICK en estrella. RESULT: color incorrecto -> estrella no seleccionada.
+A-AVILA GONZALEZ DAVID JESUSEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-AVILA GONZALEZ DAVID JESUSEstado-El usuario ha seleccionado la estrella 15
+A-AVILA GONZALEZ DAVID JESUSEstado-Estrellas seleccionadas hasta el momento: [15]
+A-AVILA GONZALEZ DAVID JESUS-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-AVILA GONZALEZ DAVID JESUS-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-AVILA GONZALEZ DAVID JESUSEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-AVILA GONZALEZ DAVID JESUSEstado-El usuario ha seleccionado la estrella 28
+A-AVILA GONZALEZ DAVID JESUSEstado-Estrellas seleccionadas hasta el momento: [28]
+A-AVILA GONZALEZ DAVID JESUS-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-AVILA GONZALEZ DAVID JESUS-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-AVILA GONZALEZ DAVID JESUSEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-AVILA GONZALEZ DAVID JESUSEstado-El usuario ha seleccionado la estrella 15
+A-AVILA GONZALEZ DAVID JESUSEstado-Estrellas seleccionadas hasta el momento: [15]
+A-AVILA GONZALEZ DAVID JESUS-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-AVILA GONZALEZ DAVID JESUS-Estado-CLICK para enviar estrellas.
+A-AVILA GONZALEZ DAVID JESUS-Estado-Se va a comparar con los valores por defecto de los autómatas.
+A-AVILA GONZALEZ DAVID JESUS-Estado-El niño ha elegido las estrellas: [15]
+A-AVILA GONZALEZ DAVID JESUS-Estado-Las estrellas del niño junto con los autómatas son: [15,"29","30"]
+A-AVILA GONZALEZ DAVID JESUS-resultado-level1-El resultado correcto es: [["0","1","2"],["25","26","27"],["28","29","30"]]
+A-AVILA GONZALEZ DAVID JESUS-resultado-level1RESULTADO INCORRECTO
+A-AVILA GONZALEZ DAVID JESUS-nodo-4
+A-AVILA GONZALEZ DAVID JESUS-mensaje-Para la próxima deberíamos ponernos de acuerdo.
+B-BARRALES INOSTROZA BENJAMIN IGNACIO-NUEVO JUEGO-Hora-Thu May 18 2023 18:38:12 GMT-0400 (hora estándar de Chile)
+B-BARRALES INOSTROZA BENJAMIN IGNACIO-LEVEL1
+A-BARRALES INOSTROZA BENJAMIN IGNACIO-nodo-3
+B-BARRALES INOSTROZA BENJAMIN IGNACIO-mensaje- Veo varios botones pero no sé cómo funcionan. ¿Tú sabes algo?
+B-BARRALES INOSTROZA BENJAMIN IGNACIO-NUEVO JUEGO-Hora-Thu May 18 2023 19:33:15 GMT-0400 (hora estándar de Chile)
+B-BARRALES INOSTROZA BENJAMIN IGNACIO-LEVEL1
+B-BARRALES INOSTROZA BENJAMIN IGNACIO-NUEVO JUEGO-Hora-Thu May 18 2023 20:16:48 GMT-0400 (hora estándar de Chile)
+B-BARRALES INOSTROZA BENJAMIN IGNACIO-LEVEL1
+B-BARRALES INOSTROZA BENJAMIN IGNACIO-NUEVO JUEGO-Hora-Thu May 18 2023 20:35:45 GMT-0400 (hora estándar de Chile)
+B-BARRALES INOSTROZA BENJAMIN IGNACIO-LEVEL1
+B-BARRALES INOSTROZA BENJAMIN IGNACIO-NUEVO JUEGO-Hora-Thu May 18 2023 20:40:38 GMT-0400 (hora estándar de Chile)
+B-BARRALES INOSTROZA BENJAMIN IGNACIO-LEVEL1
+A-CASTRO BORJE PAULETTE  ANTONIA-NUEVO JUEGO-Hora: Thu May 18 2023 20:48:55 GMT-0400 (hora estándar de Chile)
+A-CASTRO BORJE PAULETTE  ANTONIA-LEVEL1
+A-CASTRO BORJE PAULETTE  ANTONIA-NUEVO JUEGO-Hora: Thu May 18 2023 20:55:35 GMT-0400 (hora estándar de Chile)
+A-CASTRO BORJE PAULETTE  ANTONIA-LEVEL1
+A-CASTRO BORJE PAULETTE  ANTONIA-NUEVO JUEGO-Hora: Thu May 18 2023 20:56:18 GMT-0400 (hora estándar de Chile)
+A-CASTRO BORJE PAULETTE  ANTONIA-LEVEL1
+A-CASTRO BORJE PAULETTE  ANTONIA-NUEVO JUEGO-Hora: Thu May 18 2023 20:57:21 GMT-0400 (hora estándar de Chile)
+A-CASTRO BORJE PAULETTE  ANTONIA-LEVEL1
+A-CASTRO BORJE PAULETTE  ANTONIA-NUEVO JUEGO-Hora: Thu May 18 2023 20:57:30 GMT-0400 (hora estándar de Chile)
+A-CASTRO BORJE PAULETTE  ANTONIA-LEVEL1
+A-CASTRO BORJE PAULETTE  ANTONIA-NUEVO JUEGO-Hora: Thu May 18 2023 21:06:58 GMT-0400 (hora estándar de Chile)
+A-CASTRO BORJE PAULETTE  ANTONIA-LEVEL1
+A-CASTRO BORJE PAULETTE  ANTONIA-NUEVO JUEGO-Hora: Thu May 18 2023 21:13:28 GMT-0400 (hora estándar de Chile)
+A-CASTRO BORJE PAULETTE  ANTONIA-LEVEL1
+A-CASTRO BORJE PAULETTE  ANTONIA-NUEVO JUEGO-Hora: Thu May 18 2023 21:13:28 GMT-0400 (hora estándar de Chile)
+A-CASTRO BORJE PAULETTE  ANTONIA-LEVEL1
+A-CASTRO BORJE PAULETTE  ANTONIA-nodo-3
+A-CASTRO BORJE PAULETTE  ANTONIA-mensaje- Veo varios botones pero no sé cómo funcionan. ¿Tú sabes algo?
+A-CASTRO BORJE PAULETTE  ANTONIA-nodo-6
+A-CASTRO BORJE PAULETTE  ANTONIA-mensaje-Parece que sí. ¿Estás de acuerdo Peta?
+A-CASTRO BORJE PAULETTE  ANTONIA-nodo-27
+A-CASTRO BORJE PAULETTE  ANTONIA-mensaje-No me importa lo que ven, terminemos esto rápido
+A-CASTRO BORJE PAULETTE  ANTONIA-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-CASTRO BORJE PAULETTE  ANTONIA-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-CASTRO BORJE PAULETTE  ANTONIA-nodo-124
+A-CASTRO BORJE PAULETTE  ANTONIA-mensaje-¿Qué color les tocó a ustedes?
+A-CASTRO BORJE PAULETTE  ANTONIA-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-CASTRO BORJE PAULETTE  ANTONIA-nodo-128
+A-CASTRO BORJE PAULETTE  ANTONIA-mensaje-Mi color es [$].
+A-CASTRO BORJE PAULETTE  ANTONIA-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-CASTRO BORJE PAULETTE  ANTONIA-nodo-130
+A-CASTRO BORJE PAULETTE  ANTONIA-mensaje-¿Qué estrellas escogemos?
+A-CASTRO BORJE PAULETTE  ANTONIA-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-CASTRO BORJE PAULETTE  ANTONIA-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-CASTRO BORJE PAULETTE  ANTONIA-NUEVO JUEGO-Hora: Thu May 18 2023 23:02:52 GMT-0400 (hora estándar de Chile)
+A-CASTRO BORJE PAULETTE  ANTONIA-LEVEL1
+A-CASTRO BORJE PAULETTE  ANTONIA-NUEVO JUEGO-Hora: Fri May 19 2023 00:06:35 GMT-0400 (hora estándar de Chile)
+A-CASTRO BORJE PAULETTE  ANTONIA-LEVEL1
+A-CASTRO BORJE PAULETTE  ANTONIA-NUEVO JUEGO-Hora: Fri May 19 2023 01:11:12 GMT-0400 (hora estándar de Chile)
+A-CASTRO BORJE PAULETTE  ANTONIA-LEVEL1
+A-CASTRO BORJE PAULETTE  ANTONIA-NUEVO JUEGO-Hora: Fri May 19 2023 02:15:22 GMT-0400 (hora estándar de Chile)
+A-CASTRO BORJE PAULETTE  ANTONIA-LEVEL1
+A-CASTRO BORJE PAULETTE  ANTONIA-NUEVO JUEGO-Hora: Fri May 19 2023 03:19:55 GMT-0400 (hora estándar de Chile)
+A-CASTRO BORJE PAULETTE  ANTONIA-LEVEL1
+A-CASTRO BORJE PAULETTE  ANTONIA-NUEVO JUEGO-Hora: Fri May 19 2023 04:24:29 GMT-0400 (hora estándar de Chile)
+A-CASTRO BORJE PAULETTE  ANTONIA-LEVEL1
+A-CASTRO BORJE PAULETTE  ANTONIA-NUEVO JUEGO-Hora: Fri May 19 2023 05:28:36 GMT-0400 (hora estándar de Chile)
+A-CASTRO BORJE PAULETTE  ANTONIA-LEVEL1
+A-CASTRO BORJE PAULETTE  ANTONIA-NUEVO JUEGO-Hora: Fri May 19 2023 06:32:57 GMT-0400 (hora estándar de Chile)
+A-CASTRO BORJE PAULETTE  ANTONIA-LEVEL1
+A-CASTRO BORJE PAULETTE  ANTONIA-NUEVO JUEGO-Hora: Fri May 19 2023 08:39:46 GMT-0400 (hora estándar de Chile)
+A-CASTRO BORJE PAULETTE  ANTONIA-LEVEL1
+A-CASTRO BORJE PAULETTE  ANTONIA-NUEVO JUEGO-Hora: Fri May 19 2023 13:01:43 GMT-0400 (hora estándar de Chile)
+A-CASTRO BORJE PAULETTE  ANTONIA-LEVEL1
+A-CASTRO BORJE PAULETTE  ANTONIA-NUEVO JUEGO-Hora: Fri May 19 2023 13:05:25 GMT-0400 (hora estándar de Chile)
+A-CASTRO BORJE PAULETTE  ANTONIA-LEVEL1
+A-CASTRO BORJE PAULETTE  ANTONIA-NUEVO JUEGO-Hora: Fri May 19 2023 14:38:29 GMT-0400 (hora estándar de Chile)
+A-CASTRO BORJE PAULETTE  ANTONIA-LEVEL1
+A-CASTRO BORJE PAULETTE  ANTONIA-NUEVO JUEGO-Hora: Fri May 19 2023 15:55:48 GMT-0400 (hora estándar de Chile)
+A-CASTRO BORJE PAULETTE  ANTONIA-LEVEL1
+A-CASTRO BORJE PAULETTE  ANTONIA-NUEVO JUEGO-Hora: Fri May 19 2023 17:05:58 GMT-0400 (hora estándar de Chile)
+A-CASTRO BORJE PAULETTE  ANTONIA-LEVEL1
+A-CASTRO BORJE PAULETTE  ANTONIA-NUEVO JUEGO-Hora: Fri May 19 2023 17:13:15 GMT-0400 (hora estándar de Chile)
+A-CASTRO BORJE PAULETTE  ANTONIA-LEVEL1
+A-CASTRO BORJE PAULETTE  ANTONIA-NUEVO JUEGO-Hora: Fri May 19 2023 17:26:51 GMT-0400 (hora estándar de Chile)
+A-CASTRO BORJE PAULETTE  ANTONIA-LEVEL1
+A-CASTRO BORJE PAULETTE  ANTONIA-NUEVO JUEGO-Hora: Fri May 19 2023 17:50:37 GMT-0400 (hora estándar de Chile)
+A-CASTRO BORJE PAULETTE  ANTONIA-LEVEL1
+A-CASTRO BORJE PAULETTE  ANTONIA-NUEVO JUEGO-Hora: Fri May 19 2023 17:50:44 GMT-0400 (hora estándar de Chile)
+A-CASTRO BORJE PAULETTE  ANTONIA-LEVEL1
+A-CASTRO BORJE PAULETTE  ANTONIA-NUEVO JUEGO-Hora: Fri May 19 2023 17:50:51 GMT-0400 (hora estándar de Chile)
+A-CASTRO BORJE PAULETTE  ANTONIA-LEVEL1
+A-CASTRO BORJE PAULETTE  ANTONIA-NUEVO JUEGO-Hora: Fri May 19 2023 18:35:37 GMT-0400 (hora estándar de Chile)
+A-CASTRO BORJE PAULETTE  ANTONIA-LEVEL1
+A-CASTRO BORJE PAULETTE  ANTONIA-NUEVO JUEGO-Hora: Sun May 21 2023 17:57:25 GMT-0400 (hora estándar de Chile)
+A-CASTRO BORJE PAULETTE  ANTONIA-LEVEL1
+A-AVILA GONZALEZ DAVID JESUS-NUEVO JUEGO-Hora: Sun May 21 2023 18:03:14 GMT-0400 (hora estándar de Chile)
+A-AVILA GONZALEZ DAVID JESUS-LEVEL1
+A-AVILA GONZALEZ DAVID JESUS-NUEVO JUEGO-Hora: Sun May 21 2023 18:03:33 GMT-0400 (hora estándar de Chile)
+A-AVILA GONZALEZ DAVID JESUS-LEVEL1
+A-ASTORGA MONTI ANASTASIA CAROLINA-NUEVO JUEGO-Hora: Sun May 21 2023 18:22:11 GMT-0400 (hora estándar de Chile)
+A-ASTORGA MONTI ANASTASIA CAROLINA-LEVEL1
+A-BARBOZA OBREGON GENARO-NUEVO JUEGO-Hora: Sun May 21 2023 19:03:55 GMT-0400 (hora estándar de Chile)
+A-BARBOZA OBREGON GENARO-LEVEL1
+A-BARBOZA OBREGON GENARO-NUEVO JUEGO-Hora: Sun May 21 2023 19:07:12 GMT-0400 (hora estándar de Chile)
+A-BARBOZA OBREGON GENARO-LEVEL1
+A-BARBOZA OBREGON GENARO-NUEVO JUEGO-Hora: Sun May 21 2023 19:07:37 GMT-0400 (hora estándar de Chile)
+A-BARBOZA OBREGON GENARO-LEVEL1
+A-undefined-LEVEL1
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-NUEVO JUEGO-Hora: Sun May 21 2023 19:11:23 GMT-0400 (hora estándar de Chile)
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-LEVEL1
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-nodo-35
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-mensaje-Veo varios botones que podrían servir de algo
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-nodo-38
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-mensaje- Voy a intentarlo. ¿Ustedes han tratado algo más?
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-nodo-6
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-mensaje-Parece que sí. ¿Estás de acuerdo Juan?
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-nodo-10
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-mensaje-Sí, sabiendo nuestros colores nos podremos coordinar más fácilmente
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-nodo-14
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-mensaje-Excelente, estamos listos para comenzar, recuerden mantenerse coordinados.
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-NUEVO JUEGO-Hora: Sun May 21 2023 19:53:41 GMT-0400 (hora estándar de Chile)
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-LEVEL1
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-NUEVO JUEGO-Hora: Sun May 21 2023 20:45:59 GMT-0400 (hora estándar de Chile)
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-LEVEL1
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-NUEVO JUEGO-Hora: Sun May 21 2023 21:02:31 GMT-0400 (hora estándar de Chile)
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-LEVEL1
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-nodo-35
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-mensaje-Veo varios botones que podrían servir de algo
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-nodo-46
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-mensaje-Me da lata
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-nodo-42
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-mensaje-Elisa, busca en tu estación el botón con el átomo Blanca.  Aparece tu color. ¿Tú lo ves Juan?
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-nodo-10
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-mensaje-Sí, sabiendo nuestros colores nos podremos coordinar más fácilmente
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-nodo-16
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-mensaje-Ok, comencemos.
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-NUEVO JUEGO-Hora: Sun May 21 2023 21:04:00 GMT-0400 (hora estándar de Chile)
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-LEVEL1
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-nodo-48
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-mensaje-No sé, no me importa
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-nodo-46
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-mensaje-Me da lata
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-nodo-43
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-mensaje-Da lo mismo empecemos
+A-ASTORGA MONTI ANASTASIA CAROLINA-NUEVO JUEGO-Hora: Sun May 21 2023 21:11:43 GMT-0400 (hora estándar de Chile)
+A-ASTORGA MONTI ANASTASIA CAROLINA-LEVEL1
+A-ASTORGA MONTI ANASTASIA CAROLINA-NUEVO JUEGO-Hora: Sun May 21 2023 21:13:41 GMT-0400 (hora estándar de Chile)
+A-ASTORGA MONTI ANASTASIA CAROLINA-LEVEL1
+A-ASTORGA MONTI ANASTASIA CAROLINA-NUEVO JUEGO-Hora: Sun May 21 2023 21:17:20 GMT-0400 (hora estándar de Chile)
+A-ASTORGA MONTI ANASTASIA CAROLINA-LEVEL1
+A-ASTORGA MONTI ANASTASIA CAROLINA-NUEVO JUEGO-Hora: Sun May 21 2023 21:17:26 GMT-0400 (hora estándar de Chile)
+A-ASTORGA MONTI ANASTASIA CAROLINA-LEVEL1
+A-ASTORGA MONTI ANASTASIA CAROLINA-NUEVO JUEGO-Hora: Sun May 21 2023 21:17:51 GMT-0400 (hora estándar de Chile)
+A-ASTORGA MONTI ANASTASIA CAROLINA-LEVEL1
+A-ASTORGA MONTI ANASTASIA CAROLINA-NUEVO JUEGO-Hora: Sun May 21 2023 21:20:08 GMT-0400 (hora estándar de Chile)
+A-ASTORGA MONTI ANASTASIA CAROLINA-LEVEL1
+A-ASTORGA MONTI ANASTASIA CAROLINA-nodo-3
+A-ASTORGA MONTI ANASTASIA CAROLINA-mensaje- Veo varios botones pero no sé cómo funcionan. ¿Tú sabes algo?
+A-ASTORGA MONTI ANASTASIA CAROLINA-nodo-30
+A-ASTORGA MONTI ANASTASIA CAROLINA-mensaje-Ok.
+A-ASTORGA MONTI ANASTASIA CAROLINA-nodo-19
+A-ASTORGA MONTI ANASTASIA CAROLINA-mensaje-Sí
+A-ASTORGA MONTI ANASTASIA CAROLINA-nodo-18
+A-ASTORGA MONTI ANASTASIA CAROLINA-mensaje-Sí, ¿Ustedes ven algo más que parezca relevante?
+A-ASTORGA MONTI ANASTASIA CAROLINA-nodo-16
+A-ASTORGA MONTI ANASTASIA CAROLINA-mensaje-Ok, comencemos.
+A-ASTORGA MONTI ANASTASIA CAROLINA-NUEVO JUEGO-Hora: Sun May 21 2023 21:21:41 GMT-0400 (hora estándar de Chile)
+A-ASTORGA MONTI ANASTASIA CAROLINA-LEVEL1
+A-ASTORGA MONTI ANASTASIA CAROLINA-NUEVO JUEGO-Hora: Sun May 21 2023 21:56:00 GMT-0400 (hora estándar de Chile)
+A-ASTORGA MONTI ANASTASIA CAROLINA-LEVEL1
+A-ASTORGA MONTI ANASTASIA CAROLINA-NUEVO JUEGO-Hora: Sun May 21 2023 21:58:37 GMT-0400 (hora estándar de Chile)
+A-ASTORGA MONTI ANASTASIA CAROLINA-LEVEL1
+A-ASTORGA MONTI ANASTASIA CAROLINA-NUEVO JUEGO-Hora: Sun May 21 2023 22:57:02 GMT-0400 (hora estándar de Chile)
+A-ASTORGA MONTI ANASTASIA CAROLINA-LEVEL1
+A-ASTORGA MONTI ANASTASIA CAROLINA-NUEVO JUEGO-Hora: Mon May 22 2023 00:00:20 GMT-0400 (hora estándar de Chile)
+A-ASTORGA MONTI ANASTASIA CAROLINA-LEVEL1
+A-ASTORGA MONTI ANASTASIA CAROLINA-NUEVO JUEGO-Hora: Mon May 22 2023 01:04:18 GMT-0400 (hora estándar de Chile)
+A-ASTORGA MONTI ANASTASIA CAROLINA-LEVEL1
+A-ASTORGA MONTI ANASTASIA CAROLINA-NUEVO JUEGO-Hora: Mon May 22 2023 02:07:51 GMT-0400 (hora estándar de Chile)
+A-ASTORGA MONTI ANASTASIA CAROLINA-LEVEL1
+A-ASTORGA MONTI ANASTASIA CAROLINA-NUEVO JUEGO-Hora: Mon May 22 2023 04:15:18 GMT-0400 (hora estándar de Chile)
+A-ASTORGA MONTI ANASTASIA CAROLINA-LEVEL1
+A-ASTORGA MONTI ANASTASIA CAROLINA-LEVEL1
+A-ASTORGA MONTI ANASTASIA CAROLINA-NUEVO JUEGO-Hora: Mon May 22 2023 14:29:53 GMT-0400 (hora estándar de Chile)
+A-BARBOZA OBREGON GENARO-NUEVO JUEGO-Hora: Mon May 22 2023 14:31:09 GMT-0400 (hora estándar de Chile)
+A-BARBOZA OBREGON GENARO-LEVEL1
+A-BARBOZA OBREGON GENARO-NUEVO JUEGO-Hora: Mon May 22 2023 18:41:22 GMT-0400 (hora estándar de Chile)
+A-BARBOZA OBREGON GENARO-LEVEL1
+A-BARBOZA OBREGON GENARO-NUEVO JUEGO-Hora: Mon May 22 2023 19:14:20 GMT-0400 (hora estándar de Chile)
+A-BARBOZA OBREGON GENARO-LEVEL1
+A-BARBOZA OBREGON GENARO-NUEVO JUEGO-Hora: Mon May 22 2023 19:16:50 GMT-0400 (hora estándar de Chile)
+A-BARBOZA OBREGON GENARO-LEVEL1
+A-BARBOZA OBREGON GENARO-NUEVO JUEGO-Hora: Mon May 22 2023 19:28:27 GMT-0400 (hora estándar de Chile)
+A-BARBOZA OBREGON GENARO-LEVEL1
+A-BARBOZA OBREGON GENARO-NUEVO JUEGO-Hora: Mon May 22 2023 19:30:06 GMT-0400 (hora estándar de Chile)
+A-BARBOZA OBREGON GENARO-LEVEL1
+A-BARBOZA OBREGON GENARO-NUEVO JUEGO-Hora: Mon May 22 2023 19:34:09 GMT-0400 (hora estándar de Chile)
+A-BARBOZA OBREGON GENARO-LEVEL1
+A-BARBOZA OBREGON GENARO-NUEVO JUEGO-Hora: Mon May 22 2023 19:36:11 GMT-0400 (hora estándar de Chile)
+A-BARBOZA OBREGON GENARO-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-LEVEL1
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-BARBOZA OBREGON GENARO-NUEVO JUEGO-Hora: Tue May 23 2023 20:01:59 GMT-0400 (hora estándar de Chile)
+A-BARBOZA OBREGON GENARO-LEVEL1
+A-BARBOZA OBREGON GENARO-nodo-3
+A-BARBOZA OBREGON GENARO-mensaje- Veo varios botones pero no sé cómo funcionan. ¿Tú sabes algo?
+A-BARBOZA OBREGON GENARO-nodo-30
+A-BARBOZA OBREGON GENARO-mensaje-Ok.
+A-BARBOZA OBREGON GENARO-nodo-19
+A-BARBOZA OBREGON GENARO-mensaje-Sí
+A-BARBOZA OBREGON GENARO-nodo-26
+A-BARBOZA OBREGON GENARO-mensaje-Empecemos, pero mantengámonos comunicados mientras buscamos las constelaciones
+A-undefined-LEVEL1
+A-BARBOZA OBREGON GENARO-NUEVO JUEGO-Hora: Tue May 23 2023 20:16:27 GMT-0400 (hora estándar de Chile)
+A-BARBOZA OBREGON GENARO-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-BARBOZA OBREGON GENARO-nodo-48
+A-BARBOZA OBREGON GENARO-mensaje-No sé, no me importa
+A-BARBOZA OBREGON GENARO-nodo-38
+A-BARBOZA OBREGON GENARO-mensaje- Voy a intentarlo. ¿Ustedes han tratado algo más?
+A-BARBOZA OBREGON GENARO-nodo-31
+A-BARBOZA OBREGON GENARO-mensaje-No importa, terminemos rápido.
+A-BARBOZA OBREGON GENARO-nodo-33
+A-BARBOZA OBREGON GENARO-mensaje-Por ahora usemos el chat para hablar.
+A-BARBOZA OBREGON GENARO-nodo-26
+A-BARBOZA OBREGON GENARO-mensaje-Empecemos, pero mantengámonos comunicados mientras buscamos las constelaciones
+A-BARBOZA OBREGON GENARO-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-BARBOZA OBREGON GENARO-NUEVO JUEGO-Hora: Tue May 23 2023 20:34:19 GMT-0400 (hora estándar de Chile)
+A-undefined-LEVEL1
+A-BARBOZA OBREGON GENARO-LEVEL1
+A-undefined-LEVEL1
+A-BARBOZA OBREGON GENARO-NUEVO JUEGO-Hora: Tue May 23 2023 21:37:07 GMT-0400 (hora estándar de Chile)
+A-BARBOZA OBREGON GENARO-LEVEL1
+A-undefined-LEVEL1
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-BARBOZA OBREGON GENARO-nodo-48
+A-BARBOZA OBREGON GENARO-mensaje-No sé, no me importa
+A-BARBOZA OBREGON GENARO-NUEVO JUEGO-Hora: Tue May 23 2023 21:40:16 GMT-0400 (hora estándar de Chile)
+A-BARBOZA OBREGON GENARO-LEVEL1
+A-BARBOZA OBREGON GENARO-nodo-48
+A-BARBOZA OBREGON GENARO-mensaje-No sé, no me importa
+A-BARBOZA OBREGON GENARO-nodo-38
+A-BARBOZA OBREGON GENARO-mensaje- Voy a intentarlo. ¿Ustedes han tratado algo más?
+A-BARBOZA OBREGON GENARO-nodo-29
+A-BARBOZA OBREGON GENARO-mensaje-Sí, para mi también.
+A-BARBOZA OBREGON GENARO-nodo-22
+A-BARBOZA OBREGON GENARO-mensaje-Como quieran.
+A-undefined-LEVEL1
+A-BARBOZA OBREGON GENARO-nodo-169
+A-BARBOZA OBREGON GENARO-mensaje-Mi color es [$], ¿y los suyos?
+A-BARBOZA OBREGON GENARO-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-BARBOZA OBREGON GENARO-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-BARBOZA OBREGON GENARO-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-BARBOZA OBREGON GENARO-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-BARBOZA OBREGON GENARO-nodo-128
+A-BARBOZA OBREGON GENARO-mensaje-Mi color es [$].
+A-BARBOZA OBREGON GENARO-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-BARBOZA OBREGON GENARO-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-BARBOZA OBREGON GENARO-nodo-155
+A-BARBOZA OBREGON GENARO-mensaje-Voy a elegir la estrella [#] 
+A-BARBOZA OBREGON GENARO-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-BARBOZA OBREGON GENARO-nodo-152
+A-BARBOZA OBREGON GENARO-mensaje-¡Hagan lo que dije!
+A-BARBOZA OBREGON GENARO-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-BARBOZA OBREGON GENARO-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-BARBOZA OBREGON GENARO-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-BARBOZA OBREGON GENARO-nodo-138
+A-BARBOZA OBREGON GENARO-mensaje-Sí, estoy de acuerdo Zeta.
+A-BARBOZA OBREGON GENARO-Estado-Tiempo para elegir las estrellas:
+A-BARBOZA OBREGON GENAROEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-BARBOZA OBREGON GENAROEstado-El usuario ha seleccionado la estrella 15
+A-BARBOZA OBREGON GENAROEstado-Estrellas seleccionadas hasta el momento: [15]
+A-BARBOZA OBREGON GENARO-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-BARBOZA OBREGON GENARO-Estado-CLICK en estrella. RESULT: número máximo de estrellas elegidas -> estrella no seleccionada.
+A-BARBOZA OBREGON GENARO-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-BARBOZA OBREGON GENARO-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-BARBOZA OBREGON GENARO-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-BARBOZA OBREGON GENARO-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-BARBOZA OBREGON GENARO-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-BARBOZA OBREGON GENARO-Estado-CLICK en estrella. RESULT: número máximo de estrellas elegidas -> estrella no seleccionada.
+A-BARBOZA OBREGON GENARO-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-BARBOZA OBREGON GENARO-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-LEVEL1
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-LEVEL1
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefinedEstado-CLICK en estrella. RESULT: color incorrecto -> estrella no seleccionada.
+A-undefinedEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefinedEstado-El usuario ha seleccionado la estrella 1
+A-undefinedEstado-Estrellas seleccionadas hasta el momento: [1]
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-Estado-CLICK en estrella. RESULT: número máximo de estrellas elegidas -> estrella no seleccionada.
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-undefinedEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefinedEstado-El usuario ha seleccionado la estrella 39
+A-undefinedEstado-Estrellas seleccionadas hasta el momento: [39]
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-BARBOZA OBREGON GENARO-Estado-CLICK en estrella. RESULT: número máximo de estrellas elegidas -> estrella no seleccionada.
+A-BARBOZA OBREGON GENARO-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-BARBOZA OBREGON GENARO-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-BARBOZA OBREGON GENAROEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-BARBOZA OBREGON GENAROEstado-El usuario ha seleccionado la estrella 28
+A-BARBOZA OBREGON GENAROEstado-Estrellas seleccionadas hasta el momento: [28]
+A-BARBOZA OBREGON GENARO-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-BARBOZA OBREGON GENARO-Estado-CLICK para enviar estrellas.
+A-BARBOZA OBREGON GENARO-Estado-Se va a comparar con los valores por defecto de los autómatas.
+A-BARBOZA OBREGON GENARO-Estado-El niño ha elegido las estrellas: [28]
+A-BARBOZA OBREGON GENARO-Estado-Las estrellas del niño junto con los autómatas son: [28,"29","30"]
+A-BARBOZA OBREGON GENARO-resultado-level1-El resultado correcto es: [["0","1","2"],["25","26","27"],["28","29","30"]]
+A-BARBOZA OBREGON GENARO-resultado-level1RESULTADO CORRECTO
+A-BARBOZA OBREGON GENARO-nodo-7
+A-BARBOZA OBREGON GENARO-mensaje-Ya sé cómo lo vamos a hacer
+A-BARBOZA OBREGON GENARO-nodo-127
+A-BARBOZA OBREGON GENARO-nodo-118
+A-BARBOZA OBREGON GENARO-mensaje-Mejor continuemos.
+A-BARBOZA OBREGON GENARO-nodo-106
+A-BARBOZA OBREGON GENARO-LEVEL4
+A-undefinedEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefinedEstado-El usuario ha seleccionado la estrella 29
+A-undefinedEstado-Estrellas seleccionadas hasta el momento: [29]
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-Estado-CLICK en estrella. RESULT: número máximo de estrellas elegidas -> estrella no seleccionada.
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-BARBOZA OBREGON GENARO-NUEVO JUEGO-Hora: Tue May 23 2023 21:53:19 GMT-0400 (hora estándar de Chile)
+A-BARBOZA OBREGON GENARO-LEVEL1
+A-BARBOZA OBREGON GENARO-nodo-3
+A-BARBOZA OBREGON GENARO-mensaje- Veo varios botones pero no sé cómo funcionan. ¿Tú sabes algo?
+A-BARBOZA OBREGON GENARO-nodo-31
+A-BARBOZA OBREGON GENARO-mensaje-No importa, terminemos rápido.
+A-BARBOZA OBREGON GENARO-nodo-33
+A-BARBOZA OBREGON GENARO-mensaje-Por ahora usemos el chat para hablar.
+A-BARBOZA OBREGON GENARO-nodo-26
+A-BARBOZA OBREGON GENARO-mensaje-Empecemos, pero mantengámonos comunicados mientras buscamos las constelaciones
+A-BARBOZA OBREGON GENARO-nodo-169
+A-BARBOZA OBREGON GENARO-mensaje-Mi color es [$], ¿y los suyos?
+A-BARBOZA OBREGON GENARO-nodo-168
+A-BARBOZA OBREGON GENARO-mensaje-Ya, ahora si podemos seguir.
+A-BARBOZA OBREGON GENARO-nodo-161
+A-BARBOZA OBREGON GENARO-mensaje-Yo seleccionaré la [#], Peta selecciona la [#] y tu Zeta la [#]
+ 
+A-BARBOZA OBREGON GENARO-nodo-152
+A-BARBOZA OBREGON GENARO-mensaje-¡Hagan lo que dije!
+A-BARBOZA OBREGON GENARO-nodo-138
+A-BARBOZA OBREGON GENARO-mensaje-Sí, estoy de acuerdo Zeta.
+A-BARBOZA OBREGON GENARO-Estado-Tiempo para elegir las estrellas:
+A-BARBOZA OBREGON GENARO-Estado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-BARBOZA OBREGON GENARO-Estado-El usuario ha seleccionado la estrella 28
+A-BARBOZA OBREGON GENARO-Estado-Estrellas seleccionadas hasta el momento: [28]
+A-BARBOZA OBREGON GENARO-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-BARBOZA OBREGON GENARO-Estado-CLICK en estrella. RESULT: número máximo de estrellas elegidas -> estrella no seleccionada.
+A-BARBOZA OBREGON GENARO-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-BARBOZA OBREGON GENARO-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-undefined-LEVEL1
+A-undefinedEstado-CLICK en estrella. RESULT: color incorrecto -> estrella no seleccionada.
+A-undefinedEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefinedEstado-El usuario ha seleccionado la estrella 29
+A-undefinedEstado-Estrellas seleccionadas hasta el momento: [29]
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-Estado-CLICK para enviar estrellas.
+A-undefined-Estado-Se va a comparar con los valores por defecto de los autómatas.
+A-undefined-Estado-El niño ha elegido las estrellas: [29]
+A-undefined-Estado-Las estrellas del niño junto con los autómatas son: [29,"29","30"]
+A-undefined-resultado-level1-El resultado correcto es: [["0","1","2"],["25","26","27"],["28","29","30"]]
+A-undefined-resultado-level1RESULTADO CORRECTO
+A-undefined-LEVEL1
+A-undefinedEstado-CLICK en estrella. RESULT: color incorrecto -> estrella no seleccionada.
+A-undefinedEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefinedEstado-El usuario ha seleccionado la estrella 29
+A-undefinedEstado-Estrellas seleccionadas hasta el momento: [29]
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-Estado-CLICK para enviar estrellas.
+A-undefined-Estado-Se va a comparar con los valores por defecto de los autómatas.
+A-undefined-Estado-El niño ha elegido las estrellas: [29]
+A-undefined-Estado-Las estrellas del niño junto con los autómatas son: [29,"29","30"]
+A-undefined-resultado-level1-El resultado correcto es: [["0","1","2"],["25","26","27"],["28","29","30"]]
+A-undefined-resultado-level1RESULTADO CORRECTO
+A-BARBOZA OBREGON GENARO-NUEVO JUEGO-Hora: Tue May 23 2023 22:05:31 GMT-0400 (hora estándar de Chile)
+A-BARBOZA OBREGON GENARO-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-BARBOZA OBREGON GENARO-NUEVO JUEGO-Hora: Tue May 23 2023 23:09:10 GMT-0400 (hora estándar de Chile)
+A-BARBOZA OBREGON GENARO-LEVEL1
+A-BARBOZA OBREGON GENARO-NUEVO JUEGO-Hora: Wed May 24 2023 00:12:49 GMT-0400 (hora estándar de Chile)
+A-BARBOZA OBREGON GENARO-LEVEL1
+A-undefined-LEVEL1
+A-BARBOZA OBREGON GENARO-NUEVO JUEGO-Hora: Wed May 24 2023 09:58:24 GMT-0400 (hora estándar de Chile)
+A-BARBOZA OBREGON GENARO-LEVEL1
+A-undefined-LEVEL1
+A-AVILA GONZALEZ DAVID JESUS-NUEVO JUEGO-Hora: Wed May 24 2023 09:59:00 GMT-0400 (hora estándar de Chile)
+A-AVILA GONZALEZ DAVID JESUS-LEVEL1
+A-AVILA GONZALEZ DAVID JESUS-Estado-CLICK en estrella. RESULT: color incorrecto -> estrella no seleccionada.
+A-AVILA GONZALEZ DAVID JESUSEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-AVILA GONZALEZ DAVID JESUSEstado-El usuario ha seleccionado la estrella 29
+A-AVILA GONZALEZ DAVID JESUSEstado-Estrellas seleccionadas hasta el momento: [29]
+A-AVILA GONZALEZ DAVID JESUS-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-AVILA GONZALEZ DAVID JESUS-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-AVILA GONZALEZ DAVID JESUS-Estado-CLICK para enviar estrellas.
+A-AVILA GONZALEZ DAVID JESUS-Estado-Se va a comparar con los valores por defecto de los autómatas.
+A-AVILA GONZALEZ DAVID JESUS-Estado-El niño ha elegido las estrellas: []
+A-AVILA GONZALEZ DAVID JESUS-Estado-Las estrellas del niño junto con los autómatas son: ["26","27"]
+A-AVILA GONZALEZ DAVID JESUS-resultado-level1-El resultado correcto es: [["0","1","2"],["25","26","27"],["28","29","30"]]
+A-AVILA GONZALEZ DAVID JESUS-resultado-level1RESULTADO CORRECTO
+A-AVILA GONZALEZ DAVID JESUS-NUEVO JUEGO-Hora: Wed May 24 2023 09:59:37 GMT-0400 (hora estándar de Chile)
+A-AVILA GONZALEZ DAVID JESUS-LEVEL1

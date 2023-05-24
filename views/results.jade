@@ -1,0 +1,14 @@
+html(xmlns='http://www.w3.org/1999/xhtml', xml:lang='en-GB')
+  head
+    script(src='/javascripts/jquery.min.js')
+  body
+    .container
+      .row
+        .col-12
+          input#show_button.button.glossy(type='button', value='Ver Resultados')
+          input#send_button.button.glossy(type='button', value='Enviar a Servidor')
+      .row
+        .col-12
+          textarea.ta_results(style="min-width: 100%" rows="25")
+
+    script(type='text/javascript', src='/javascripts/results.js')

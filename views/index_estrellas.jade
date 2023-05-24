@@ -1,0 +1,29 @@
+html(xmlns='http://www.w3.org/1999/xhtml', xml:lang='en-GB')
+  head
+    link(rel='stylesheet', href='/bootstrap/css/bootstrap.min.css')
+    link(rel='stylesheet', href='stylesheets/name.css')
+    script(src='/javascripts/jquery.min.js')
+    title Nombre
+    script(src='/bootstrap/js/bootstrap.min.js')
+    meta(name='apple-mobile-web-app-capable', content='yes')
+    meta(name='mobile-web-app-capable', content='yes')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes')
+  body
+    .container-fluid.fondo
+      .col1.col-xs-3.col-md-3.col-lg-3
+        .instruction
+          h1 Para comenzar por favor selecciona tu nombre
+        .selector  
+          form#chat_form
+            select#soflow.span3
+              option(value='n') Tu Nombre
+              each name, i in names
+                option(value=i) #{name}
+          .botones
+            input#sel_button.btn-danger(type='button', value='Nuevo juego')
+      .col2.col-xs-6.col-md-6.col-lg-6
+        
+      .col3.col-xs-3.col-md-3.col-lg-3
+      
+
+    script(type='text/javascript', src='/javascripts/name.js')

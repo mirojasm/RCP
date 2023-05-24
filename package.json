@@ -1,0 +1,19 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.9.5",
+    "intro.js": "^2.9.3",
+    "jade": "*",
+    "jquery": "*",
+    "luaparse": "latest",
+    "openai": "^3.2.1",
+    "socket.io": "latest"
+  }
+}

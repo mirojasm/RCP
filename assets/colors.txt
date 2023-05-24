@@ -1,0 +1,17 @@
+g,b,r/
+b,y,g/
+r,g,b/
+y,r,b/
+g,y,r/
+r,g,b/
+y,r,g/
+r,b,y
+*
+b,y,r/
+r,b,g/
+y,r,b/
+g,y,r/
+r,g,y/
+g,r,b/
+y,b,r/
+y,r,g

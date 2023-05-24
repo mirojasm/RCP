@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    title Tutorial
+    link(rel='stylesheet', href='/bootstrap/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/tutorial_atomos.css')
+    script(src='/javascripts/jquery.min.js')
+    script(src='/bootstrap/js/bootstrap.min.js')
+    script(src='javascripts/kinetic-v4.5.5.min.js')
+    meta(name='apple-mobile-web-app-capable', content='yes')
+    meta(name='mobile-web-app-capable', content='yes')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes')
+  body
+    .container-fluid.fondo
+      .col1.col-xs-4.col-md-4.col-lg-4
+        .typedtext#typedtext
+        button.back-btn.btn(type='button')
+        button.next-btn.btn(type='button')
+      .col2.col-xs-4.col-md-4.col-lg-4
+        button.start-btn.btn.btn-primary(type='button') Empezar
+      .col3.col-xs-4.col-md-4.col-lg-4
+    script(type='text/javascript', src='javascripts/tutorial.js')

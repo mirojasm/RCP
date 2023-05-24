@@ -1,0 +1,718 @@
+html,
+body {
+  background-color: #e9eaed;
+}
+
+.header,
+.footer {
+  background: #00b2e2;
+  color: #fff;
+}
+
+.modal-header,
+.modal-footer {
+  background: #00b2e2;
+  color: #fff;
+}
+
+.container-fluid {
+  width: 1280px;
+  height: 800px;
+  background-image: url("../images/estrellas/piezas/fondo.png");
+}
+
+#obj_game {
+  height: 150px;
+  width: 300px;
+  margin-left: -20px;
+  border-width: 1px;
+  border-color: #e9eaed;
+}
+
+.objective {
+  opacity: 0.9;
+  transform: rotate(5deg);
+  width: 225px;
+  overflow: hidden;
+  position: absolute;
+  margin-top: -225px;
+  margin-left: 110px;
+}
+
+.objective-color {
+  position: relative;
+  opacity: 0.99;
+  background-color: white;
+  height: 150px;
+  width: 225px;
+  transform: rotate(-6deg);
+  margin-top: 40px;
+  margin-left: 135px;
+  border-radius: 20px;
+}
+
+.mapa {
+  opacity: 0.9;
+  height: 300px;
+  width: 450px;
+  overflow: hidden;
+  position: absolute;
+  margin-top: -625px;
+  margin-left: 70px;
+  border-radius: 20px;
+}
+
+.img-mapa {
+  height: 367px;
+  width: 525px;
+  position: absolute;
+  top: -35px;
+  left: -33px;
+}
+
+.fill-11 {
+  width: 100%;
+  height: 460px;
+  min-height: 20%;
+  /*padding:10px;
+    padding-bottom: 75%;
+    max-height:60%;
+    */
+}
+
+.fill-10 {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  padding: 10px;
+  max-height: 100%;
+}
+
+.fill-9 {
+  width: 100%;
+  height: 90%;
+  min-height: 90%;
+  padding: 10px;
+  max-height: 90%;
+}
+
+.fill-8 {
+  width: 100%;
+  height: 80%;
+  min-height: 80%;
+  padding: 10px;
+  max-height: 80%;
+}
+
+.fill-7 {
+  width: 100%;
+  height: 70%;
+  min-height: 70%;
+  padding: 10px;
+  max-height: 70%;
+}
+
+.fill-6 {
+  width: 100%;
+  height: 60%;
+  min-height: 60%;
+  padding: 10px;
+  max-height: 60%;
+}
+
+.fill-5 {
+  width: 100%;
+  height: 50%;
+  min-height: 50%;
+  padding: 10px;
+  max-height: 50%;
+}
+
+.fill-4 {
+  width: 100%;
+  height: 40%;
+  min-height: 40%;
+  padding: 10px;
+  max-height: 40%;
+}
+
+.fill-3 {
+  width: 100%;
+  height: 30%;
+  min-height: 30%;
+  padding: 10px;
+  max-height: 30%;
+}
+
+.fill-1 {
+  width: 100%;
+  height: 10%;
+  min-height: 10%;
+  padding: 10px;
+  max-height: 10%;
+}
+
+.fill-05 {
+  width: 100%;
+  height: 5%;
+  min-height: 5%;
+  padding: 10px;
+  max-height: 5%;
+}
+
+.fill-2 {
+  width: 100%;
+  height: 20%;
+  min-height: 20%;
+  padding: 10px;
+  max-height: 20%;
+}
+
+.fill-10-height {
+  height: 100%;
+  min-height: 100%;
+  max-height: 100%;
+}
+
+.fill-9-height {
+  height: 90%;
+  min-height: 90%;
+  max-height: 90%;
+}
+
+.fill-8-height {
+  height: 80%;
+  min-height: 80%;
+  max-height: 80%;
+}
+
+.fill-7-height {
+  height: 70%;
+  min-height: 70%;
+  max-height: 70%;
+}
+
+.fill-6-height {
+  height: 60%;
+  min-height: 60%;
+  max-height: 60%;
+}
+
+.fill-5-height {
+  height: 50%;
+  min-height: 50%;
+  max-height: 50%;
+}
+
+.fill-4-height {
+  height: 40%;
+  min-height: 40%;
+  max-height: 40%;
+}
+
+.fill-3-height {
+  height: 30%;
+  min-height: 30%;
+  max-height: 30%;
+}
+
+.fill-1-height {
+  height: 10%;
+  min-height: 10%;
+  max-height: 10%;
+}
+
+.fill-2-height {
+  height: 20%;
+  min-height: 20%;
+  max-height: 20%;
+}
+
+.commentList {
+  padding: 5px;
+  list-style: none;
+  height: 200px;
+  overflow: auto;
+}
+.commentList li {
+  margin: 0px;
+  margin-top: 10px;
+  padding-top: 0px;
+}
+.commentList li > div {
+  display: table-cell;
+}
+.commenterImage {
+  width: 50px;
+  max-width: 50px;
+  max-height: 50px !important;
+  margin-right: 1px;
+}
+
+.clear {
+  clear: both;
+}
+
+.commentText {
+  background-color: white;
+  width: 630px;
+  border-radius: 10px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.commenterImage img {
+  max-width: 50px;
+  max-height: 50px;
+  margin-left: -25px;
+  margin-top: -30px;
+  border-radius: 50%;
+}
+
+.chat_icon {
+  position: relative;
+  width: 110px !important;
+  height: 110px;
+  border-radius: 50%;
+  background-image: url("../images/estrellas/piezas/chat-icon.png");
+  background-size: 100px 90px;
+  background-position: center;
+  margin-bottom: -25px;
+  z-index: 10;
+}
+
+.p1 {
+  background-image: url("../images/estrellas/piezas/p1.png");
+  background-size: 100px 90px;
+  background-position: center;
+}
+
+.p2 {
+  background-image: url("../images/estrellas/piezas/p2.png");
+  background-size: 100px 90px;
+  background-position: center;
+}
+
+.p3 {
+  background-image: url("../images/estrellas/piezas/p3.png");
+  background-size: 100px 90px;
+  background-position: center;
+}
+
+.p4 {
+  background-image: url("../images/estrellas/piezas/p4.png");
+  background-size: 100px 90px;
+  background-position: center;
+}
+
+.commentText p {
+  margin: 3px;
+}
+.sub-text {
+  color: #aaa;
+  font-family: verdana;
+  font-size: 11px;
+  margin-right: 5px;
+  float: right;
+}
+div.msg p,
+span {
+  float: none;
+  text-align: -webkit-center;
+  margin-right: auto;
+  margin-left: auto;
+}
+.msg {
+  display: block !important;
+}
+
+.writing {
+  background-color: white;
+  clear: left;
+  position: absolute;
+  bottom: 0;
+  width: 660px;
+  -webkit-transition: all 500ms ease-out;
+  -moz-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
+}
+
+.writing-img {
+  display: inline;
+  float: none;
+  margin-top: -2px;
+  margin-left: 250px;
+}
+
+.writing-text {
+  display: inline;
+  float: none;
+  margin-left: 10px;
+}
+
+.move-up {
+}
+
+.btn-group-vertical {
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.btn-group-vertical > .btn:last-child:not(:first-child) {
+  border-radius: 20px;
+}
+
+.mateView {
+  border-style: solid;
+}
+
+.disabledbutton {
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+#wrapper {
+  margin: auto;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border: 10px solid #fff;
+  text-align: left;
+}
+
+#index-wrapper {
+  width: 1200px;
+  height: 500px;
+  margin: auto;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border: 10px solid #fff;
+  text-align: left;
+}
+
+.directionsContainer {
+  border-bottom-style: solid;
+  border-width: 10px;
+  border-color: #e9eaed;
+  max-height: 240px;
+  height: 140px;
+  background-color: white;
+}
+.chatContainer {
+  background-color: transparent;
+}
+
+.chat_container {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d3d3d3;
+  background-color: transparent;
+  border-bottom-style: solid;
+  /*max-height:220px;
+    min-height:220px;*/
+  height: 200px;
+}
+
+#chat li {
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.choices {
+  background-color: white;
+  height: 214px;
+}
+
+.aChoice {
+  width: 110px !important;
+  height: 110px;
+  float: right !important;
+  border-radius: 50% !important;
+  background-image: url("../images/estrellas/piezas/send.png");
+  background-size: 210px 228px;
+  background-position: center;
+}
+
+.choicesContainer {
+  background-color: white;
+  width: 700px;
+  padding-left: 7px !important;
+  padding-right: 5px !important;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.chatHeader {
+  background-color: white;
+  height: 50px;
+  width: 700px;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.chatHeader p {
+  font-size: 10px;
+  text-align: center;
+  margin-top: -6px;
+}
+
+.chatHeader h3 {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 3px;
+}
+
+.controlsContainer {
+  max-height: 160px;
+  min-height: 160px;
+  background-color: white;
+}
+
+.mateView {
+  max-height: 160px;
+  min-height: 160px;
+}
+
+.gameCanvas {
+  background-color: white;
+}
+
+.statusContainer {
+  max-height: 160px;
+  min-height: 160px;
+  background-color: white;
+}
+
+.progress {
+  margin-bottom: 0;
+}
+
+.status {
+  width: 100%;
+  margin-top: -5px;
+  margin-bottom: -10px;
+  overflow: auto;
+}
+
+.inline-text {
+  display: inline;
+}
+
+.bad {
+  float: left;
+  color: red;
+}
+
+.ok {
+  overflow: auto;
+  margin-left: 50%;
+  text-align: center;
+  color: #f0ad4e;
+}
+
+.ok-text {
+  overflow: auto;
+  margin-left: 48%;
+  text-align: center;
+  color: #f0ad4e;
+}
+
+.great {
+  float: right;
+  color: green;
+}
+
+.row-centered {
+  text-align: center;
+}
+.col-centered {
+  display: inline-block;
+  float: none;
+  /* reset the text-align */
+  text-align: left;
+  /* inline-block space fix */
+  /*margin-right:-4px;*/
+}
+.col-fixed {
+  /* custom width */
+  width: 320px;
+}
+.col-min {
+  /* custom min width */
+  min-width: 800px;
+}
+.col-max {
+  /* custom max width */
+  max-width: 1300px;
+}
+
+.welcome {
+  display: block;
+  left: 0;
+  right: 0;
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  top: 0;
+  padding-top: 10%;
+  padding-bottom: 15%;
+  background-size: cover;
+}
+
+.pdfdoc {
+  position: relative;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+}
+
+.acerca {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 99%;
+  height: 70%;
+}
+
+.modal-dialog {
+  width: 100%;
+  height: 90%;
+  padding: 0;
+}
+
+#col1 {
+  background-size: 100% 100%;
+  bottom: 10px;
+  height: 100%;
+}
+
+#container div {
+  margin: 0;
+}
+
+.index-menu {
+  position: relative;
+  height: 400px;
+  width: 400px;
+  background-color: #e6e6e6;
+}
+
+.erase_button {
+  position: relative;
+  /* top: -59px; */
+  /* left: 260px; */
+  width: 114px;
+  bottom: 250px;
+  margin-left: 45%;
+  /* height: 40px; */
+}
+
+#container {
+  position: relative;
+  height: 620px;
+  background-color: #e6e6e6;
+}
+
+.chat-col {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  opacity: 0.9;
+  background-color: #bcbcbd;
+  border-radius: 25px;
+  width: 700px;
+  margin-left: 50px;
+  margin-top: -15px;
+  height: 500px;
+}
+
+#col2 {
+  /*position: absolute;
+  right: 10px;
+  bottom: 10px;*/
+  border-radius: 25px;
+  top: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.btn-sec {
+  width: 300px;
+  height: 90px;
+  margin-left: 140px;
+  margin-top: 50px;
+}
+
+.b1 {
+  float: left;
+  width: 80px;
+  margin-left: 10px;
+}
+.b2 {
+  float: left;
+  width: 80px;
+  margin-left: 10px;
+}
+.b3 {
+  float: left;
+  width: 80px;
+  margin-left: 10px;
+}
+
+.btn-stars {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-image: url("../images/estrellas/piezas/stars-btn.png");
+  background-size: 110px 100px;
+  background-position: center;
+}
+
+.btn-objective {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-top: 20px;
+  background-image: url("../images/estrellas/piezas/objective-btn.png");
+  background-size: 110px 100px;
+  background-position: center;
+}
+
+#clickMe {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-top: 40px;
+  background-image: url("../images/estrellas/piezas/help.png");
+  background-size: 110px 100px;
+  background-position: center;
+}
+
+.modal-content {
+  height: 100%;
+  border-radius: 0;
+}
+
+#selectionTime {
+  height: 231px;
+}
+
+#colCanvas {
+  margin-top: 120px;
+  z-index: 1000;
+}
+
+#image-final-level {
+  position: absolute;
+  height: 400px;
+  width: auto;
+  margin: 100px;
+  z-index: 1;
+}
