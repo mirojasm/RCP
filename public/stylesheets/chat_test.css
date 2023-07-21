@@ -1,19 +1,24 @@
-.chat {
-  width: 100%;
-  max-width: 600px;
+
+.chat1 {
+  width: 650px;
+  display: inline-block;
+  vertical-align: top;
+  max-width: 800px;
   height: 500px;
   border: 1px solid #ddd;
   padding: 15px;
-  margin: 0 auto;
+  margin-right: 10px;
   border-radius: 5px;
-  background-color: #f9f9f9;
+  background-color: #0602729e;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.chat-history {
+
+.chat-history1{
   height: 400px;
   overflow-y: scroll;
   border-bottom: 1px solid #ddd;
+  background-color: #2411a151;
 }
 
 .chat-message {
@@ -33,7 +38,7 @@
   height: 3.5rem;
   width: 6rem;
   font-size: 11px;
-  color: #fff;
+  color: #ffffff;
   background-color: #007bff;
   border-color: #007bff;
   border-radius: 0;
@@ -42,34 +47,60 @@
 .chat ul {
   list-style-type: none;
   padding: 0;
+  text-align: left;
 }
 
 .chat ul li {
   padding: 10px;
   border-bottom: 1px solid #ddd;
+  list-style-type: none;
+  text-align: left;
 }
 
 .chat ul li:last-child {
   border: none;
+  text-align: left;
+  list-style-type: none;
 }
 
 .message {
   padding: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   border-radius: 5px;
   font-size: 14px;
-  overflow-wrap: break-word;
+  text-align: left;
+  list-style-type: none;
+  
 }
 
 .my-message {
-  background-color: #007bff;
-  color: white;
-  text-align: right;
+  background-color: #7ae0ff;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  font-size: 14px;
 }
 
+
 .other-message {
-  background-color: #ddd;
+  background-color: #c9e6ff;
   color: black;
+  text-align: left;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+/* Estilos para mensajes del agente Peta */
+.other-message.peta {
+  background-color: #f27474b3;
+}
+
+/* Estilos para mensajes del agente Zeta */
+.other-message.zeta {
+  background-color: #c2dca7b7;
 }
 
 .distribution-input-btn {
@@ -77,6 +108,7 @@
   display: flex;
   gap: 1rem;
   margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .message.loading-message {

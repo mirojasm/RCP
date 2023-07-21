@@ -1570,44 +1570,74 @@ function colorToSpanish(color) {
     return resultado;
   }
 }
-
 /* --------------- */
+// Al cargar la página, configurar el último agente utilizado como "Peta"
+let lastAgentUsed = "Zeta";
 
-//Logica botón enviar mensaje
-
-$("#SendMessageButton").click((e) => {
+$("#SendMessageButton1").click((e) => {
   e.preventDefault();
-  
-  const message = $("#message-to-send").val();
 
-  context.push({'role':'user', 'content':message});
-  const li = $("<li class='message my-message' ></li>").text(message);
-  $(".chat-history ul").append(li);
-  $("#message-to-send").val("");
+  const message = $("#message-to-send1").val();
+  let agentName = "";
+
+  // Expresión regular para buscar el nombre del agente en el mensaje
+  const agentRegex = /(Peta|Zeta)/i;
+  const match = message.match(agentRegex);
+
+  if (match) {
+    agentName = match[0].toLowerCase(); // Convertir el nombre del agente a minúsculas
+    lastAgentUsed = agentName; // Actualizar el último agente utilizado
+  } else {
+    // Si no se detecta ningún agente en el mensaje, utilizar el último agente utilizado
+    agentName = lastAgentUsed;
+  }
+
+  let context = [];
+  let chatHistory = $(".chat-history1 ul"); // Utilizamos chat-history1
+
+  context.push({ role: "user", content: message });
+  const li = $("<li class='message my-message'></li>").text(message);
+  chatHistory.append(li);
+  $("#message-to-send1").val("");
 
   const loadingIcon = $("<li class='message loading-message'></li>");
   const spinner = $("<div class='loading-spinner'></div>");
   loadingIcon.append(spinner).append("Escribiendo...");
-  $(".chat-history ul").append(loadingIcon);
+  chatHistory.append(loadingIcon);
 
-  fetch("/api/openai", {
+  const apiUrl = agentName === "peta" ? "/api/openai1" : "/api/openai2";
+  fetch(apiUrl, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
     },
-    body: JSON.stringify({context}),
+    body: JSON.stringify({ context: context }),
   })
     .then((res) => res.json())
     .then((data) => {
-      $(".chat-history ul li.loading-message").remove();
-      context.push({'role':'assistant', 'content':data.response});
-
-      const li = $("<li class='message other-message' ></li>").text(
+      chatHistory.find("li.loading-message").remove();
+      const li = $("<li class='message other-message'></li>").text(
         data.response
       );
-      $(".chat-history ul").append(li);
+       // Agregar nombre del agente y cambiar color según el agente
+       if (agentName === "peta") {
+        li.prepend("<span class='agent-name' style='color: #ff7f50;'>Peta:</span> ");
+      } else if (agentName === "zeta") {
+        li.prepend("<span class='agent-name' style='color: #7fff00;'>Zeta:</span> ");
+      }
+      else{
+        agentName="zeta";
+        li.prepend("<span class='agent-name' style='color: #7fff00;'>Zeta:</span> ");
+      }
+      li.addClass(agentName);
+
+      chatHistory.append(li);
+      chatHistory.scrollTop(chatHistory[0].scrollHeight);
     });
+  chatHistory.scrollTop(chatHistory[0].scrollHeight);
 });
+
+
 
 //Estados de la app
 $("#Estado_uno").click(() => {

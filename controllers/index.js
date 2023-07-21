@@ -1,6 +1,6 @@
 var config = require("../settings.js");
-const { generateResponse } = require("../openai/index.js");
-const { generateResponseFromMessages } = require("../openai/index.js");
+const { generateResponse1,generateResponse2 } = require("../openai/index.js");
+const { generateResponseFromMessages1,generateResponseFromMessages2 } = require("../openai/index.js");
 
 /*
  * Atiende a las solicitudes realizadas al home de la app.
@@ -86,12 +86,19 @@ router.get("/constelaciones_test", function (req, res) {
   });
 });
 
-router.post("/api/openai", function (req, res) {
-  console.log(req.body.context)
-  generateResponseFromMessages(req.body.context).then((response) => {
+router.post("/api/openai1", function (req, res) {
+  //console.log(req.body.context)
+  generateResponseFromMessages1(req.body.context).then((response) => {
     res.json({ response });
   });
 });
+router.post("/api/openai2", function (req, res) {
+  //console.log(req.body.context)
+  generateResponseFromMessages2(req.body.context).then((response) => {
+    res.json({ response });
+  });
+});
+
 
 
 /* Prueba Final --------------------------- */

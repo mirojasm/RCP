@@ -799,3 +799,1112 @@ A-AVENDAÑO PALMA JAVIERA FRANCISCA-resultado-level1RESULTADO CORRECTO
 A-AVENDAÑO PALMA JAVIERA FRANCISCA-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
 A-AVENDAÑO PALMA JAVIERA FRANCISCA-NUEVO JUEGO-Hora: Wed May 24 2023 16:48:12 GMT-0400 (hora estándar de Chile)
 A-AVENDAÑO PALMA JAVIERA FRANCISCA-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Jul 11 2023 05:09:37 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Jul 11 2023 05:09:46 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Jul 11 2023 05:10:59 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Jul 11 2023 05:14:11 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Jul 11 2023 05:14:13 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Jul 11 2023 05:54:38 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Jul 11 2023 05:54:44 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Jul 11 2023 05:56:32 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Jul 11 2023 05:56:37 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Jul 11 2023 06:00:32 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Jul 11 2023 06:00:34 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Jul 11 2023 06:20:14 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Jul 11 2023 06:20:18 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Jul 11 2023 06:24:19 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Jul 11 2023 06:24:22 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Jul 11 2023 06:25:58 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Jul 11 2023 06:26:00 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Jul 11 2023 06:49:42 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Jul 11 2023 06:49:44 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Jul 11 2023 06:51:36 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Jul 11 2023 06:51:39 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Jul 11 2023 06:53:03 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Jul 11 2023 06:55:52 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Jul 11 2023 06:55:54 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Jul 11 2023 07:01:52 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Jul 11 2023 07:01:53 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Jul 11 2023 07:02:42 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Jul 11 2023 07:04:14 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Jul 11 2023 07:05:04 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Jul 11 2023 07:05:07 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Jul 11 2023 07:07:01 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 00:17:31 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 00:18:30 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 00:18:46 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 00:19:10 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 00:23:01 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 00:23:18 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 00:23:31 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 00:23:47 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 00:24:22 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 00:26:55 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 00:32:46 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 00:43:28 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 00:44:45 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 00:45:04 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 00:48:44 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 00:50:54 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 00:50:55 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 00:52:13 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 00:52:23 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 00:53:03 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 00:53:07 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:02:35 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:02:45 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:07:10 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:10:35 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:10:54 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:11:06 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:11:56 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:12:11 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:12:14 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:12:35 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:12:48 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:12:59 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:13:33 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:13:50 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:16:42 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:17:21 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:18:27 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:18:31 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:18:40 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:20:28 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:21:05 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:21:21 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:21:35 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:21:50 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:22:05 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:22:21 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:22:55 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:38:59 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:40:44 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:41:05 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:41:53 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:42:23 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:43:11 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:43:46 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:44:34 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:45:58 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:46:34 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:46:48 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:47:15 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:49:07 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:52:34 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:52:43 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:52:44 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:52:59 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 01:55:18 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 02:02:58 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 02:03:06 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 02:03:30 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 02:04:04 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 02:05:53 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 02:05:55 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 02:05:56 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 02:05:57 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 02:05:57 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 02:05:57 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 02:05:57 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 02:05:58 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 02:06:21 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 02:06:57 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 02:07:15 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 02:07:29 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 02:44:27 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 02:46:15 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 03:23:25 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-Tu Nombre-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-Tu Nombre-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-Tu Nombre-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 22:46:35 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 22:48:20 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 22:48:31 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 22:49:03 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 22:49:32 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 22:49:43 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 22:49:57 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 22:50:07 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 22:50:55 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 22:53:25 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 22:53:53 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 22:54:04 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 22:54:16 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 22:55:41 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 22:55:55 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 22:56:12 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 22:56:33 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 22:57:57 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 22:58:13 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:00:42 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:01:10 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:01:28 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:01:41 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:01:52 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:02:16 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:02:24 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:02:38 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:04:52 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:24:09 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:24:52 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:25:44 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:26:01 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:26:15 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:26:32 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:27:01 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:27:27 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:27:33 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:27:42 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:30:47 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:31:15 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:31:42 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:32:00 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:32:07 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:32:32 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:37:39 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:38:43 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:38:45 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:39:02 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:39:05 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:41:25 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:41:28 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:41:52 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:42:01 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:42:10 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:43:21 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:44:46 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:45:57 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:47:00 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:47:14 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:47:38 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:47:57 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:48:22 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:48:36 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:48:47 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:49:04 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:49:12 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:49:37 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:49:53 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:50:07 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:51:16 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Jul 12 2023 23:53:33 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 00:13:12 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 00:15:02 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 00:19:23 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 00:29:23 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 00:30:24 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 02:49:56 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 02:51:36 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 02:52:08 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 02:52:23 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 02:53:03 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-Tu Nombre-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 02:53:50 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 02:54:05 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 02:54:06 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 02:54:23 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 02:55:05 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 02:55:23 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 02:56:57 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 02:57:09 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 02:57:34 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 02:57:47 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 02:58:00 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 02:58:11 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 02:58:21 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 02:58:32 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 02:58:47 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 02:58:57 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 02:59:13 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 02:59:34 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 02:59:44 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 02:59:56 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:00:06 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:00:15 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:00:26 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:00:44 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:01:00 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:01:11 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:01:22 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:01:31 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:01:40 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:01:48 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:01:57 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:02:04 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:02:13 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:02:22 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:02:30 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:02:39 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:02:50 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:03:15 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:06:09 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:06:30 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:09:29 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:09:48 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:11:01 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:11:14 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:11:24 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:11:42 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:11:50 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:12:48 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:13:52 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:14:46 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:15:19 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:15:43 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:15:53 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:16:12 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:16:25 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:16:40 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:16:50 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:17:14 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:17:41 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:18:00 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:18:08 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:18:22 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:18:42 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:19:24 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:19:52 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:20:12 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:21:37 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:22:43 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:22:59 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:23:17 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:24:14 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:24:40 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:29:00 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:32:44 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:33:22 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:34:08 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:34:23 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:34:40 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:35:55 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:36:11 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:36:28 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:37:25 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:37:37 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:37:49 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:37:59 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:38:09 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:38:43 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:38:43 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:38:50 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:40:06 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:41:21 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:41:37 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:45:16 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:45:36 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:45:49 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:57:37 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 03:58:29 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:03:03 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:05:21 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:06:35 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:08:56 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:09:32 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:10:43 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:13:07 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:15:03 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:16:20 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:19:30 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:20:17 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:20:45 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:23:05 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:26:04 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:27:17 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:28:25 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:28:37 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:28:48 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:30:11 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:30:23 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:31:06 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:31:30 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:32:07 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:34:11 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:34:43 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:38:52 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:39:38 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:42:49 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:43:11 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:44:06 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:44:23 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:45:53 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:48:50 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:49:59 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:50:31 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:51:42 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:52:08 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:52:15 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:53:06 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:53:16 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:53:44 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:56:18 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:56:47 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:58:58 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 04:59:26 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 05:00:25 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 05:00:55 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 05:01:54 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 05:06:47 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 05:07:31 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 05:08:43 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 05:09:29 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 05:09:47 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 05:10:30 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 05:11:56 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 05:12:19 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 05:12:42 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 05:12:54 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 05:18:11 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 05:18:46 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 05:19:17 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 05:20:27 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 05:21:13 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 05:22:54 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 05:22:55 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-NUEVO JUEGO-Hora: Thu Jul 13 2023 05:23:43 GMT-0400 (hora estándar de Chile)
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-LEVEL1
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-NUEVO JUEGO-Hora: Thu Jul 13 2023 05:24:41 GMT-0400 (hora estándar de Chile)
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-LEVEL1
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-NUEVO JUEGO-Hora: Thu Jul 13 2023 05:29:35 GMT-0400 (hora estándar de Chile)
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-LEVEL1
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-NUEVO JUEGO-Hora: Thu Jul 13 2023 05:29:48 GMT-0400 (hora estándar de Chile)
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-LEVEL1
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-NUEVO JUEGO-Hora: Thu Jul 13 2023 05:32:29 GMT-0400 (hora estándar de Chile)
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-LEVEL1
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-NUEVO JUEGO-Hora: Thu Jul 13 2023 05:32:54 GMT-0400 (hora estándar de Chile)
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-LEVEL1
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-NUEVO JUEGO-Hora: Thu Jul 13 2023 05:32:59 GMT-0400 (hora estándar de Chile)
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-LEVEL1
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-NUEVO JUEGO-Hora: Thu Jul 13 2023 05:35:55 GMT-0400 (hora estándar de Chile)
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-LEVEL1
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-NUEVO JUEGO-Hora: Thu Jul 13 2023 05:36:56 GMT-0400 (hora estándar de Chile)
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-LEVEL1
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-NUEVO JUEGO-Hora: Thu Jul 13 2023 05:42:09 GMT-0400 (hora estándar de Chile)
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-LEVEL1
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-NUEVO JUEGO-Hora: Thu Jul 13 2023 05:42:28 GMT-0400 (hora estándar de Chile)
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-LEVEL1
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-NUEVO JUEGO-Hora: Thu Jul 13 2023 05:44:39 GMT-0400 (hora estándar de Chile)
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-LEVEL1
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-NUEVO JUEGO-Hora: Thu Jul 13 2023 05:44:53 GMT-0400 (hora estándar de Chile)
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-LEVEL1
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-NUEVO JUEGO-Hora: Thu Jul 13 2023 05:45:47 GMT-0400 (hora estándar de Chile)
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-LEVEL1
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-NUEVO JUEGO-Hora: Thu Jul 13 2023 05:48:24 GMT-0400 (hora estándar de Chile)
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-LEVEL1
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-NUEVO JUEGO-Hora: Thu Jul 13 2023 05:52:51 GMT-0400 (hora estándar de Chile)
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-LEVEL1
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-NUEVO JUEGO-Hora: Thu Jul 13 2023 06:04:27 GMT-0400 (hora estándar de Chile)
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-LEVEL1
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-NUEVO JUEGO-Hora: Thu Jul 13 2023 06:05:19 GMT-0400 (hora estándar de Chile)
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-LEVEL1
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-NUEVO JUEGO-Hora: Thu Jul 13 2023 06:05:20 GMT-0400 (hora estándar de Chile)
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-LEVEL1
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-NUEVO JUEGO-Hora: Thu Jul 13 2023 06:12:48 GMT-0400 (hora estándar de Chile)
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-LEVEL1
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-NUEVO JUEGO-Hora: Thu Jul 13 2023 06:12:50 GMT-0400 (hora estándar de Chile)
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-LEVEL1
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-NUEVO JUEGO-Hora: Thu Jul 13 2023 06:22:26 GMT-0400 (hora estándar de Chile)
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-LEVEL1
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-NUEVO JUEGO-Hora: Thu Jul 13 2023 06:23:57 GMT-0400 (hora estándar de Chile)
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-LEVEL1
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-NUEVO JUEGO-Hora: Thu Jul 13 2023 06:24:00 GMT-0400 (hora estándar de Chile)
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-LEVEL1
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-NUEVO JUEGO-Hora: Thu Jul 13 2023 06:25:17 GMT-0400 (hora estándar de Chile)
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-LEVEL1
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-NUEVO JUEGO-Hora: Thu Jul 13 2023 06:25:24 GMT-0400 (hora estándar de Chile)
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-LEVEL1
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-NUEVO JUEGO-Hora: Thu Jul 13 2023 16:16:52 GMT-0400 (hora estándar de Chile)
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-LEVEL1
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-NUEVO JUEGO-Hora: Thu Jul 13 2023 16:20:13 GMT-0400 (hora estándar de Chile)
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-LEVEL1
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-NUEVO JUEGO-Hora: Thu Jul 13 2023 16:21:15 GMT-0400 (hora estándar de Chile)
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-LEVEL1
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-NUEVO JUEGO-Hora: Thu Jul 13 2023 16:22:05 GMT-0400 (hora estándar de Chile)
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-LEVEL1
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-NUEVO JUEGO-Hora: Thu Jul 13 2023 16:22:57 GMT-0400 (hora estándar de Chile)
+A-AVENDAÑO PALMA JAVIERA FRANCISCA-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 16:24:36 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 16:37:39 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 16:37:46 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 16:44:11 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Jul 13 2023 16:44:14 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-ASTORGA MONTI ANASTASIA CAROLINA-NUEVO JUEGO-Hora: Fri Jul 14 2023 20:45:21 GMT-0400 (hora estándar de Chile)
+A-ASTORGA MONTI ANASTASIA CAROLINA-LEVEL1
+A-ASTORGA MONTI ANASTASIA CAROLINA-NUEVO JUEGO-Hora: Fri Jul 14 2023 20:47:16 GMT-0400 (hora estándar de Chile)
+A-ASTORGA MONTI ANASTASIA CAROLINA-LEVEL1
+A-ASTORGA MONTI ANASTASIA CAROLINA-NUEVO JUEGO-Hora: Fri Jul 14 2023 20:47:58 GMT-0400 (hora estándar de Chile)
+A-ASTORGA MONTI ANASTASIA CAROLINA-LEVEL1
+A-ASTORGA MONTI ANASTASIA CAROLINA-NUEVO JUEGO-Hora: Fri Jul 14 2023 20:49:07 GMT-0400 (hora estándar de Chile)
+A-ASTORGA MONTI ANASTASIA CAROLINA-LEVEL1
+A-ASTORGA MONTI ANASTASIA CAROLINA-NUEVO JUEGO-Hora: Fri Jul 14 2023 21:07:57 GMT-0400 (hora estándar de Chile)
+A-ASTORGA MONTI ANASTASIA CAROLINA-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
