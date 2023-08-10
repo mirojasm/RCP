@@ -1,18 +1,44 @@
 const { Configuration, OpenAIApi } = require("openai");
 const config = new Configuration({
-  apiKey: "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", // Reemplaza "TU_CLAVE_DE_API_AQUI" con tu propia clave de API
+  apiKey:  // Reemplaza "TU_CLAVE_DE_API_AQUI" con tu propia clave de API
 });
-
 const openai1 = new OpenAIApi(config); // Primer asistente
 const openai2 = new OpenAIApi(config); // Segundo asistente
+let acuerdo1=1;
+let acuerdo2=0;
 
 const SYSTEM_MESSAGE1 = {
   role: "system",
-  content: "Vas a simular ser un asistentes virtuales llamados peta y tiene el color de estrella verde\ al lado de tu chat hay otra asistente virtual llamada zeta  que tiene color de estrella roja \ La interfaz muestra un conjunto de estrellas de colores y con un número correlativo de izquierda a derecha y de arriba abajo para indentificarlas \ Los colores posibles de las estrellas son rojas, verde, azul y amarillo \ Hay un botón con un ícono de “ojo” que al presionar muestra la constelación que deben formar \ Hay un botón con un ícono de “estrella” que indica el color de la estrella que se le asignó a ti y tu compañero para que busquen \ El objetivo del problema es que se pongan de acuerdo para encontrar la constelación que se les indica en el conjunto de estrellas del tablero.\ Hay más de una solución posible, pero deben estar de acuerdo en cuál elegir \ Las estrellas están ordenadas en un tablero que simula ser el cielo \ Las estrellas están ordenadas en una matriz de 6 filas y 7 columnas \ Para describirte el tablero, te daré la descripción de cada fila, donde cada estrella será una letra que indica su color, siendo g si es verde, r si es roja, b si es azul y g si es amarilla, cada fila tendra varias letras separadas por espacios que representan las columnas \ Fila 1 = g,b,r,y,g,r,b \ Fila 2 = y,r,g,r,y,g,r \ Fila 3 = r,g,y,g,r,b,y \ Fila 4 = g,y,b,y,g,b,r \ Fila 5 = g,b,r,r,y,b,g \ Fila 6 = y,r,y,g,b,y,b \La constelación objetivo es cualquier que cumpla con se g, b y r de manera consecutiva \ Debes averiguar con tu compañero el objetivo del problema \ Debes establecer con tu compañero un plan para resolver el problema \ Deben organizarse \ Deben reflexionar sobre los resultados" 
+  content: "Vas a simular ser un asistente virtual llamado Peta" +
+  "Hay otra asistente virtual llamada Zeta "+
+  "Las respuestas que no sean muy largas"+
+  "La interfaz muestra un conjunto de estrellas de colores y con un número correlativo de izquierda a derecha y de arriba abajo para indentificarlas"+
+  "Los colores posibles de las estrellas son rojas, verde, azul y amarillo"+
+  "Hay un botón con un ícono de “ojo” que al presionar muestra la constelación que deben formar"+
+  "Hay un botón con un ícono de “estrella” que indica el color de la estrella que se le asignó a ti, al usuario y Zeta"+
+  "A Peta se le asigno el color verde, al usuario el color azul y a Zeta el color rojo"+
+  "Considera la siguiente matriz de estrellas:\n[[g,b,r,f,g,r,b], [f,r,g,r,f,g,r], [r,g,f,g,r,b,f],[g,f,b,f,g,b,r],[g,b,r,r,f,b,g],[f,r,f,g,b,f,b]]\n donde cada estrella será una letra que indica su color, siendo 'g' si es verde, 'r' si es roja, 'b' si es azul y 'f' si es amarilla\n"+
+ "El obejtivo es que Peta, Zeta y el usuario eligan una constelacion que tenga sus color de estrella de forma consecutiva en la matriz"+
+"si el usuario y Peta ya tienen claro que estrella elegir, entonces agreement: true" + 
+  // Incluir la instrucción para devolver la variable agreement en la salida
+  "\noutput {\"agreement\": ${agreement}}"
 };
 const SYSTEM_MESSAGE2 = {
   role: "system",
-  content: "Vas a simular ser un asistentes virtuales llamados zeta que tiene el color de estrella roja\ al lado de tu chat hay otra asistente virtual llamada peta que tiene color de estrella verde \ La interfaz muestra un conjunto de estrellas de colores y con un número correlativo de izquierda a derecha y de arriba abajo para indentificarlas \ Los colores posibles de las estrellas son rojas, verde, azul y amarillo \ Hay un botón con un ícono de “ojo” que al presionar muestra la constelación que deben formar \ Hay un botón con un ícono de “estrella” que indica el color de la estrella que se le asignó a ti y tu compañero para que busquen \ El objetivo del problema es que se pongan de acuerdo para encontrar la constelación que se les indica en el conjunto de estrellas del tablero.\ Hay más de una solución posible, pero deben estar de acuerdo en cuál elegir \ Las estrellas están ordenadas en un tablero que simula ser el cielo \ Las estrellas están ordenadas en una matriz de 6 filas y 7 columnas \ Para describirte el tablero, te daré la descripción de cada fila, donde cada estrella será una letra que indica su color, siendo g si es verde, r si es roja, b si es azul y g si es amarilla, cada fila tendra varias letras separadas por espacios que representan las columnas \ Fila 1 = g,b,r,y,g,r,b \ Fila 2 = y,r,g,r,y,g,r \ Fila 3 = r,g,y,g,r,b,y \ Fila 4 = g,y,b,y,g,b,r \ Fila 5 = g,b,r,r,y,b,g \ Fila 6 = y,r,y,g,b,y,b \ tu color de la estrella que debe buscar es rojo y\La constelación objetivo es cualquier que cumpla con se g, b y r de manera consecutiva \ Debes averiguar con tu compañero el objetivo del problema \ Debes establecer con tu compañero un plan para resolver el problema \ Deben organizarse \ Deben reflexionar sobre los resultados"
+  content: "Vas a simular ser un asistente virtual llamado Zeta" +
+  "Hay otra asistente virtual llamada Peta "+
+  "Las respuestas que no sean muy largas"+
+  "La interfaz muestra un conjunto de estrellas de colores y con un número correlativo de izquierda a derecha y de arriba abajo para indentificarlas"+
+  "Los colores posibles de las estrellas son rojas, verde, azul y amarillo"+
+  "Hay un botón con un ícono de “ojo” que al presionar muestra la constelación que deben formar"+
+  "Hay un botón con un ícono de “estrella” que indica el color de la estrella que se le asignó a ti, al usuario y Zeta"+
+  "A Peta se le asigno el color verde, al usuario el color azul y a Zeta el color rojo"+
+  "Considera la siguiente matriz de estrellas:\n[[g,b,r,f,g,r,b], [f,r,g,r,f,g,r], [r,g,f,g,r,b,f],[g,f,b,f,g,b,r],[g,b,r,r,f,b,g],[f,r,f,g,b,f,b]]\n donde cada estrella será una letra que indica su color, siendo 'g' si es verde, 'r' si es roja, 'b' si es azul y 'f' si es amarilla\n"+
+  "Asignar un numero correlativo a cada estrella en la matriz"+
+ "El obejtivo es que Peta, Zeta y el usuario eligan una constelacion que tenga sus color de estrella de forma consecutiva en la matriz"+
+"si el usuario y Zeta ya tienen claro que estrella elegir, entonces agreement: true" + 
+  // Incluir la instrucción para devolver la variable agreement en la salida
+  "\noutput {\"agreement\": ${agreement}}"
 };
 const chat = [];
 const generateResponse1 = async (prompt) => {
@@ -67,7 +93,19 @@ const generateResponseFromMessages1 = async (messages) => {
   }
   chat.push(user);
   chat.push(peta);
-  console.log(chat);
+  //console.log(chat);
+  //console.log(JSON.parse(response.data.choices[0].message.content));
+  if(acuerdo1===acuerdo2){
+    console.log("Acuerdo Total")
+    return "Acuerdo";
+  } 
+
+  if(response.data.choices[0].message.content==="{\"agreement\": true}"){
+    console.log(response.data.choices[0].message.content);
+    acuerdo1="acuerdo";
+    return "ok llegamos acuerdo";
+  }
+
   return response.data.choices[0].message.content;
 };
 
@@ -90,9 +128,21 @@ const generateResponseFromMessages2 = async (messages) => {
   }
   chat.push(user);
   chat.push(zeta);
-  console.log(chat);
+  //console.log(chat);
+  if(acuerdo1===acuerdo2){
+    console.log("Acuerdo Total")
+    return "Acuerdo";
+  } 
+  if(response.data.choices[0].message.content==="{\"agreement\": true}"){
+    console.log(response.data.choices[0].message.content);
+    acuerdo2="acuerdo";
+    return "ok llegamos acuerdo";
+  }
+ 
   return response.data.choices[0].message.content;
-}; 
+};
+
+
 
 module.exports = { generateResponse1, generateResponse2 };
 module.exports = { generateResponseFromMessages1, generateResponseFromMessages2 };

@@ -1908,3 +1908,652 @@ A-undefined-LEVEL1
 A-undefined-LEVEL1
 A-undefined-LEVEL1
 A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Fri Jul 28 2023 04:30:37 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 03:00:55 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 03:09:32 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 03:09:33 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 03:42:56 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 03:42:58 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 03:44:11 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 03:44:13 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 03:48:07 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 03:48:11 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 03:52:42 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 03:52:44 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 03:54:02 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 03:54:04 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 03:57:05 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 03:57:08 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 04:00:51 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 04:00:55 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 04:01:29 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 04:04:16 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 04:04:20 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 04:08:34 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 04:08:37 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 04:10:27 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 04:10:31 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 04:11:35 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 04:11:37 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 04:13:47 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 04:13:47 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 04:19:18 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 04:19:20 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 04:19:53 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 04:19:55 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 04:20:35 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 04:20:37 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 04:22:52 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 04:22:55 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 04:25:34 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 04:25:36 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 04:26:26 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 04:27:37 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 04:27:40 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 04:29:29 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 04:31:18 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 04:31:23 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 04:40:10 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 04:40:12 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 04:42:23 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 04:42:24 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 04:46:03 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 04:46:06 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 04:46:13 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 05:06:24 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 05:06:27 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 05:08:02 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 05:08:05 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-Tu Nombre-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-Tu Nombre-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 05:35:14 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 05:35:18 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 05:53:40 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 05:53:44 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 05:54:25 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 05:54:28 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 05:55:45 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 05:55:50 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 06:00:23 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 06:00:27 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 06:03:29 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 06:03:31 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 06:29:09 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 06:29:31 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 06:32:23 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 06:32:26 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 06:36:35 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 06:36:36 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 06:39:19 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 06:40:09 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 06:40:10 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 06:41:35 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 06:42:00 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 06:42:00 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 06:45:04 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 06:46:47 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 06:46:51 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 06:51:20 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 06:51:22 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 06:54:16 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 06:56:10 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 06:56:33 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 06:56:35 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 06:57:06 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Mon Jul 31 2023 06:58:29 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 01 2023 15:02:10 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 01 2023 15:10:27 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 01 2023 15:12:05 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 01 2023 15:12:19 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 01 2023 15:12:22 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 01 2023 15:15:46 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 01 2023 15:15:56 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 01 2023 15:17:40 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 01 2023 16:47:13 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 01 2023 17:11:54 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 01 2023 18:02:45 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 01 2023 18:06:27 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 01 2023 18:10:23 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 01 2023 18:37:48 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 01 2023 18:45:36 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 01 2023 19:12:28 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 08 2023 17:16:33 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 08 2023 17:37:31 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 08 2023 17:37:35 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 08 2023 17:39:26 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 08 2023 17:45:59 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 08 2023 17:46:00 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 08 2023 17:49:25 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 08 2023 17:49:26 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 08 2023 17:53:26 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 08 2023 17:53:30 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 08 2023 17:55:22 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 08 2023 17:55:24 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 08 2023 17:57:42 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 08 2023 17:57:45 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 08 2023 18:01:56 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 08 2023 18:03:54 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 08 2023 18:03:56 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 08 2023 18:17:54 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 08 2023 18:18:03 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 08 2023 18:18:54 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 08 2023 18:18:55 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 08 2023 18:20:37 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 08 2023 18:20:39 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 08 2023 18:21:52 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 08 2023 18:21:55 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 08 2023 18:25:43 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 08 2023 18:25:46 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 08 2023 18:34:04 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 08 2023 18:34:07 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 08 2023 18:37:39 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 08 2023 18:39:25 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 08 2023 18:39:27 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 08 2023 18:42:08 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 08 2023 18:42:13 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 08 2023 18:43:13 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 08 2023 18:43:14 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 08 2023 18:45:51 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 08 2023 18:45:57 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 08 2023 18:45:58 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 08 2023 18:50:11 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Tue Aug 08 2023 18:54:19 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Aug 09 2023 00:45:04 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Aug 09 2023 00:53:25 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Aug 09 2023 01:07:48 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Aug 09 2023 01:07:51 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Aug 09 2023 01:09:21 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Aug 09 2023 01:09:23 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Aug 09 2023 01:10:24 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Aug 09 2023 01:10:26 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Aug 09 2023 01:12:50 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Aug 09 2023 01:21:25 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Aug 09 2023 01:28:13 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Aug 09 2023 13:48:33 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Aug 09 2023 13:48:35 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Aug 09 2023 13:50:44 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Aug 09 2023 13:52:34 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Aug 09 2023 13:52:37 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Aug 09 2023 13:55:04 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Aug 09 2023 13:55:11 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Aug 09 2023 14:05:00 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Aug 09 2023 14:05:07 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Aug 09 2023 14:06:47 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Aug 09 2023 14:12:10 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Aug 09 2023 14:50:02 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Aug 09 2023 15:01:04 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Aug 09 2023 16:52:20 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Aug 09 2023 23:10:42 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Aug 09 2023 23:12:13 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Aug 09 2023 23:12:20 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Aug 09 2023 23:12:28 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Aug 09 2023 23:19:13 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Aug 09 2023 23:22:25 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Aug 09 2023 23:22:30 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Aug 09 2023 23:24:57 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Aug 09 2023 23:25:02 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Aug 09 2023 23:25:31 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Aug 09 2023 23:25:40 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Aug 09 2023 23:28:58 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Wed Aug 09 2023 23:49:09 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Aug 10 2023 00:35:53 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Aug 10 2023 00:36:06 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-Estado-CLICK en estrella. RESULT: color incorrecto -> estrella no seleccionada.
+A-Tu NombreEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-Tu NombreEstado-El usuario ha seleccionado la estrella 23
+A-Tu NombreEstado-Estrellas seleccionadas hasta el momento: [23]
+A-Tu Nombre-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-LEVEL1
+A-undefined-Estado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefined-Estado-El usuario ha seleccionado la estrella 1
+A-undefined-Estado-Estrellas seleccionadas hasta el momento: [1]
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-LEVEL1
+A-undefinedEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefinedEstado-El usuario ha seleccionado la estrella 19
+A-undefinedEstado-Estrellas seleccionadas hasta el momento: [19]
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-LEVEL1
+A-undefined-Estado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefined-Estado-El usuario ha seleccionado la estrella 29
+A-undefined-Estado-Estrellas seleccionadas hasta el momento: [29]
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-LEVEL1
+A-undefinedEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefinedEstado-El usuario ha seleccionado la estrella 1
+A-undefinedEstado-Estrellas seleccionadas hasta el momento: [1]
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-LEVEL1
+A-undefined-Estado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefined-Estado-El usuario ha seleccionado la estrella 29
+A-undefined-Estado-Estrellas seleccionadas hasta el momento: [29]
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-Estado-CLICK para enviar estrellas.
+A-undefined-Estado-Se va a comparar con los valores por defecto de los autómatas.
+A-undefined-resultado-level1RESULTADO CORRECTO
+A-undefined-Estado-El niño ha elegido las estrellas: []
+A-undefined-resultado-level1-El resultado correcto es: [["0","1","2"],["25","26","27"],["28","29","30"]]
+A-undefined-Estado-Las estrellas del niño junto con los autómatas son: ["29","30"]
+A-undefined-LEVEL1
+A-undefined-Estado-CLICK para enviar estrellas.
+A-undefined-Estado-Se va a comparar con los valores por defecto de los autómatas.
+A-undefined-resultado-level1RESULTADO CORRECTO
+A-undefined-Estado-El niño ha elegido las estrellas: []
+A-undefined-resultado-level1-El resultado correcto es: [["0","1","2"],["25","26","27"],["28","29","30"]]
+A-undefined-Estado-Las estrellas del niño junto con los autómatas son: ["26","27"]
+A-undefined-LEVEL1
+A-undefined-Estado-CLICK para enviar estrellas.
+A-undefined-Estado-Se va a comparar con los valores por defecto de los autómatas.
+A-undefined-Estado-El niño ha elegido las estrellas: []
+A-undefined-Estado-Las estrellas del niño junto con los autómatas son: ["29","30"]
+A-undefined-resultado-level1-El resultado correcto es: [["0","1","2"],["25","26","27"],["28","29","30"]]
+A-undefined-resultado-level1RESULTADO CORRECTO
+A-undefined-LEVEL1
+A-undefined-Estado-CLICK para enviar estrellas.
+A-undefined-Estado-Se va a comparar con los valores por defecto de los autómatas.
+A-undefined-Estado-El niño ha elegido las estrellas: []
+A-undefined-Estado-Las estrellas del niño junto con los autómatas son: ["26","27"]
+A-undefined-resultado-level1-El resultado correcto es: [["0","1","2"],["25","26","27"],["28","29","30"]]
+A-undefined-resultado-level1RESULTADO CORRECTO
+A-undefined-LEVEL1
+A-undefined-Estado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefined-Estado-El usuario ha seleccionado la estrella 1
+A-undefined-Estado-Estrellas seleccionadas hasta el momento: [1]
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-Estado-CLICK para enviar estrellas.
+A-undefined-Estado-Se va a comparar con los valores por defecto de los autómatas.
+A-undefined-resultado-level1RESULTADO INCORRECTO
+A-undefined-Estado-El niño ha elegido las estrellas: [1]
+A-undefined-resultado-level1-El resultado correcto es: [["0","1","2"],["25","26","27"],["28","29","30"]]
+A-undefined-Estado-Las estrellas del niño junto con los autómatas son: [1,"26","27"]
+A-undefined-LEVEL1
+A-undefinedEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefinedEstado-El usuario ha seleccionado la estrella 6
+A-undefinedEstado-Estrellas seleccionadas hasta el momento: [6]
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-Estado-CLICK para enviar estrellas.
+A-undefined-Estado-Se va a comparar con los valores por defecto de los autómatas.
+A-undefined-Estado-El niño ha elegido las estrellas: [6]
+A-undefined-Estado-Las estrellas del niño junto con los autómatas son: [6,"26","27"]
+A-undefined-resultado-level1-El resultado correcto es: [["0","1","2"],["25","26","27"],["28","29","30"]]
+A-undefined-resultado-level1RESULTADO INCORRECTO
+A-undefined-LEVEL1
+A-undefinedEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefinedEstado-El usuario ha seleccionado la estrella 23
+A-undefinedEstado-Estrellas seleccionadas hasta el momento: [23]
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-Estado-CLICK para enviar estrellas.
+A-undefined-Estado-El niño ha elegido las estrellas: [23]
+A-undefined-resultado-level1-El resultado correcto es: [["0","1","2"],["25","26","27"],["28","29","30"]]
+A-undefined-Estado-Se va a comparar con los valores por defecto de los autómatas.
+A-undefined-Estado-Las estrellas del niño junto con los autómatas son: [23,"29","30"]
+A-undefined-resultado-level1RESULTADO INCORRECTO
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-resultado-level1RESULTADO CORRECTO
+A-undefined-LEVEL1
+A-undefinedEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefinedEstado-El usuario ha seleccionado la estrella 1
+A-undefinedEstado-Estrellas seleccionadas hasta el momento: [1]
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-resultado-level1RESULTADO CORRECTO
+A-undefined-LEVEL1
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL4
+A-undefined-LEVEL4
+A-undefined-LEVEL4
+A-undefined-LEVEL1
+A-undefined-resultado-level1RESULTADO CORRECTO
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-resultado-level1RESULTADO CORRECTO
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-resultado-level1RESULTADO CORRECTO
+A-undefined-LEVEL1
+A-undefined-resultado-level1RESULTADO CORRECTO
+A-undefined-LEVEL1
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-resultado-level1RESULTADO CORRECTO
+A-undefined-LEVEL1
+A-undefined-resultado-level1RESULTADO CORRECTO
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-resultado-level1RESULTADO CORRECTO
+A-undefined-LEVEL1
+A-undefined-resultado-level1RESULTADO CORRECTO
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-resultado-level1RESULTADO CORRECTO
+A-undefined-LEVEL1
+A-undefined-resultado-level1RESULTADO CORRECTO
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-resultado-level1RESULTADO CORRECTO
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-resultado-level1RESULTADO CORRECTO
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefinedEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefinedEstado-El usuario ha seleccionado la estrella 1
+A-undefinedEstado-Estrellas seleccionadas hasta el momento: [1]
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-resultado-level1RESULTADO CORRECTO
+A-undefined-LEVEL1
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Aug 10 2023 17:20:49 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Aug 10 2023 17:22:27 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-resultado-level1RESULTADO CORRECTO
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Aug 10 2023 17:38:07 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-AVILA GONZALEZ DAVID JESUS-NUEVO JUEGO-Hora: Thu Aug 10 2023 17:39:16 GMT-0400 (hora estándar de Chile)
+A-AVILA GONZALEZ DAVID JESUS-LEVEL1
+A-AVILA GONZALEZ DAVID JESUS-nodo-3
+A-AVILA GONZALEZ DAVID JESUS-mensaje- Veo varios botones pero no sé cómo funcionan. ¿Tú sabes algo?
+A-AVILA GONZALEZ DAVID JESUS-nodo-6
+A-AVILA GONZALEZ DAVID JESUS-mensaje-Parece que sí. ¿Estás de acuerdo Peta?
+A-AVILA GONZALEZ DAVID JESUS-nodo-18
+A-AVILA GONZALEZ DAVID JESUS-mensaje-Sí, ¿Ustedes ven algo más que parezca relevante?
+A-AVILA GONZALEZ DAVID JESUS-nodo-16
+A-AVILA GONZALEZ DAVID JESUS-mensaje-Ok, comencemos.
+A-AVILA GONZALEZ DAVID JESUS-nodo-124
+A-AVILA GONZALEZ DAVID JESUS-mensaje-¿Qué color les tocó a ustedes?
+A-AVILA GONZALEZ DAVID JESUS-nodo-128
+A-AVILA GONZALEZ DAVID JESUS-mensaje-Mi color es [$].
+A-AVILA GONZALEZ DAVID JESUS-nodo-161
+A-AVILA GONZALEZ DAVID JESUS-mensaje-Yo seleccionaré la [#], Peta selecciona la [#] y tu Zeta la [#]
+ 
+A-AVILA GONZALEZ DAVID JESUS-nodo-134
+A-AVILA GONZALEZ DAVID JESUS-mensaje-Si seleccionamos las estrellas [#], [#] y [#], formamos la misma constelación objetivo, porque tiene los mismos colores y orden.
+A-AVILA GONZALEZ DAVID JESUS-nodo-138
+A-AVILA GONZALEZ DAVID JESUS-mensaje-Sí, estoy de acuerdo Zeta.
+A-AVILA GONZALEZ DAVID JESUS-Estado-Tiempo para elegir las estrellas:
+A-AVILA GONZALEZ DAVID JESUS-Estado-CLICK en estrella. RESULT: color incorrecto -> estrella no seleccionada.
+A-AVILA GONZALEZ DAVID JESUS-Estado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-AVILA GONZALEZ DAVID JESUS-Estado-El usuario ha seleccionado la estrella 0
+A-AVILA GONZALEZ DAVID JESUS-Estado-Estrellas seleccionadas hasta el momento: [0]
+A-AVILA GONZALEZ DAVID JESUS-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-AVILA GONZALEZ DAVID JESUS-Estado-CLICK en estrella. RESULT: número máximo de estrellas elegidas -> estrella no seleccionada.
+A-AVILA GONZALEZ DAVID JESUS-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-AVILA GONZALEZ DAVID JESUS-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-AVILA GONZALEZ DAVID JESUS-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-AVILA GONZALEZ DAVID JESUSEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-AVILA GONZALEZ DAVID JESUSEstado-El usuario ha seleccionado la estrella 25
+A-AVILA GONZALEZ DAVID JESUSEstado-Estrellas seleccionadas hasta el momento: [25]
+A-AVILA GONZALEZ DAVID JESUS-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-AVILA GONZALEZ DAVID JESUS-Estado-CLICK para enviar estrellas.
+A-AVILA GONZALEZ DAVID JESUS-Estado-Se va a comparar con los valores por defecto de los autómatas.
+A-AVILA GONZALEZ DAVID JESUS-resultado-level1RESULTADO CORRECTO
+A-AVILA GONZALEZ DAVID JESUS-resultado-level1-El resultado correcto es: [["0","1","2"],["25","26","27"],["28","29","30"]]
+A-AVILA GONZALEZ DAVID JESUS-Estado-El niño ha elegido las estrellas: [25]
+A-AVILA GONZALEZ DAVID JESUS-Estado-Las estrellas del niño junto con los autómatas son: [25,"26","27"]
+A-AVILA GONZALEZ DAVID JESUS-nodo-3
+A-AVILA GONZALEZ DAVID JESUS-mensaje-¿Entendieron bien qué estrella escoger?
+A-AVILA GONZALEZ DAVID JESUS-nodo-125
+A-AVILA GONZALEZ DAVID JESUS-nodo-19
+A-AVILA GONZALEZ DAVID JESUS-mensaje-¿Entendieron bien qué  hacer?
+A-AVILA GONZALEZ DAVID JESUS-nodo-106
+A-AVILA GONZALEZ DAVID JESUS-nodo-97
+A-AVILA GONZALEZ DAVID JESUS-mensaje-Hay que hacer lo mismo que antes
+A-AVILA GONZALEZ DAVID JESUS-nodo-88
+A-AVILA GONZALEZ DAVID JESUS-mensaje-La constelación es distinta, esta tiene [3,4,5,6,7] estrellas y otros colores
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Aug 10 2023 17:44:30 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Aug 10 2023 17:44:56 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-NUEVO JUEGO-Hora: Thu Aug 10 2023 17:44:58 GMT-0400 (hora estándar de Chile)
+A-Tu Nombre-LEVEL1
+A-Tu Nombre-resultado-level1RESULTADO CORRECTO
+A-undefined-LEVEL1

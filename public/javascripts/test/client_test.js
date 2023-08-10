@@ -183,7 +183,7 @@ function reiniciarLevel() {
     //startGame(set_stars(nivel_actual));
     $(".erase_button").hide();
     $("#image-final-level").hide();
-    $("#selectionTime").hide();
+    $("#SendMessageButton1").hide();
     $("#choicesTime").show();
   });
 }
@@ -609,7 +609,7 @@ server.on("conversationEnd", function (data) {
 });
 
 var sendButtonClick = function () {
-  var data = "A-" + nino_nombre + "-Estado-CLICK para enviar estrellas.";
+  /*var data = "A-" + nino_nombre + "-Estado-CLICK para enviar estrellas.";
   server.emit("escribir_resultados", data);
   $(".erase_button").hide();
   estrellas_finales = estrellas_seleccionadas
@@ -698,15 +698,15 @@ var sendButtonClick = function () {
         break;
       }
     }
-  }
-  if (aparece) {
+  }*/
+  
     $("#image-final-level").attr("src", "../images/level_won.png");
     var data =
       "A-" + nino_nombre + "-resultado-" + nivel_actual + "RESULTADO CORRECTO";
     server.emit("escribir_resultados", data);
     var data = "A-" + nino_nombre + "-nodo-" + opcion;
 
-    if (nivel_actual == "level1") {
+    /*if (nivel_actual == "level1") {
       etapas[0] = 2;
       currentVariableState["Puntaje_I7"] = 4;
       currentVariableState["Puntaje_I13"] = -1;
@@ -728,13 +728,30 @@ var sendButtonClick = function () {
       etapas[0] = 2;
       currentVariableState["Puntaje_I24"] = 4;
       escribirPuntajes();
-    }
+    }*/
+    if (nivel_actual === "level1") {
+      $("#obj_game").attr("src", "../images/level_1_4.png");
+      nivel_actual = "level4";
+      resolve("level4");
+      } else if (nivel_actual === "level4") {
+        $("#obj_game").attr("src", "../images/level_1_6.png");
+        nivel_actual = "level6";
+      resolve("level6");
+      } else if (nivel_actual === "level6") {
+        $("#obj_game").attr("src", "../images/level_1_8.png");
+        nivel_actual = "level8";
+        resolve("level8");
+      } else if (nivel_actual === "level8") {
+        server.emit("conversationPlay", 13);
+        resolve("final");
+      }
     $("#image-final-level").show();
+
     decision = false;
     setTimeout(function () {
       reiniciarLevel();
-    }, 5000);
-  } else {
+    }, 200000);
+   /*else {
     $("#image-final-level").attr("src", "../images/level_lost.png");
     var data =
       "A-" +
@@ -771,7 +788,7 @@ var sendButtonClick = function () {
     setTimeout(function () {
       reiniciarLevel();
     }, 5000);
-  }
+  }*/
 };
 
 server.on("updateGame", function (data) {
@@ -1573,13 +1590,13 @@ function colorToSpanish(color) {
 /* --------------- */
 // Al cargar la página, configurar el último agente utilizado como "Peta"
 let lastAgentUsed = "Zeta";
-
+var check=false;
 $("#SendMessageButton1").click((e) => {
   e.preventDefault();
 
   const message = $("#message-to-send1").val();
   let agentName = "";
-
+  console.log(message);
   // Expresión regular para buscar el nombre del agente en el mensaje
   const agentRegex = /(Peta|Zeta)/i;
   const match = message.match(agentRegex);
@@ -1616,6 +1633,16 @@ $("#SendMessageButton1").click((e) => {
     .then((res) => res.json())
     .then((data) => {
       chatHistory.find("li.loading-message").remove();
+      if(data.response==="Acuerdo"){
+        $("#SendMessageButton1").replaceWith(
+          "<input type='submit' name='submit' value='Enviar tus estrellas' id='SendMessageButton1'>"
+        );
+        $("#SendMessageButton1").click(function () {
+          sendButtonClick();
+        });
+        time_to_select = true;
+      }
+      else{
       const li = $("<li class='message other-message'></li>").text(
         data.response
       );
@@ -1633,10 +1660,10 @@ $("#SendMessageButton1").click((e) => {
 
       chatHistory.append(li);
       chatHistory.scrollTop(chatHistory[0].scrollHeight);
+    }
     });
   chatHistory.scrollTop(chatHistory[0].scrollHeight);
 });
-
 
 
 //Estados de la app
@@ -1658,3 +1685,4 @@ $("#Estado_dos").click(() => {
 $("#Estado_tres").click(() => {
   sendButtonClick();
 });
+
