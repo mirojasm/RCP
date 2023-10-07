@@ -87,7 +87,7 @@ router.get("/constelaciones_test", function (req, res) {
 });
 
 router.post("/api/openai1", function (req, res) {
-  //console.log(req.body.context)
+  //console.log("context "+req.body.context)
   generateResponseFromMessages1(req.body.context).then((response) => {
     res.json({ response });
   });
