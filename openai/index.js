@@ -1,7 +1,7 @@
 const { response } = require("express");
 const { Configuration, OpenAIApi } = require("openai");
 const config = new Configuration({
-  apiKey: "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" // Reemplaza "TU_CLAVE_DE_API_AQUI" con tu propia clave de API
+  apiKey: "" // Reemplaza "TU_CLAVE_DE_API_AQUI" con tu propia clave de API
 });
 const openai1 = new OpenAIApi(config); // Primer asistente
 const openai2 = new OpenAIApi(config); // Segundo asistente
