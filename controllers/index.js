@@ -1,5 +1,4 @@
 var config = require("../settings.js");
-const { generateResponse1,generateResponse2 } = require("../openai/index.js");
 const { generateResponseFromMessages1,generateResponseFromMessages2 } = require("../openai/index.js");
 
 /*

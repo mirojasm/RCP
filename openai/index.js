@@ -96,12 +96,38 @@ const SYSTEM_MESSAGE2 = {
   "\nTu mensaje de respuesta sea corto y solo responde en formato Json"
 };
 
+// ---------- ETAPAS ------------
+
+const etapas = {
+  INICIO: "Inicio",
+  GENERACION_DE_IDEAS: "Generación de Ideas",
+  ACUERDO_Y_SELECCION: "Acuerdo y Selección",
+  RESOLUCION_DEL_PROBLEMA: "Resolución del Problema",
+  EVALUACION_Y_RETROALIMENTACION: "Evaluación y Retroalimentación",
+  TRANSICION_A_UN_NUEVO_PROBLEMA: "Transición a un Nuevo Problema",
+  CIERRE_Y_SATISFACCION: "Cierre y Satisfacción",
+};
+
+// Inicio
+
+// GENERACION_DE_IDEAS
+
+// ACUERDO_Y_SELECCION
+
+// RESOLUCION_DEL_PROBLEMA
+
+// EVALUACION_Y_RETROALIMENTACION
+
+// TRANSICION_A_UN_NUEVO_PROBLEMA
+
+// CIERRE_Y_SATISFACCION
+
 //  Hay que añadir funciones que permitan realizar el flujo de conversación de manera correcta
 // Funcion para agreement entre agentes
 // Funcion para identificar etapas y eventos
 const funciones = [
   {
-      "name": "saludar",
+      "name": "Inicio",
       "description": "Saluda al usuario",
       "parameters": {
           "type": "object",
@@ -109,12 +135,108 @@ const funciones = [
               "mensaje": {
                   "type": "string",
                   "description": "Respuesta de saludo a Usuario y preséntate",
+              },              
+              "Etapa": {
+                "type": "string",
+                "description": "Nombre de la funcion/etapa"
+            }
+          },
+          "required": ["mensaje", "Etapa"],
+      },
+  },
+  {
+      "name": "GENERACION_DE_IDEAS",
+      "description": "Identifica si es que se realizan preguntas sobre ideas como resolver la actividad",
+      "parameters": {
+          "type": "object",
+          "properties": {
+              "mensaje": {
+                  "type": "string",
+                  "description": "Responder a usuario y dar consejos",
+              },
+              "Etapa": {
+                  "type": "string",
+                  "description": "Nombre de la funcion/etapa"
               }
+          },
+          "required": ["mensaje", "Etapa"],
+      },
+  },
+  {
+      "name": "ACUERDO_Y_SELECCION",
+      "description": "Identifica si es que se realizan preguntas sobre ponerse de acuerdo y tener que tomar la decisión para resolver la etapa",
+      "parameters": {
+          "type": "object",
+          "properties": {
+              "mensaje": {
+                  "type": "string",
+                  "description": "Respuesta de saludo a Usuario y preséntate",
+              },              
+              "Etapa": {
+                "type": "string",
+                "description": "Nombre de la funcion/etapa"
+            }
+          },
+          "required": ["mensaje", "Etapa"],
+      },
+  },
+/*  {
+      "name": "RESOLUCION_DEL_PROBLEMA",
+      "description": "Saluda al usuario",
+      "parameters": {
+          "type": "object",
+          "properties": {
+              "mensaje": {
+                  "type": "string",
+                  "description": "Respuesta de saludo a Usuario y preséntate",
+              },              
+              "Etapa": {
+                "type": "string",
+                "description": "Nombre de la funcion/etapa"
+            }
           },
           "required": ["mensaje"],
       },
-  }
+  },
+  {
+      "name": "EVALUACION_Y_RETROALIMENTACION",
+      "description": "Saluda al usuario",
+      "parameters": {
+          "type": "object",
+          "properties": {
+              "mensaje": {
+                  "type": "string",
+                  "description": "Respuesta de saludo a Usuario y preséntate",
+              },              
+              "Etapa": {
+                "type": "string",
+                "description": "Nombre de la funcion/etapa"
+            }
+          },
+          "required": ["mensaje"],
+      },
+  },
+  {
+      "name": "TRANSICION_A_UN_NUEVO_PROBLEMA",
+      "description": "Saluda al usuario",
+      "parameters": {
+          "type": "object",
+          "properties": {
+              "mensaje": {
+                  "type": "string",
+                  "description": "Respuesta de saludo a Usuario y preséntate",
+              },              
+              "Etapa": {
+                "type": "string",
+                "description": "Nombre de la funcion/etapa"
+            }
+          },
+          "required": ["mensaje"],
+      },
+  }*/
 ];
+
+var etapa = "Inicio";
 
 const generateResponseFromMessages1 = async (messages) => {
 
