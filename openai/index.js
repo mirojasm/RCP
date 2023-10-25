@@ -6,7 +6,7 @@ const config = new Configuration({
 const openai1 = new OpenAIApi(config); // Primer asistente
 const openai2 = new OpenAIApi(config); // Segundo asistente
 let acuerdo1=2;
-let acuerdo2=3;
+let acuerdo2=2;
 
 
 // Instrucciones de cada agente
@@ -68,6 +68,8 @@ const SYSTEM_MESSAGE2 = {
 
 	"\nDebes hacer sugerencias relacionadas para poder evaluar las habilidades de la tabla PISA para medir las habilidades de resolución de problemas colaborativos"+
 
+//niño de 10 años
+
   // TAREA
   
 	"\nHay otro asistente virtual llamada Peta "+
@@ -104,28 +106,21 @@ const SYSTEM_MESSAGE2 = {
 // ---------- ETAPAS ------------
 
 const etapas = {
-  INICIO: "Inicio",
-  GENERACION_DE_IDEAS: "Generación de Ideas",
-  ACUERDO_Y_SELECCION: "Acuerdo y Selección",
-  RESOLUCION_DEL_PROBLEMA: "Resolución del Problema",
-  EVALUACION_Y_RETROALIMENTACION: "Evaluación y Retroalimentación",
-  TRANSICION_A_UN_NUEVO_PROBLEMA: "Transición a un Nuevo Problema",
-  CIERRE_Y_SATISFACCION: "Cierre y Satisfacción",
+  Saludo: "Saludos",
+  B1: "B1",
+  A1: "A1",
+  B2: "B2",
+  A3: "A3",
+  B3: "B3",
+  A2: "A2",
+  C1: "C1",
+  C3: "C3",
+  C2: "C2",
+  D1: "D1",
+  D3: "D3",
+  D2: "D2",
+  Despedida: "Despedida"
 };
-
-// Inicio
-
-// GENERACION_DE_IDEAS
-
-// ACUERDO_Y_SELECCION
-
-// RESOLUCION_DEL_PROBLEMA
-
-// EVALUACION_Y_RETROALIMENTACION
-
-// TRANSICION_A_UN_NUEVO_PROBLEMA
-
-// CIERRE_Y_SATISFACCION
 
 // Hay que añadir funciones que permitan realizar el flujo de conversación de manera correcta
 // Funcion para agreement entre agentes
@@ -175,7 +170,7 @@ const funciones = [
           "properties": {
               "mensaje": {
                   "type": "string",
-                  "description": "responder con mensaje: 'Ok, estamos de acuerdo'",
+                  "description": "responder diciendo si está de acuerdo",
               },              
               "Etapa": {
                 "type": "string",
@@ -190,66 +185,12 @@ const funciones = [
           "required": ["mensaje", "Etapa", "Acuerdo"],
       },
   },
-/*  {
-      "name": "RESOLUCION_DEL_PROBLEMA",
-      "description": "Saluda al usuario",
-      "parameters": {
-          "type": "object",
-          "properties": {
-              "mensaje": {
-                  "type": "string",
-                  "description": "Respuesta de saludo a Usuario y preséntate",
-              },              
-              "Etapa": {
-                "type": "string",
-                "description": "Nombre de la funcion/etapa"
-            }
-          },
-          "required": ["mensaje"],
-      },
-  },
-  {
-      "name": "EVALUACION_Y_RETROALIMENTACION",
-      "description": "Saluda al usuario",
-      "parameters": {
-          "type": "object",
-          "properties": {
-              "mensaje": {
-                  "type": "string",
-                  "description": "Respuesta de saludo a Usuario y preséntate",
-              },              
-              "Etapa": {
-                "type": "string",
-                "description": "Nombre de la funcion/etapa"
-            }
-          },
-          "required": ["mensaje"],
-      },
-  },
-  {
-      "name": "TRANSICION_A_UN_NUEVO_PROBLEMA",
-      "description": "Saluda al usuario",
-      "parameters": {
-          "type": "object",
-          "properties": {
-              "mensaje": {
-                  "type": "string",
-                  "description": "Respuesta de saludo a Usuario y preséntate",
-              },              
-              "Etapa": {
-                "type": "string",
-                "description": "Nombre de la funcion/etapa"
-            }
-          },
-          "required": ["mensaje"],
-      },
-  }*/
 ];
 
 var etapa = "Inicio";
 
 const generateResponseFromMessages1 = async (messages) => {
-
+  return "Acuerdo"; //BYPASS EN CASO DE NO TENER INTERNET PARA CHATGPT
   const response = await openai1.createChatCompletion({
     model: "gpt-3.5-turbo",
     messages: [SYSTEM_MESSAGE1].concat(messages),
@@ -282,6 +223,7 @@ const generateResponseFromMessages1 = async (messages) => {
 };
 
 const generateResponseFromMessages2 = async (messages) => {
+  return "Acuerdo";
   const response = await openai2.createChatCompletion({
     model: "gpt-3.5-turbo",
     messages: [SYSTEM_MESSAGE2].concat(messages),
@@ -306,7 +248,7 @@ const generateResponseFromMessages2 = async (messages) => {
   if(acuerdo1===acuerdo2){
     console.log("Acuerdo Total")
     return "Acuerdo";
-  } 
+  }
   return response.data.choices[0].message.content;
 };
 

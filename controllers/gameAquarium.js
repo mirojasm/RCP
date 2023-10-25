@@ -7,7 +7,7 @@ module.exports = function(io, socket) {
         cm = new chat(data.tipo_juego);
         cm.load();
         cm.AddEventListener("onNode", function(params) {
-			// console.log("emit phrase event");
+			console.log("emit phrase event");
             var actor = cm.GetActor(cm.currentNode.Fields["Actor"]);
             socket.emit('phrase', {author:actor, phrase:params});
     	});
@@ -22,7 +22,7 @@ module.exports = function(io, socket) {
             socket.emit('variables', cm.getVariables());
         });
   		
-        
+        /*
         console.log("tipo juego: "+data.tipo_juego);
         console.log("Niveles de las estrellas");
         console.log(starLevels());
@@ -40,7 +40,7 @@ module.exports = function(io, socket) {
         console.log(solutions2());
 
         console.log("Nombre de los jugadores: "+data.nombre_jugador);
-        
+        */
         if(data.tipo_juego == 'constelaciones')
         {
             socket.emit('test',  {stars_level: JSON.stringify(starLevels()), solutions_level: JSON.stringify(solutions()),

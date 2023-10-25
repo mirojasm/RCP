@@ -65,8 +65,8 @@ server.on("connect", function (data) {
   });
 });
 
+//revisar aqui
 server.on("test", function (data) {
-  //alert("blas");
   jugador2 = "Peta";
   jugador3 = "Zeta";
   levelsData = JSON.parse(data.stars_level);
@@ -124,6 +124,7 @@ server.on("test", function (data) {
       colorP3[key].push(secondColorData[key][2]);
     }
   }
+  //REVISAR ESTO
   indiceSeleccion = Math.floor(Math.random() * solutionsP2["level1"].length);
   opcionSeleccionarP2 = solutionsP2["level1"][indiceSeleccion];
   opcionSeleccionarP3 = solutionsP3["level1"][indiceSeleccion];
@@ -149,6 +150,7 @@ server.on("test", function (data) {
   });
 });
 
+//revisar aqui
 function reiniciarLevel() {
   var P = new Promise((resolve, reject) => {
     if (nivel_actual === "level1") {
@@ -179,8 +181,9 @@ function reiniciarLevel() {
     time_to_select = false;
     arreglo_decision = [];
     decision = false;
-    //borrar_tablero();
-    //startGame(set_stars(nivel_actual));
+    alert("pase aqui");
+    borrar_tablero();
+    startGame(set_stars(nivel_actual));
     $(".erase_button").hide();
     $("#image-final-level").hide();
     $("#SendMessageButton1").hide();
@@ -491,14 +494,17 @@ var loadDataVars = function (data) {
   return P;
 };
 
-varLevel = 0;
-etapa = 0;
+var varLevel = 0;
+var etapa = 0;
+
 
 // si te llegan variables. Como las nuevas estrellas del nivel.
+//revisar aqui
 server.on("variables", function (data) {
-  console.log(data);
+
   var imageArray = document.getElementById("client").getAttribute("imageNames");
 
+  //console.log("data etapa: ",data);
   if ("etapa" in data && etapa != data["etapa"]) {
     etapa = data["etapa"];
     $("#col1").css(
@@ -509,7 +515,7 @@ server.on("variables", function (data) {
 
   if (data["show_stars"] == 0) {
     layer.show();
-    //$('.mapa').html("<img class='img-mapa' src='../images/ETAPAS/'"+imgmapa[""+etapas[0]+etapas[1]+etapas[2]+etapas[3]]+"'>");
+    $('.mapa').html("<img class='img-mapa' src='../images/ETAPAS/'"+imgmapa[""+etapas[0]+etapas[1]+etapas[2]+etapas[3]]+"'>");
     $(".mapa").hide();
     $(".img-mapa").attr(
       "src",
@@ -527,7 +533,7 @@ server.on("variables", function (data) {
   }
 
   if (varLevel != data["level"]) {
-    //alert("pasaron al nivel "+data["level"]);
+    alert("pasaron al nivel "+data["level"]);
     varLevel = data["level"];
     var P = new Promise((resolve, reject) => {
       if (varLevel === 2) {
@@ -608,19 +614,19 @@ server.on("conversationEnd", function (data) {
   time_to_select = true;
 });
 
+//revisar aqui
 var sendButtonClick = function () {
-  /*var data = "A-" + nino_nombre + "-Estado-CLICK para enviar estrellas.";
+  var data = "A-" + nino_nombre + "-Estado-CLICK para enviar estrellas.";
   server.emit("escribir_resultados", data);
   $(".erase_button").hide();
-  estrellas_finales = estrellas_seleccionadas
+  estrellas_finales = (estrellas_seleccionadas)
     .concat(opcionSeleccionarP2)
     .concat(opcionSeleccionarP3);
-  //alert("estrellas_seleccionadas" + estrellas_seleccionadas);
   for (var au = 0; au < estrellas_finales.length; au++) {
     selectStar(estrellas_finales[au].toString());
   }
   b = solutionsData[nivel_actual];
-  if (decision) {
+  if (decision) { //IF DECISION = TRUE
     var data =
       "A-" +
       nino_nombre +
@@ -659,7 +665,7 @@ var sendButtonClick = function () {
         break;
       }
     }
-  } else {
+  } else { //IF DECISION = FALSE
     var data =
       "A-" +
       nino_nombre +
@@ -686,6 +692,16 @@ var sendButtonClick = function () {
       JSON.stringify(b);
     server.emit("escribir_resultados", data);
 
+// b: lista de lista con los resultados correctos de la etapa [["1","2","3"],[]...]
+// Hacer comparación aquí de si los resultados en estrellas_finales corresponden
+// de las posibles listas existentes en b
+// for loop recorriendo b, viendo si el contenido de estrellas_finales calza
+// con el contenido de b
+
+
+//revisar tambien que estrellas elegidas por los agentes, sean acuerdo de lo elegido
+//entre el grupo en conjunto y que esto varíe según lo conversado.
+//Estrellas elegida por jugador no es 1(verde), sino que "2"(azul)
     for (var i = 0; i < b.length; i++) {
       var aparece = true;
       for (var j = 0; j < estrellas_finales.length; j++) {
@@ -698,60 +714,20 @@ var sendButtonClick = function () {
         break;
       }
     }
-  }*/
-  
+  }
+  if (aparece){ //aparece TRUE
     $("#image-final-level").attr("src", "../images/level_won.png");
     var data =
       "A-" + nino_nombre + "-resultado-" + nivel_actual + "RESULTADO CORRECTO";
     server.emit("escribir_resultados", data);
-    var data = "A-" + nino_nombre + "-nodo-" + opcion;
-
-    /*if (nivel_actual == "level1") {
-      etapas[0] = 2;
-      currentVariableState["Puntaje_I7"] = 4;
-      currentVariableState["Puntaje_I13"] = -1;
-      currentVariableState["Puntaje_I19"] = -1;
-      currentVariableState["Puntaje_I24"] = -1;
-      escribirPuntajes();
-    } else if (nivel_actual == "level4") {
-      etapas[1] = 2;
-      currentVariableState["Puntaje_I13"] = 4;
-      currentVariableState["Puntaje_I19"] = -1;
-      currentVariableState["Puntaje_I24"] = -1;
-      escribirPuntajes();
-    } else if (nivel_actual == "level6") {
-      etapas[2] = 2;
-      currentVariableState["Puntaje_I19"] = 4;
-      currentVariableState["Puntaje_I24"] = -1;
-      escribirPuntajes();
-    } else if (nivel_actual == "level8") {
-      etapas[0] = 2;
-      currentVariableState["Puntaje_I24"] = 4;
-      escribirPuntajes();
-    }*/
-    if (nivel_actual === "level1") {
-      $("#obj_game").attr("src", "../images/level_1_4.png");
-      nivel_actual = "level4";
-      resolve("level4");
-      } else if (nivel_actual === "level4") {
-        $("#obj_game").attr("src", "../images/level_1_6.png");
-        nivel_actual = "level6";
-      resolve("level6");
-      } else if (nivel_actual === "level6") {
-        $("#obj_game").attr("src", "../images/level_1_8.png");
-        nivel_actual = "level8";
-        resolve("level8");
-      } else if (nivel_actual === "level8") {
-        server.emit("conversationPlay", 13);
-        resolve("final");
-      }
+    //var data = "A-" + nino_nombre + "-nodo-" + opcion;
+    alert("aparece: TRUE");
     $("#image-final-level").show();
-
-    decision = false;
+    //decision = false;
     setTimeout(function () {
       reiniciarLevel();
-    }, 200000);
-   /*else {
+    }, 5000);
+  } else { //aparece FALSE
     $("#image-final-level").attr("src", "../images/level_lost.png");
     var data =
       "A-" +
@@ -760,35 +736,13 @@ var sendButtonClick = function () {
       nivel_actual +
       "RESULTADO INCORRECTO";
     server.emit("escribir_resultados", data);
-    if (nivel_actual == "level1") {
-      etapas[0] = 1;
-      currentVariableState["Puntaje_I7"] = 1;
-      currentVariableState["Puntaje_I13"] = -1;
-      currentVariableState["Puntaje_I19"] = -1;
-      currentVariableState["Puntaje_I24"] = -1;
-      escribirPuntajes();
-    } else if (nivel_actual == "level4") {
-      etapas[1] = 1;
-      currentVariableState["Puntaje_I13"] = 1;
-      currentVariableState["Puntaje_I19"] = -1;
-      currentVariableState["Puntaje_I24"] = -1;
-      escribirPuntajes();
-    } else if (nivel_actual == "level6") {
-      etapas[2] = 1;
-      currentVariableState["Puntaje_I19"] = 1;
-      currentVariableState["Puntaje_I24"] = -1;
-      escribirPuntajes();
-    } else if (nivel_actual == "level8") {
-      etapas[3] = 1;
-      currentVariableState["Puntaje_I24"] = 1;
-      escribirPuntajes();
-    }
+    alert("aparece: FALSE");
     $("#image-final-level").show();
-    decision = false;
+    //decision = false;
     setTimeout(function () {
       reiniciarLevel();
     }, 5000);
-  }*/
+  }
 };
 
 server.on("updateGame", function (data) {
@@ -885,6 +839,7 @@ function createNumber(n, posX, posY) {
 }
 
 function startGame(data) {
+  //console.log("data startgame: ", data);
   stars = new Array();
   numbers = new Array();
   layer = new Kinetic.Layer();
@@ -910,6 +865,7 @@ function startGame(data) {
   stage.add(layer2);
 }
 
+//revisar aqui
 function addStar(i) {
   var rtrim = /^\s+|\s+$/g;
   stars[i].on("click tap", function () {
@@ -1030,7 +986,7 @@ function addStar(i) {
           server.emit("escribir_resultados", data);
           selectStar(i);
           num_seleccionadas += 1;
-          estrellas_seleccionadas.push(i);
+          estrellas_seleccionadas.push(i+1);
           var data =
             "A-" +
             nino_nombre +
@@ -1137,9 +1093,9 @@ function unselectStar() {
 
 function set_stars(level) {
   var data = "A-" + nino_nombre + "-" + level.toUpperCase();
-  //alert(data);
   server.emit("escribir_resultados", data);
   starsArray = new Array();
+  console.log("level: "+level);
   if (level == "level1") {
     stars_current_level = levelsData.level1;
     $("#lb_etapa").text("Nivel 1");
@@ -1152,7 +1108,6 @@ function set_stars(level) {
     stars_current_level = levelsData.level2;
     $("#lb_etapa").text("Nivel 2");
     cambiar_label_color();
-
     current_color = colorData.level2[0];
     current_second_color = secondColorData.level2[0];
     current_solution = solutionsData.level2;
@@ -1168,7 +1123,6 @@ function set_stars(level) {
   } else if (level == "level4") {
     stars_current_level = levelsData.level4;
     $("#lb_etapa").text("Nivel 2");
-
     cambiar_label_color();
     current_color = colorData.level4[0];
     current_second_color = secondColorData.level4[0];
@@ -1646,8 +1600,8 @@ $("#SendMessageButton1").click((e) => {
       const li = $("<li class='message other-message'></li>").text(
         data.response
       );
-       // Agregar nombre del agente y cambiar color según el agente
-       if (agentName === "peta") {
+      // Agregar nombre del agente y cambiar color según el agente
+      if (agentName === "peta") {
         li.prepend("<span class='agent-name' style='color: #ff7f50;'>Peta:</span> ");
       } else if (agentName === "zeta") {
         li.prepend("<span class='agent-name' style='color: #7fff00;'>Zeta:</span> ");
@@ -1669,7 +1623,7 @@ $("#SendMessageButton1").click((e) => {
 //Estados de la app
 $("#Estado_uno").click(() => {
   layer.show();
-  //$('.mapa').html("<img class='img-mapa' src='../images/ETAPAS/'"+imgmapa[""+etapas[0]+etapas[1]+etapas[2]+etapas[3]]+"'>");
+  $('.mapa').html("<img class='img-mapa' src='../images/ETAPAS/'"+imgmapa[""+etapas[0]+etapas[1]+etapas[2]+etapas[3]]+"'>");
   $(".mapa").hide();
   $(".img-mapa").attr(
     "src",
