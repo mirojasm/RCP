@@ -21,17 +21,17 @@ html
         .col-xs-12.chat-col
           .chat1
             .chat-history1
-              ul
+              ul.caja-chat 
                 //li.message.my-message En este chat escribe para poder comunicarte con los Agentes Peta y Zeta
-                li.message.other-message En este chat escribe para poder comunicarte con los Agentes Peta y Zeta
-                li.message.other-message Prueba saludando a tus agentes y consultar que debes hacer
-                li.message.other-message Para comunicarte con un agente en específico menciona el nombre del agente en tu mensaje ("Peta" y "Zeta")
+                li.message.other-message.instruccion En este chat escribe para poder comunicarte con los Agentes Peta y Zeta
+                li.message.other-message.instruccion Prueba saludando a tus agentes y consultar que debes hacer
+                li.message.other-message.instruccion Para comunicarte con un agente en específico menciona el nombre del agente en tu mensaje ("Peta" y "Zeta")
 
             .chat-message
               form.distribution-input-btn
                 input.form-control(type='text', name='message-to-send1', id='message-to-send1', placeholder='Escribe tu mensaje')
                 button#SendMessageButton1.btn.btn-primary Enviar    
-        .objective-color.hidden.col-xs-12(data-intro='Y aquí cuál es la etapa, tu grupo y tu color asignado' data-step=3)
+        .objective-color.hidden.col-xs-12(data-intro='Y aquí cuál es tu color asignado' data-step=3)
                   blockquote.blockquote 
                     p Debes buscar estrellas de color:
                     p#lb_color
@@ -41,15 +41,17 @@ html
         // Column 1 end
         .col-xs-12.btn-sec
           .b1
-            button.btn-stars(type='button')
+            button.btn-map(type='button')
           .b2
-            button.btn-objective(type='button')
+            button.btn-stars(type='button')
           .b3
+            button.btn-objective(type='button')
+          .b4
             button#clickMe(type='button', value='clickme', onclick='introJs().start();')
         .colCanvas#colCanvas
         .mapa
           img.img-mapa
-        .erase_button.btn.btn-danger deshacer
+        .erase_button.btn.btn-danger Deshacer selección
         .objective(data-intro='Aquí verás la constelación que busca Felipe' data-step=2)
           img#obj_game.hidden(src='../images/level_1_1.png')
          
@@ -58,6 +60,6 @@ html
     script(src='/javascripts/jquery.emoji.js')
     script(type='text/javascript', src='/javascripts/test/constelaciones_test.js', id='clientConst', host=host, port=port)
     script(type='text/javascript', src='/javascripts/test/client_test.js', id='client', host=host, port=port, imageNames=imageNames)
-    script(type='text/javascript', src='/javascripts/test/intro_test.js')
+    //- script(type='text/javascript', src='/javascripts/test/intro_test.js')
     script.
-      introJs().start();
+      //- introJs().start();

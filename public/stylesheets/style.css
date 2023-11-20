@@ -610,10 +610,11 @@ span {
   position: relative;
   /* top: -59px; */
   /* left: 260px; */
-  width: 114px;
+  width: 150px;
   bottom: 250px;
   margin-left: 45%;
   /* height: 40px; */
+  z-index: 1;
 }
 
 #container {
@@ -634,9 +635,9 @@ span {
 }
 
 .btn-sec {
-  width: 300px;
+  width: 400px;
   height: 90px;
-  margin-left: 140px;
+  margin-left: 70px;
   margin-top: 50px;
 }
 
@@ -655,12 +656,26 @@ span {
   width: 80px;
   margin-left: 10px;
 }
+.b4 {
+  float: left;
+  width: 80px;
+  margin-left: 10px;
+}
 
 .btn-stars {
   width: 80px;
   height: 80px;
   border-radius: 50%;
   background-image: url("../images/estrellas/piezas/stars-btn.png");
+  background-size: 110px 100px;
+  background-position: center;
+}
+
+.btn-map {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-image: url("../images/estrellas/piezas/mapa.png");
   background-size: 110px 100px;
   background-position: center;
 }

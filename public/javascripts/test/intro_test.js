@@ -902,10 +902,23 @@
         tooltipLayer.style.top = targetOffset.height + 20 + "px";
         break;
 
-      // case 'bottom-left-aligned':
-      // Bottom-left-aligned is the same as the default bottom
-      // case 'bottom':
-      // Bottom going to follow the default behavior
+      case 'bottom-left-aligned':
+          // Bottom-left-aligned is the same as the default bottom
+          // case 'bottom':
+          // Bottom going to follow the default behavior
+          // arrowLayer.className = "introjs-arrow bottom";
+
+          // tooltipLayerStyleLeft = hintMode ? 0 : 15;
+  
+          // _checkRight(
+          //   targetOffset,
+          //   tooltipLayerStyleLeft,
+          //   tooltipOffset,
+          //   windowSize,
+          //   tooltipLayer
+          // );
+          // tooltipLayer.style.bottom = targetOffset.height + 20 + "px";
+          // break;
       default:
         arrowLayer.className = "introjs-arrow top";
 

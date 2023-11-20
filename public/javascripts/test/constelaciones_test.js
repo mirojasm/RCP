@@ -19,6 +19,7 @@ $(".btn-objective").click(function () {
     }, 5000);
   }
 });
+
 $(".btn-stars").click(function () {
   if (btnch == false) {
     btnch = true;
@@ -29,3 +30,4 @@ $(".btn-stars").click(function () {
     }, 5000);
   }
 });
+

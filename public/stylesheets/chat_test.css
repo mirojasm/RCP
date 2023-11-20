@@ -44,6 +44,16 @@
   border-radius: 0;
 }
 
+#SendStarsButton1 {
+  height: 5.5rem;
+  width: 6rem;
+  font-size: 11px;
+  color: #ffffff;
+  background-color: #007bff;
+  border-color: #007bff;
+  border-radius: 0;
+}
+
 .chat ul {
   list-style-type: none;
   padding: 0;
@@ -81,6 +91,7 @@
   margin-bottom: 5px;
   border-radius: 5px;
   font-size: 14px;
+  align-self: flex-end;
 }
 
 
@@ -95,12 +106,25 @@
 }
 /* Estilos para mensajes del agente Peta */
 .other-message.peta {
-  background-color: #f27474b3;
+  background-color: rgba(213, 241, 233, 0.702);
+  margin-right: 30px;
 }
 
 /* Estilos para mensajes del agente Zeta */
 .other-message.zeta {
   background-color: #c2dca7b7;
+  margin-right: 30px;
+}
+
+.other-message.instruccion {
+  align-self: center;
+}
+
+.caja-chat {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  padding-left: 0px;
 }
 
 .distribution-input-btn {

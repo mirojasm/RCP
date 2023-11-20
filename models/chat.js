@@ -21,9 +21,11 @@ var parser = require('luaparse');
 DialogSystemCM = function (tipo) {
 	if (tipo === "constelaciones") {
 		var chatMapper = require('../chatMapper/constelaciones.json');
-	} else {
+	} else if(tipo === 'atomos'){
 		var chatMapper = require('../chatMapper/atomos.json');
-	}
+	} else {
+        var chatMapper = require('../chatMapper/constelaciones.json');
+    }
 
     var self = this;
     self.project = null;
@@ -187,13 +189,13 @@ DialogSystemCM = function (tipo) {
 
     //Slecciona la conversación actual y se posiciona en el nodo 0
     function SetConversation(n) {
-        console.log("setConversation "+n);
-        console.log("conversations: ");
+        //console.log("setConversation "+n);
+        //console.log("conversations: ");
         //console.log(self.project.Assets.Conversations);
         //console.log("n: ");
         //console.log(n);
         self.currentConversation = self.project.Assets.Conversations[n];
-        console.log("currentConversation: ");
+        //console.log("currentConversation: ");
         //console.log(self.currentConversation);
         self.currentNode = self.currentConversation.DialogNodes[0];
 
@@ -347,7 +349,7 @@ DialogSystemCM = function (tipo) {
 
         //Jump to another dialog?
         if (node.OutgoingLinks.length == 1 && node.OutgoingLinks[0].DestinationConvoID != self.currentConversation.ID) {
-            console.log("Jump to another conversation");
+            //console.log("Jump to another conversation");
             //SetConversation(self.GetConversationIndex(node.OutgoingLinks[0].DestinationConvoID));
             //scheduledNode = self.GetNode(node.OutgoingLinks[0].DestinationDialogID);
             self.PlayConversation(self.GetConversationIndex(node.OutgoingLinks[0].DestinationConvoID));
@@ -357,7 +359,7 @@ DialogSystemCM = function (tipo) {
         //If there is only 1 available node and it doesn't meet the condition, then skip to the next one so we don't get lost
         if (node.OutgoingLinks.length == 1) {
             var nextnode = self.GetNode(node.OutgoingLinks[0].DestinationDialogID);
-            console.log("Jump to the next dialog");
+            //console.log("Jump to the next dialog");
             if (!CheckCondition(nextnode)) {
                 self.NodeFinished(nextnode);
                 return;
@@ -372,7 +374,7 @@ DialogSystemCM = function (tipo) {
             //if (choices.length==1 && (choices[0].Fields["Menu Text"]=="" || choices[0].Fields["Menu Text"]==null)) {
             //console.log(choices[0]);
             //Just 1 choice, and no menu text -> we go to that node directly.
-            console.log("Just 1 choice, and no menu text -> we go to that node directly.");
+            //console.log("Just 1 choice, and no menu text -> we go to that node directly.");
             scheduledNode = choices[0]; //self.GetNode(node.OutgoingLinks[selectedOutgoingLink].DestinationDialogID);
             this.update();
         } else if (choices.length==0) {

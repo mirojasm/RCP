@@ -7,7 +7,7 @@ module.exports = function(io, socket) {
         cm = new chat(data.tipo_juego);
         cm.load();
         cm.AddEventListener("onNode", function(params) {
-			console.log("emit phrase event");
+			//console.log("emit phrase event");
             var actor = cm.GetActor(cm.currentNode.Fields["Actor"]);
             socket.emit('phrase', {author:actor, phrase:params});
     	});
@@ -22,25 +22,25 @@ module.exports = function(io, socket) {
             socket.emit('variables', cm.getVariables());
         });
   		
-        /*
-        console.log("tipo juego: "+data.tipo_juego);
-        console.log("Niveles de las estrellas");
-        console.log(starLevels());
-        console.log("Soluciones");
-        console.log(solutions());
-        console.log("Color");
-        console.log(color());
-        console.log("Segundo color");
-        console.log(secondColor());
-        console.log("Maxima seleccion");
-        console.log(maxSelect());
-        console.log("Niveles de las átomos");
-        console.log(starLevels2());
-        console.log("Soluciones átomos");
-        console.log(solutions2());
+        
+        // console.log("tipo juego: "+data.tipo_juego);
+        // console.log("Niveles de las estrellas");
+        // console.log(starLevels());
+        // console.log("Soluciones");
+        // console.log(solutions());
+        // console.log("Color");
+        // console.log(color());
+        // console.log("Segundo color");
+        // console.log(secondColor());
+        // console.log("Maxima seleccion");
+        // console.log(maxSelect());
+        // console.log("Niveles de las átomos");
+        // console.log(starLevels2());
+        // console.log("Soluciones átomos");
+        // console.log(solutions2());
 
-        console.log("Nombre de los jugadores: "+data.nombre_jugador);
-        */
+        // console.log("Nombre de los jugadores: "+data.nombre_jugador);
+        
         if(data.tipo_juego == 'constelaciones')
         {
             socket.emit('test',  {stars_level: JSON.stringify(starLevels()), solutions_level: JSON.stringify(solutions()),
@@ -477,7 +477,7 @@ function write_results(data) {
             return console.log(err);
         }
 
-        console.log("The file was saved!");
+        //console.log("The file was saved!");
     });
 }
 
@@ -494,7 +494,7 @@ function write_scores(data) {
             return console.log(err);
         }
 
-        console.log("The file scores was saved!");
+        //console.log("The file scores was saved!");
     });
 }
 

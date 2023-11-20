@@ -5,13 +5,13 @@ Orden del chat según yo:
 3
 4
 */
-
 var host = document.getElementById("client").getAttribute("host");
 var port = document.getElementById("client").getAttribute("port");
 
 var server = io.connect("localhost:3000");
 var server = io.connect(serverURL);
 var db;
+var nivel_actual = "level1";
 var etapas = new Array(0, 0, 0, 0);
 var imgmapa = {
   "0000": "e3.png",
@@ -47,6 +47,28 @@ var imgmapa = {
   2222: "e33.png",
 };
 const context = [];
+var varLevel = 0;
+var etapa = 0;
+
+
+/*
+rol: system: contexto, comportamiento de agente virtual
+rol: assistant: mensajes de respuesta (ejemplos)
+rol: user: prompt del usuario
+
+manejo de prompt para cada etapa (seleccion de color de cada agente)
+considerar como rol = 'system'
+mencionar color de cada agente por separado
+mencionar la misma matriz de estrellas para cada agente (Varía con cada etapa)
+
+Total de agentes: 2
+Total de etapas: 4
+Arreglo de max_estrellas_por_agente: []
+Arreglo de Total_color_por_agente: []
+Total de matriz distintas: 4
+*/
+
+var prompt_contexto = {nivel1:"",nivel2:"",nivel3:"",nivel4:""};
 
 //Evita el GoBack
 history.pushState(null, null, document.URL);
@@ -128,6 +150,7 @@ server.on("test", function (data) {
   indiceSeleccion = Math.floor(Math.random() * solutionsP2["level1"].length);
   opcionSeleccionarP2 = solutionsP2["level1"][indiceSeleccion];
   opcionSeleccionarP3 = solutionsP3["level1"][indiceSeleccion];
+  console.log("opciones elegidas: ", opcionSeleccionarP2,"-",opcionSeleccionarP3);
   valores = get_sent_data();
   nino_nombre = valores["nombre_s"];
   var cargar = valores["status"];
@@ -144,244 +167,67 @@ server.on("test", function (data) {
     server.emit("escribir_resultados", data);
   }
   startGame(set_stars(nivel_actual));
+  showStars();
   server.emit("playGame", {
     tipo_juego: tipo_juego(),
     nombre_jugador: get_sent_data()["nombre_s"],
   });
 });
 
-//revisar aqui
-function reiniciarLevel() {
-  var P = new Promise((resolve, reject) => {
-    if (nivel_actual === "level1") {
-      server.emit("conversationPlay", 10);
-      resolve("level4");
-    } else if (nivel_actual === "level4") {
-      server.emit("conversationPlay", 11);
-      resolve("level6");
-    } else if (nivel_actual === "level6") {
-      server.emit("conversationPlay", 12);
-      resolve("level8");
-    } else if (nivel_actual === "level8") {
-      server.emit("conversationPlay", 13);
-      resolve("final");
-    }
-  });
-
-  P.then((successMessage) => {
-    indiceSeleccion = Math.floor(
-      Math.random() * solutionsP2[nivel_actual].length
-    );
-    opcionSeleccionarP2 = solutionsP2[nivel_actual][indiceSeleccion];
-    opcionSeleccionarP3 = solutionsP3[nivel_actual][indiceSeleccion];
-    opcionColorP2 = colorP2[nivel_actual];
-    opcionColorP3 = colorP3[nivel_actual];
-    num_seleccionadas = 0;
-    estrellas_seleccionadas = [];
-    time_to_select = false;
-    arreglo_decision = [];
-    decision = false;
-    alert("pase aqui");
-    borrar_tablero();
-    startGame(set_stars(nivel_actual));
-    $(".erase_button").hide();
-    $("#image-final-level").hide();
-    $("#SendMessageButton1").hide();
-    $("#choicesTime").show();
-  });
-}
 
 function borrar_tablero() {
   layer.remove();
   layer2.remove();
 }
 
-// set de opciones que me llegan
-server.on("choices", function (data) {
-  //Creamos el html de las nuevas opciones
-  var content = "<div class='btn-group-vertical choices'>";
-  for (var i = 0; i < data.length; i++) {
-    var text =
-      data[i].Fields["Menu Text"] == ""
-        ? data[i].Fields["Dialogue Text"]
-        : data[i].Fields["Menu Text"];
-    text = parseText(text).text;
-    if (text.indexOf("[i]") != -1) {
-      text = text.slice(0, text.length - 3);
+
+//contexto de cada etapa
+//variable etapa anterior con resultados obtenidos
+function loadLevel(varLevel) {
+  var P = new Promise((resolve, reject) => {
+    if (varLevel === 2) {
+      $("#obj_game").attr("src", "../images/level_1_4.png");
+      nivel_actual = "level4";
+      resolve("level4");
+    } else if (varLevel === 3) {
+      $("#obj_game").attr("src", "../images/level_1_6.png");
+      nivel_actual = "level6";
+      resolve("level6");
+    } else if (varLevel === 4) {
+      $("#obj_game").attr("src", "../images/level_1_8.png");
+      nivel_actual = "level8";
+      resolve("level8");
     }
-
-    if (text.indexOf("XX1") != -1) {
-      var inicio = text.indexOf("XX1");
-      text =
-        text.slice(0, inicio) + jugador2 + text.slice(inicio + 3, text.length);
-    }
-    if (text.indexOf("XX2") != -1) {
-      var inicio = text.indexOf("XX2");
-      text =
-        text.slice(0, inicio) + jugador3 + text.slice(inicio + 3, text.length);
-    }
-
-    if (text.indexOf("[#]") != -1) {
-      var indices = [];
-      indices = getIndicesOf("[#]", text);
-      //alert("indices " + indices);
-      // generar array con 42 estrellas :
-      var lista_numeros = [];
-      for (var j = 1; j <= 42; j++) {
-        lista_numeros.push(j.toString());
-      }
-      var selector = "<select class='seleccionada" + data[i].ID + "'>";
-      //alert('seleccionada'+data[i].ID);
-      selector += "<option value='0'>*Elije*</option>";
-      for (var j = 0; j < lista_numeros.length; j++) {
-        selector +=
-          "<option value='" +
-          lista_numeros[j] +
-          "'>" +
-          lista_numeros[j] +
-          "</option>";
-      }
-      selector += "</select>";
-      for (var msge = 0; msge < indices.length; msge++) {
-        var inicio = text.indexOf("[#]");
-        text =
-          text.slice(0, inicio) +
-          selector +
-          text.slice(inicio + 3, text.length);
-      }
-      var hay_selector = true;
-      content +=
-        "<input type='radio' name='choice' class='opcion' data-selector='true' nodeid='" +
-        data[i].ID +
-        "' value='" +
-        data[i].ID +
-        "' >" +
-        " " +
-        text +
-        "<br>";
-      selector = "";
-    } else if (text.indexOf("[$]") != -1) {
-      indices = [];
-      indices = getIndicesOf("[$]", text);
-      //alert("indices " + indices);
-      // generar array con 42 estrellas ;
-      var opciones = ["rojo", "verde", "azul", "amarillo"];
-      var selector = "<select class='seleccionada" + data[i].ID + "'>";
-      //alert('seleccionada'+data[i].ID);
-      selector += "<option value='0'>*Elije*</option>";
-
-      for (var jc = 0; jc < opciones.length; jc++) {
-        selector +=
-          "<option value='" + opciones[jc] + "'>" + opciones[jc] + "</option>";
-      }
-      selector += "</select>";
-      for (var msge = 0; msge < indices.length; msge++) {
-        var inicio = text.indexOf("[$]");
-        text =
-          text.slice(0, inicio) +
-          selector +
-          text.slice(inicio + 3, text.length);
-      }
-      var hay_selector = true;
-      content +=
-        "<input type='radio' name='choice' class='opcion' data-selector='true' nodeid='" +
-        data[i].ID +
-        "' value='" +
-        data[i].ID +
-        "' >" +
-        " " +
-        text +
-        "<br>";
-      selector = "";
-    } else if (text.indexOf("[") !== -1) {
-      indices = [];
-      indices = getIndicesOf("[", text);
-      for (var msge = 0; msge < indices.length; msge++) {
-        var inicio = text.indexOf("[");
-        var fin = text.indexOf("]");
-        var opciones = text.slice(inicio + 1, fin);
-        opciones = opciones.split(",");
-        var selector = "<select class='seleccionada" + data[i].ID + "'>";
-        selector += "<option value='0'>*Elije*</option>";
-        for (var j = 0; j < opciones.length; j++) {
-          selector +=
-            "<option value='" + opciones[j] + "'>" + opciones[j] + "</option>";
-        }
-        selector += "</select>";
-        text =
-          text.slice(0, inicio) + selector + text.slice(fin + 1, text.length);
-        //text = text.slice(0, inicio) + selector + text.slice(inicio + 3, text.length);
-      }
-
-      var hay_selector = true;
-      content +=
-        "<input type='radio' name='choice' class='opcion' data-selector='true' nodeid='" +
-        data[i].ID +
-        "' value='" +
-        data[i].ID +
-        "' >" +
-        " " +
-        text +
-        "<br>";
-      selector = "";
-    } else {
-      content +=
-        "<input type='radio' name='choice' class='opcion' data-selector='false' nodeid='" +
-        data[i].ID +
-        "' value='" +
-        data[i].ID +
-        "' >" +
-        " " +
-        text +
-        "<br>";
-    }
-  }
-  content +=
-    "<input type='submit' name='submit' value='' class='btn btn-info aChoice' disabled></div>";
-  // Todo esto para transformar las opciones a botones.
-  //insertamos las opciones
-  $(".choices").replaceWith(content);
-
-  $("input:radio[name=choice]").change(function () {
-    //var data = "El niño ha cambiado su radio button a: " + this.value;
-    //server.emit('escribir_resultados', data);
   });
 
-  // aChoice es la clase de una opcion
-  // deshabilitar botones cuando envian
-  $(".aChoice").click(function () {
-    var opcion;
-    opcion = $("input:radio[name=choice]:checked").val();
-    hubo_selector = $("input:radio[name=choice]:checked").data("selector");
-    $(".aChoice").prop("disabled", true);
-    $(".opcion").prop("disabled", true);
-    $(".varChanged").prop("disabled", true);
-    server.emit("phraseChosen", opcion);
-    var data = "A-" + nino_nombre + "-nodo-" + opcion;
-    server.emit("escribir_resultados", data);
-  });
+  //REVISAR LA ELECCION DE ESTRELLAS POR DEFAULT
+  P.then((successMessage) => {
 
-  $(".opcion").click(function () {
-    $(".aChoice").prop("disabled", false);
-  });
+    indiceSeleccion = Math.floor(
+      Math.random() * solutionsP2[nivel_actual].length
+    );
 
-  $(".aChoice").each(function (i, d) {
-    $(d).emoji();
-  });
+    
+    opcionSeleccionarP2 = solutionsP2[nivel_actual][indiceSeleccion];
+    opcionSeleccionarP3 = solutionsP3[nivel_actual][indiceSeleccion];
+    
+    opcionColorP2 = colorP2[nivel_actual];
+    opcionColorP3 = colorP3[nivel_actual];
 
-  $(".varChanged").click(function () {
-    var nodeId = $(this).attr("nodeid");
-    var playerVars = new Array();
-    $(".aChoice").prop("disabled", true);
-    $(".varChanged").prop("disabled", true);
-    //alert(eleccionTT);
-    server.emit("varChanged", {
-      nodeId: nodeId,
-      vars: playerVars,
-      eleccionTT: eleccionTT,
-    });
+    num_seleccionadas = 0;
+    estrellas_seleccionadas = [];
+    time_to_select = false;
+    arreglo_decision = [];
+    decision = false;
+    console.log("opciones elegidas: ", opcionSeleccionarP2,"-",opcionSeleccionarP3);
+    borrar_tablero();
+    $(".erase_button").hide();
+    startGame(set_stars(nivel_actual));
+    $("#image-final-level").hide();
+    $("#selectionTime").hide();
+    $("#choicesTime").show();
   });
-});
+}
 
 var currentVariableState = new Array();
 currentVariableState["A1"] = -1;
@@ -467,41 +313,7 @@ var escribirPuntajes = function () {
   }
 };
 
-var loadDataVars = function (data) {
-  P = new Promise(function (resolve, reject) {
-    currentVariableState["A1"] = data["A1"];
-    currentVariableState["A2"] = data["A2"];
-    currentVariableState["A3"] = data["A3"];
-    currentVariableState["exp"] = data["exp"];
-    currentVariableState["Puntaje_I5"] = data["Puntaje_I5"];
-    currentVariableState["Puntaje_I6"] = data["Puntaje_I6"];
-    currentVariableState["Puntaje_I8"] = data["Puntaje_I8"];
-    currentVariableState["Puntaje_I9"] = data["Puntaje_I9"];
-    currentVariableState["Puntaje_I10"] = data["Puntaje_I10"];
-    currentVariableState["Puntaje_I11"] = data["Puntaje_I11"];
-    currentVariableState["Puntaje_I12"] = data["Puntaje_I12"];
-    currentVariableState["Puntaje_I14"] = data["Puntaje_I14"];
-    currentVariableState["Puntaje_I15"] = data["Puntaje_I15"];
-    currentVariableState["Puntaje_I16"] = data["Puntaje_I16"];
-    currentVariableState["Puntaje_I17"] = data["Puntaje_I17"];
-    currentVariableState["Puntaje_I18"] = data["Puntaje_I18"];
-    currentVariableState["Puntaje_I20"] = data["Puntaje_I20"];
-    currentVariableState["Puntaje_I21"] = data["Puntaje_I21"];
-    currentVariableState["Puntaje_I22"] = data["Puntaje_I22"];
-    currentVariableState["Puntaje_I23"] = data["Puntaje_I23"];
-    resolve("");
-  });
-  return P;
-};
-
-var varLevel = 0;
-var etapa = 0;
-
-
-// si te llegan variables. Como las nuevas estrellas del nivel.
-//revisar aqui
-server.on("variables", function (data) {
-
+function updateMap(etapa) {
   var imageArray = document.getElementById("client").getAttribute("imageNames");
 
   //console.log("data etapa: ",data);
@@ -512,8 +324,9 @@ server.on("variables", function (data) {
       "url(../images/" + imageArray[etapa] + ")"
     );
   }
+}
 
-  if (data["show_stars"] == 0) {
+function showStars() {
     layer.show();
     $('.mapa').html("<img class='img-mapa' src='../images/ETAPAS/'"+imgmapa[""+etapas[0]+etapas[1]+etapas[2]+etapas[3]]+"'>");
     $(".mapa").hide();
@@ -522,110 +335,54 @@ server.on("variables", function (data) {
       "../images/ETAPAS/" +
         imgmapa["" + etapas[0] + etapas[1] + etapas[2] + etapas[3]]
     );
-  } else {
+}
+
+//Agregado funcion de mostrar avance de actividad
+$(".btn-map").click(function showMap() {
     layer.hide();
-    $(".mapa").show();
     $(".img-mapa").attr(
       "src",
       "../images/ETAPAS/" +
         imgmapa["" + etapas[0] + etapas[1] + etapas[2] + etapas[3]]
     );
-  }
-
-  if (varLevel != data["level"]) {
-    alert("pasaron al nivel "+data["level"]);
-    varLevel = data["level"];
-    var P = new Promise((resolve, reject) => {
-      if (varLevel === 2) {
-        $("#obj_game").attr("src", "../images/level_1_4.png");
-        nivel_actual = "level4";
-        resolve("level4");
-      } else if (varLevel === 3) {
-        $("#obj_game").attr("src", "../images/level_1_6.png");
-        nivel_actual = "level6";
-        resolve("level6");
-      } else if (varLevel === 4) {
-        $("#obj_game").attr("src", "../images/level_1_8.png");
-        nivel_actual = "level8";
-        resolve("level8");
-      }
-    });
-
-    P.then((successMessage) => {
-      indiceSeleccion = Math.floor(
-        Math.random() * solutionsP2[nivel_actual].length
-      );
-      opcionSeleccionarP2 = solutionsP2[nivel_actual][indiceSeleccion];
-      opcionSeleccionarP3 = solutionsP3[nivel_actual][indiceSeleccion];
-      opcionColorP2 = colorP2[nivel_actual];
-      opcionColorP3 = colorP3[nivel_actual];
-
-      num_seleccionadas = 0;
-      estrellas_seleccionadas = [];
-      time_to_select = false;
-      arreglo_decision = [];
-      decision = false;
-      borrar_tablero();
-      startGame(set_stars(nivel_actual));
-      $("#image-final-level").hide();
-      $("#selectionTime").hide();
-      $("#choicesTime").show();
-    });
-  }
-  if (data["x1"] == true && nivel_actual == "nivel1") {
-    decision = true;
-    loadDataVars(data).then(function (successMessage) {
-      escribirPuntajes();
-    });
-  } else if (data["x2"] == true && nivel_actual == "nivel4") {
-    decision = true;
-    loadDataVars(data).then(function (successMessage) {
-      escribirPuntajes();
-    });
-  } else if (data["x3"] == true && nivel_actual == "nivel6") {
-    decision = true;
-    loadDataVars(data).then(function (successMessage) {
-      escribirPuntajes();
-    });
-  } else if (data["x4"] == true && nivel_actual == "nivel8") {
-    decision = true;
-    loadDataVars(data).then(function (successMessage) {
-      escribirPuntajes();
-    });
-  } else {
-    loadDataVars(data).then(function (successMessage) {
-      escribirPuntajes();
-    });
-  }
+    $(".mapa").show();
+    setTimeout(function () {
+      $(".mapa").hide();
+      layer.show();
+    }, 5000);
 });
 
-// por si la conversacion termina
-server.on("conversationEnd", function (data) {
-  var data = "A-" + nino_nombre + "-Estado-Tiempo para elegir las estrellas:";
-  server.emit("escribir_resultados", data);
-  $("#choicesTime").hide();
-  $("#selectionTime").show();
-  $("#selectionTimeButton").replaceWith(
-    "<input type='submit' name='submit' value='Enviar tus estrellas' id='selectionTimeButton' class='btn-group-vertical btn btn-info aChoice2' disabled>"
-  );
-  $("#selectionTimeButton").click(function () {
-    sendButtonClick();
-  });
-  time_to_select = true;
-});
 
 //revisar aqui
 var sendButtonClick = function () {
   var data = "A-" + nino_nombre + "-Estado-CLICK para enviar estrellas.";
   server.emit("escribir_resultados", data);
   $(".erase_button").hide();
+  var sendMessageButton = document.createElement('button');
+  sendMessageButton.type = 'button'; // Importante para evitar que el botón envíe el formulario
+  sendMessageButton.innerHTML = 'Enviar';
+  sendMessageButton.id = 'SendMessageButton1';
+  // Establece la función que quieres ejecutar cuando se haga clic en el botón
+  sendMessageButton.onclick = function(e) {
+      SendMessageClick(e)
+  };
+  $("#SendStarsButton1").replaceWith(sendMessageButton);
+
+  //estrellas elegidas
   estrellas_finales = (estrellas_seleccionadas)
     .concat(opcionSeleccionarP2)
     .concat(opcionSeleccionarP3);
   for (var au = 0; au < estrellas_finales.length; au++) {
     selectStar(estrellas_finales[au].toString());
   }
+  //conjunto de soluciones del nivel
   b = solutionsData[nivel_actual];
+
+  //SE CONSIDERA AQUI SI LOS AGENTES CAMBIAN SU ELECCION
+  //POR LA QUE SE INDICÓ POR EL USUARIO
+
+  //revisar esto
+  //aplicar cambio de decision cuando se identifica la etapa C1.
   if (decision) { //IF DECISION = TRUE
     var data =
       "A-" +
@@ -638,6 +395,7 @@ var sendButtonClick = function () {
       "-Estado-El resultado correcto es: " +
       JSON.stringify(b);
     server.emit("escribir_resultados", data);
+
     for (var select = 0; select < estrellas_seleccionadas.length; select++) {
       if (
         arreglo_decision.indexOf(estrellas_seleccionadas[select].toString()) ==
@@ -653,6 +411,7 @@ var sendButtonClick = function () {
       JSON.stringify(arreglo_decision);
     server.emit("escribir_resultados", data);
 
+    //comprueba si selección es igual a la solución
     for (var i = 0; i < b.length; i++) {
       var aparece = true;
       for (var j = 0; j < arreglo_decision.length; j++) {
@@ -665,7 +424,10 @@ var sendButtonClick = function () {
         break;
       }
     }
-  } else { //IF DECISION = FALSE
+  }
+
+  //Si decision es falso= se mantienen las estrellas de elegidas por los agentes de manera aleatoria 
+  else { //IF DECISION = FALSE
     var data =
       "A-" +
       nino_nombre +
@@ -692,16 +454,16 @@ var sendButtonClick = function () {
       JSON.stringify(b);
     server.emit("escribir_resultados", data);
 
-// b: lista de lista con los resultados correctos de la etapa [["1","2","3"],[]...]
-// Hacer comparación aquí de si los resultados en estrellas_finales corresponden
-// de las posibles listas existentes en b
-// for loop recorriendo b, viendo si el contenido de estrellas_finales calza
-// con el contenido de b
+    // b: lista de lista con los resultados correctos de la etapa [["1","2","3"],[]...]
+    // Hacer comparación aquí de si los resultados en estrellas_finales corresponden
+    // de las posibles listas existentes en b
+    // for loop recorriendo b, viendo si el contenido de estrellas_finales calza
+    // con el contenido de b
 
+    //revisar esta funcion para detectar que las estrellas pertenecen a la solución
+    //revisar boton de enviar estrellas, sigue disponible aun cuando no se eligen estrellas
 
-//revisar tambien que estrellas elegidas por los agentes, sean acuerdo de lo elegido
-//entre el grupo en conjunto y que esto varíe según lo conversado.
-//Estrellas elegida por jugador no es 1(verde), sino que "2"(azul)
+		//comprueba si selección es igual a la solución
     for (var i = 0; i < b.length; i++) {
       var aparece = true;
       for (var j = 0; j < estrellas_finales.length; j++) {
@@ -715,19 +477,42 @@ var sendButtonClick = function () {
       }
     }
   }
+
+  //Se movio afuera, dado que el cambio de nivel se debe hacer independiente 
+  //si el resultado es correcto o no
+  var nextLevel;
+  if (nivel_actual == "level1") {
+    etapas[0] = 2;
+    nextLevel = 2;
+  } else if (nivel_actual == "level4") {
+    etapas[1] = 2;
+    nextLevel = 3;
+  } else if (nivel_actual == "level6") {
+    etapas[2] = 2;
+    nextLevel = 4;
+  } else if (nivel_actual == "level8") {
+    etapas[0] = 2;
+    nextLevel = 5;
+  }
+
   if (aparece){ //aparece TRUE
+    resultado = "gana";
     $("#image-final-level").attr("src", "../images/level_won.png");
     var data =
       "A-" + nino_nombre + "-resultado-" + nivel_actual + "RESULTADO CORRECTO";
     server.emit("escribir_resultados", data);
     //var data = "A-" + nino_nombre + "-nodo-" + opcion;
     alert("aparece: TRUE");
+
     $("#image-final-level").show();
-    //decision = false;
+    // decision = false;
     setTimeout(function () {
-      reiniciarLevel();
+      $("#image-final-level").hide();
+      revision(nextLevel,resultado);
+      // loadLevel(nextLevel);
     }, 5000);
   } else { //aparece FALSE
+    resultado = "pierde";
     $("#image-final-level").attr("src", "../images/level_lost.png");
     var data =
       "A-" +
@@ -738,12 +523,37 @@ var sendButtonClick = function () {
     server.emit("escribir_resultados", data);
     alert("aparece: FALSE");
     $("#image-final-level").show();
-    //decision = false;
+    // decision = false;
+    //estado monitoreo: mostrar el resultado, pero no pasar al siguiente nivel
     setTimeout(function () {
-      reiniciarLevel();
+      $("#image-final-level").hide();
+      revision(nextLevel,resultado);
     }, 5000);
   }
 };
+
+/* FUNCION MONITOREO
+  -Cambiar nombre y funcion del boton "deshacer seleccion":
+    Pierde: "reintentar"
+    Gana: "Siguiente nivel"
+*/
+function revision(level,resultado){
+  console.log("resultado: ",resultado);
+
+  if (resultado === "gana") {
+    context.push({ role: "system", content: "El resultado de la etapa fue bueno, felicitaciones, ahora deben realizar una breve discusion con el usuario"});
+  }
+  else if (resultado === "pierde") {
+    context.push({ role: "system", content: "El resultado de la etapa fue malo, deben revisar sus respuestas elegidas, discutir sus elecciones y volver a intentarlo"});
+  }
+  $(".erase_button").text("Siguiente nivel");
+  // $(".erase_button").attr("onclick",loadLevel(level));
+  $(document).ready(function() {
+    $(".erase_button").click(function () {
+      loadLevel(level);
+    });
+  });
+}
 
 server.on("updateGame", function (data) {
   var d = $(".game");
@@ -863,9 +673,12 @@ function startGame(data) {
   mensajeColorMalo.hide();
   stage.add(layer);
   stage.add(layer2);
+  $(".erase_button").attr("onclick","unselectStar()");
+  $(".erase_button").text("Deshacer selección");
 }
 
 //revisar aqui
+//Cuando hace click en una estrella
 function addStar(i) {
   var rtrim = /^\s+|\s+$/g;
   stars[i].on("click tap", function () {
@@ -900,9 +713,8 @@ function addStar(i) {
             "-Estado-Estrellas seleccionadas hasta el momento: " +
             JSON.stringify(estrellas_seleccionadas);
           server.emit("escribir_resultados", data);
-
           $(".erase_button").show();
-          $("#chat_button").prop("disabled", false);
+          $("#SendStarsButton1").prop("disabled", false);
         } else if (mensajePantalla == false) {
           var data =
             "A-" +
@@ -958,9 +770,10 @@ function addStar(i) {
         nino_nombre +
         "-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.";
       server.emit("escribir_resultados", data);
-      $("#selectionTimeButton").prop("disabled", false);
+      $("#SendStarsButton1").prop("disabled", false);
     }
   });
+
   numbers[i].on("click tap", function () {
     if (time_to_select == true) {
       if (
@@ -1050,13 +863,16 @@ function addStar(i) {
         nino_nombre +
         "-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.";
       server.emit("escribir_resultados", data);
-      $("#selectionTimeButton").prop("disabled", false);
+      $("#SendStarsButton1").prop("disabled", false);
     }
   });
   layer.add(stars[i]);
   layer.add(numbers[i]);
 }
 
+
+//REVISAR AQUI PARA SELECCION DE ESTRELLAS 
+//LOS RESULTADOS LOS MUESTRA DE MANERA INCORRECTA
 function selectStar(i) {
   //genera el circulo que ensierra la estrella
   var circle = new Kinetic.Circle({
@@ -1067,11 +883,10 @@ function selectStar(i) {
     strokeWidth: 3,
   });
   $(".erase_button").show();
+  $(".objective").css("margin-top","-255px");
   layer2.add(circle);
   layer2.drawScene();
 }
-
-$(".erase_button").click(unselectStar);
 
 function unselectStar() {
   // quita la seleccion de una estrella
@@ -1087,8 +902,9 @@ function unselectStar() {
   star_select = new Array(42 + 1).join("0").split("");
   num_seleccionadas = 0;
   estrellas_seleccionadas = [];
-  $("#selectionTimeButton").prop("disabled", true);
+  $("#SendStarsButton1").prop("disabled", true);
   $(".erase_button").hide();
+  $(".objective").css("margin-top","-225px");
 }
 
 function set_stars(level) {
@@ -1096,7 +912,7 @@ function set_stars(level) {
   server.emit("escribir_resultados", data);
   starsArray = new Array();
   console.log("level: "+level);
-  if (level == "level1") {
+  if (level == "level1") { //LEVEL 1
     stars_current_level = levelsData.level1;
     $("#lb_etapa").text("Nivel 1");
     cambiar_label_color();
@@ -1120,7 +936,7 @@ function set_stars(level) {
     current_second_color = secondColorData.level3[0];
     current_solution = solutionsData.level3;
     current_max_select = maxSelectData.level3[0];
-  } else if (level == "level4") {
+  } else if (level == "level4") { //LEVEL 4
     stars_current_level = levelsData.level4;
     $("#lb_etapa").text("Nivel 2");
     cambiar_label_color();
@@ -1136,7 +952,7 @@ function set_stars(level) {
     current_second_color = secondColorData.level5[0];
     current_solution = solutionsData.level5;
     current_max_select = maxSelectData.level5[0];
-  } else if (level == "level6") {
+  } else if (level == "level6") { //LEVEL 6
     stars_current_level = levelsData.level6;
     $("#lb_etapa").text("Nivel 3");
     ocultar_color_data();
@@ -1152,7 +968,7 @@ function set_stars(level) {
     current_second_color = secondColorData.level7[0];
     current_solution = solutionsData.level7;
     current_max_select = maxSelectData.level7[0];
-  } else if (level == "level8") {
+  } else if (level == "level8") { //LEVEL 8
     stars_current_level = levelsData.level8;
     $("#lb_etapa").text("Nivel 4");
     ocultar_color_data();
@@ -1230,7 +1046,6 @@ function set_stars(level) {
     posX: 0.8,
     posY: 0.16,
   };
-
   starsArray[7] = {
     realColor: stars_current_level[7],
     posX: 0.2,
@@ -1266,7 +1081,6 @@ function set_stars(level) {
     posX: 0.8,
     posY: 0.26,
   };
-
   starsArray[14] = {
     realColor: stars_current_level[14],
     posX: 0.2,
@@ -1302,7 +1116,6 @@ function set_stars(level) {
     posX: 0.8,
     posY: 0.36,
   };
-
   starsArray[21] = {
     realColor: stars_current_level[21],
     posX: 0.2,
@@ -1338,7 +1151,6 @@ function set_stars(level) {
     posX: 0.8,
     posY: 0.46,
   };
-
   starsArray[28] = {
     realColor: stars_current_level[28],
     posX: 0.2,
@@ -1374,7 +1186,6 @@ function set_stars(level) {
     posX: 0.8,
     posY: 0.56,
   };
-
   starsArray[35] = {
     realColor: stars_current_level[35],
     posX: 0.2,
@@ -1410,7 +1221,6 @@ function set_stars(level) {
     posX: 0.8,
     posY: 0.66,
   };
-
   return starsArray;
 }
 
@@ -1541,84 +1351,128 @@ function colorToSpanish(color) {
     return resultado;
   }
 }
-/* --------------- */
-// Al cargar la página, configurar el último agente utilizado como "Peta"
-let lastAgentUsed = "Zeta";
-var check=false;
-$("#SendMessageButton1").click((e) => {
-  e.preventDefault();
 
+/* --------------------------------------------- */
+//agente random al principio
+agentes = ["peta","zeta"]
+
+let random = Math.floor(Math.random() * [agentes].length);
+let lastAgentUsed = agentes[random];
+var check=false;
+
+
+//agregar un cambio de contexto para en función de la etapa
+function SendMessageClick(e){
+  e.preventDefault();
+  let chatHistory = $(".chat-history1 ul");
   const message = $("#message-to-send1").val();
   let agentName = "";
-  console.log(message);
-  // Expresión regular para buscar el nombre del agente en el mensaje
-  const agentRegex = /(Peta|Zeta)/i;
-  const match = message.match(agentRegex);
+  //Si el mensaje no esta vacío continuar con conversación
+  if (message != ""){
+    console.log(message);
+    // Expresión regular para buscar el nombre del agente en el mensaje
+    const agentRegex = /(Peta|Zeta)/i;
+    const match = message.match(agentRegex);
 
-  if (match) {
-    agentName = match[0].toLowerCase(); // Convertir el nombre del agente a minúsculas
-    lastAgentUsed = agentName; // Actualizar el último agente utilizado
-  } else {
-    // Si no se detecta ningún agente en el mensaje, utilizar el último agente utilizado
-    agentName = lastAgentUsed;
-  }
-
-  let context = [];
-  let chatHistory = $(".chat-history1 ul"); // Utilizamos chat-history1
-
-  context.push({ role: "user", content: message });
-  const li = $("<li class='message my-message'></li>").text(message);
-  chatHistory.append(li);
-  $("#message-to-send1").val("");
-
-  const loadingIcon = $("<li class='message loading-message'></li>");
-  const spinner = $("<div class='loading-spinner'></div>");
-  loadingIcon.append(spinner).append("Escribiendo...");
-  chatHistory.append(loadingIcon);
-
-  const apiUrl = agentName === "peta" ? "/api/openai1" : "/api/openai2";
-  fetch(apiUrl, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({ context: context }),
-  })
-    .then((res) => res.json())
-    .then((data) => {
-      chatHistory.find("li.loading-message").remove();
-      if(data.response==="Acuerdo"){
-        $("#SendMessageButton1").replaceWith(
-          "<input type='submit' name='submit' value='Enviar tus estrellas' id='SendMessageButton1'>"
-        );
-        $("#SendMessageButton1").click(function () {
-          sendButtonClick();
-        });
-        time_to_select = true;
-      }
-      else{
-      const li = $("<li class='message other-message'></li>").text(
-        data.response
-      );
-      // Agregar nombre del agente y cambiar color según el agente
-      if (agentName === "peta") {
-        li.prepend("<span class='agent-name' style='color: #ff7f50;'>Peta:</span> ");
-      } else if (agentName === "zeta") {
-        li.prepend("<span class='agent-name' style='color: #7fff00;'>Zeta:</span> ");
-      }
-      else{
-        agentName="zeta";
-        li.prepend("<span class='agent-name' style='color: #7fff00;'>Zeta:</span> ");
-      }
-      li.addClass(agentName);
-
-      chatHistory.append(li);
-      chatHistory.scrollTop(chatHistory[0].scrollHeight);
+    if (match) {
+      agentName = match[0].toLowerCase(); // Convertir el nombre del agente a minúsculas
+      lastAgentUsed = agentName; // Actualizar el último agente utilizado
+    } else {
+      // Si no se detecta ningún agente en el mensaje, utilizar el último agente utilizado
+      agentName = lastAgentUsed;
     }
-    });
-  chatHistory.scrollTop(chatHistory[0].scrollHeight);
-});
 
+     // Utilizamos chat-history1
+
+    context.push({ role: "user", content: message });
+		
+    const li = $("<li class='message my-message'></li>").text(message);
+    chatHistory.append(li);
+    $("#message-to-send1").val("");
+
+    const loadingIcon = $("<li class='message loading-message'></li>");
+    const spinner = $("<div class='loading-spinner'></div>");
+    loadingIcon.append(spinner).append("Escribiendo...");
+    chatHistory.append(loadingIcon);
+
+    const apiUrl = agentName === "peta" ? "/api/openai1" : "/api/openai2";
+    fetch(apiUrl, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ context: context }),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        chatHistory.find("li.loading-message").remove();
+
+        /*        
+          Cambio de estrella:
+            Detectar con data.response "Cambio de estrella" y saber a que agente le corresponde
+            cuando se detecta cambiar la variable opcionSeleccionarP(1-2), para ello, detectar
+            que estrella estuvieron de acuerdo a cambiar.
+        */
+        // console.log(data);
+
+        if (data.response.Etapa==="Planificacion_y_ejecucion_de_la_solucion" && data.response.Acuerdo==="1") {
+          if (agentName==="peta") {
+            opcionSeleccionarP2=data.response.Estrella;
+          }
+          else{
+            opcionSeleccionarP3=data.response.Estrella;
+          }
+          decision = true;
+        };
+
+        /*        
+          Acuerdo:
+            Detectar con data.response "Acuerdo" y cuando los agentes se ponen de acuerdo
+            y pasar a la etapa de seleccion de estrellas.
+        */
+        if(data.response==="Acuerdo"){
+          alert("acuerdo");
+          //Funcion de acuerdo
+          $("#SendMessageButton1").replaceWith(
+            "<button type='button' id='SendStarsButton1' onclick='sendButtonClick()'>Enviar tus estrellas</button>"
+          );
+          time_to_select = true;
+          $("#SendStarsButton1").prop("disabled", true);
+        }
+        /*        
+          Mensaje:
+            En caso de que no corresponda a ninguno de los casos anteriores, solo se considera
+            el mensaje de respuesta de la API y se muestra en el Chat.
+        */
+        else{
+        const li = $("<li class='message other-message'></li>").text(
+          data.response.mensaje
+        );
+        // Agregar nombre del agente y cambiar color según el agente
+        // Cambiado color de fondo del chat de Peta
+        if (agentName === "peta") {
+          context.push({ role: "assistant", content: "Peta: "+data.response.mensaje});
+          li.prepend("<span class='agent-name' style='color: #0cff00;'>Peta:</span> ");
+        } else if (agentName === "zeta") {
+          context.push({ role: "assistant", content: "Zeta: "+data.response.mensaje});
+          li.prepend("<span class='agent-name' style='color: #7fff00;'>Zeta:</span> ");
+        }
+        else{
+          agentName="zeta";
+          context.push({ role: "assistant", content: "Zeta: "+data.response.mensaje});
+          li.prepend("<span class='agent-name' style='color: #7fff00;'>Zeta:</span> ");
+        }
+        li.addClass(agentName);
+
+        chatHistory.append(li);
+        chatHistory.scrollTop(chatHistory[0].scrollHeight);
+      }
+      });
+    chatHistory.scrollTop(chatHistory[0].scrollHeight);
+  }
+}
+
+$("#SendMessageButton1").click(SendMessageClick);
 
 //Estados de la app
 $("#Estado_uno").click(() => {
@@ -1633,6 +1487,9 @@ $("#Estado_uno").click(() => {
 });
 
 $("#Estado_dos").click(() => {
+  $("#SendMessageButton1").replaceWith(
+          "<button type='button' id='SendStarsButton1' onclick='sendButtonClick()'>Enviar tus estrellas</button>"
+  );
   time_to_select = true;
 });
 
