@@ -66,9 +66,21 @@ Total de etapas: 4
 Arreglo de max_estrellas_por_agente: []
 Arreglo de Total_color_por_agente: []
 Total de matriz distintas: 4
+
+context.push({ role: "assistant", content: "Peta: "+data.response.mensaje});
 */
 
-var prompt_contexto = {nivel1:"",nivel2:"",nivel3:"",nivel4:""};
+var prompt_contexto = 
+  [
+    { //PETA
+        role: "system", 
+        content: "",
+    },
+    { //ZETA
+        role: "system",
+        content: "",
+    }
+  ];
 
 //Evita el GoBack
 history.pushState(null, null, document.URL);
@@ -912,14 +924,27 @@ function set_stars(level) {
   server.emit("escribir_resultados", data);
   starsArray = new Array();
   console.log("level: "+level);
+
+  //AÑADIR AQUI EL PROMPT DE CADA AGENTE SEGUN ETAPA
+  //Se limpia las variables de contexto para asignarla de manera limpia a cada agente por etapa
+  prompt_contexto[0].content = "";
+  prompt_contexto[1].content = "";
+  context.shift();
+
   if (level == "level1") { //LEVEL 1
     stars_current_level = levelsData.level1;
     $("#lb_etapa").text("Nivel 1");
     cambiar_label_color();
+
     current_color = colorData.level1[0];
     current_second_color = secondColorData.level1[0];
     current_solution = solutionsData.level1;
     current_max_select = maxSelectData.level1[0];
+
+    prompt_contexto[0].content = "\nEl mapa de estrellas es "+levelsData.level1+"\n ver el mapa como una matriz de 7 columnas y 6 filas\nTu color designado es el "+colorData.level1[1]+"\nla constelacion objetivo debe cumplir con los siguientes colores "+colorData.level1;
+    prompt_contexto[1].content = "\nEl mapa de estrellas es "+levelsData.level1+"\n ver el mapa como una matriz de 7 columnas y 6 filas\nTu color designado es el "+colorData.level1[2]+"\nla constelacion objetivo debe cumplir con los siguientes colores "+colorData.level1;
+
+
   } else if (level == "level2") {
     stars_current_level = levelsData.level2;
     $("#lb_etapa").text("Nivel 2");
@@ -944,6 +969,10 @@ function set_stars(level) {
     current_second_color = secondColorData.level4[0];
     current_solution = solutionsData.level4;
     current_max_select = maxSelectData.level4[0];
+
+    prompt_contexto[0].content = "\nEl mapa de estrellas es "+levelsData.level4+"\n ver el mapa como una matriz de 7 columnas y 6 filas\nTu color designado es el "+colorData.level4[1]+"\nla constelacion objetivo debe cumplir con los siguientes colores "+colorData.level4;
+    prompt_contexto[1].content = "\nEl mapa de estrellas es "+levelsData.level4+"\n ver el mapa como una matriz de 7 columnas y 6 filas\nTu color designado es el "+colorData.level4[2]+"\nla constelacion objetivo debe cumplir con los siguientes colores "+colorData.level4;
+
   } else if (level == "level5") {
     stars_current_level = levelsData.level5;
     $("#lb_etapa").text("Nivel 5");
@@ -960,6 +989,12 @@ function set_stars(level) {
     current_second_color = secondColorData.level6[0];
     current_solution = solutionsData.level6;
     current_max_select = maxSelectData.level6[0];
+
+    prompt_contexto[0].content = "\nEl mapa de estrellas es "+levelsData.level6+"\n ver el mapa como una matriz de 7 columnas y 6 filas\nTu color designado es el "+colorData.level6[1]+"\nTu segundo color designado es el "+secondColorData.level6[1]+"\nla constelacion objetivo debe cumplir con los siguientes colores "+colorData.level6;
+    prompt_contexto[1].content = "\nEl mapa de estrellas es "+levelsData.level6+"\n ver el mapa como una matriz de 7 columnas y 6 filas\nTu color designado es el "+colorData.level6[2]+"\nla constelacion objetivo debe cumplir con los siguientes colores "+colorData.level6;
+
+
+
   } else if (level == "level7") {
     stars_current_level = levelsData.level7;
     $("#lb_etapa").text("Nivel 7");
@@ -976,6 +1011,10 @@ function set_stars(level) {
     current_second_color = secondColorData.level8[0];
     current_solution = solutionsData.level8;
     current_max_select = maxSelectData.level8[0];
+
+    prompt_contexto[0].content = "\nEl mapa de estrellas es "+levelsData.level8+"\n ver el mapa como una matriz de 7 columnas y 6 filas\nTu color designado es el "+colorData.level8[1]+"\nla constelacion objetivo debe cumplir con los siguientes colores "+colorData.level8;
+    prompt_contexto[1].content = "\nEl mapa de estrellas es "+levelsData.level8+"\n ver el mapa como una matriz de 7 columnas y 6 filas\nTu color designado es el "+colorData.level8[2]+"\nla constelacion objetivo debe cumplir con los siguientes colores "+colorData.level8;
+
   }
 
   if (current_color == "g") {
@@ -1382,6 +1421,12 @@ function SendMessageClick(e){
       agentName = lastAgentUsed;
     }
 
+    var prompt_agente = "";
+    if (agentName==="peta") {
+      prompt_agente = prompt_contexto[0];
+    } else {
+      prompt_agente = prompt_contexto[1];
+    }
      // Utilizamos chat-history1
 
     context.push({ role: "user", content: message });
@@ -1395,13 +1440,14 @@ function SendMessageClick(e){
     loadingIcon.append(spinner).append("Escribiendo...");
     chatHistory.append(loadingIcon);
 
+    // console.log("prompt agente: ",prompt_agente);
     const apiUrl = agentName === "peta" ? "/api/openai1" : "/api/openai2";
     fetch(apiUrl, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ context: context }),
+      body: JSON.stringify({ context: [prompt_agente].concat(context)}),
     })
       .then((res) => res.json())
       .then((data) => {
@@ -1413,8 +1459,6 @@ function SendMessageClick(e){
             cuando se detecta cambiar la variable opcionSeleccionarP(1-2), para ello, detectar
             que estrella estuvieron de acuerdo a cambiar.
         */
-        // console.log(data);
-
         if (data.response.Etapa==="Planificacion_y_ejecucion_de_la_solucion" && data.response.Acuerdo==="1") {
           if (agentName==="peta") {
             opcionSeleccionarP2=data.response.Estrella;

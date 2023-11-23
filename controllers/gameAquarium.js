@@ -48,6 +48,13 @@ module.exports = function(io, socket) {
                 atoms_level: JSON.stringify(starLevels2()), solutions_atoms: JSON.stringify(solutions2()), partners: getPartners(data.nombre_jugador)
             });
         }
+        else if (data.tipo_juego == 'constelaciones_test') 
+        {
+            socket.emit('test',  {stars_level: JSON.stringify(starLevels()), solutions_level: JSON.stringify(solutions()),
+                color: JSON.stringify(color()), second_color: JSON.stringify(secondColor()), max_select: JSON.stringify(maxSelect()),
+                atoms_level: JSON.stringify(starLevels2()), solutions_atoms: JSON.stringify(solutions2()), partners: getPartners(data.nombre_jugador)
+            });
+        }
         else{
             socket.emit('test',  {stars_level: JSON.stringify(starLevels()), solutions_level: JSON.stringify(solutions()),
                 color: JSON.stringify(color_atoms()), second_color: JSON.stringify(secondColor_atoms()), max_select: JSON.stringify(maxSelect_atoms()),

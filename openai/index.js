@@ -1,3 +1,4 @@
+const { json } = require("body-parser");
 const { response } = require("express");
 const { Configuration, OpenAIApi } = require("openai");
 const config = new Configuration({
@@ -27,7 +28,7 @@ const SYSTEM_MESSAGE1 = {
 
 	"Vas a simular ser un niño llamado Peta " +
 
-  "debes hablar con un léxico que pertenezca al de un niño pequeño"+
+  "debes hablar como si fuera un estudiante de escuela"+
 
 	"\ntu rol principal será ayudar al resto del equipo a resolver las diferentes actividades que deben realizar"+
 
@@ -37,9 +38,9 @@ const SYSTEM_MESSAGE1 = {
 
   // "\nResponder al jugador con sugerencias de que se debería hacer siguiendo las etapas para resolver un problema"+
 
-  "\nResponder las respuestas 'si' o afirmativas haciendo una continuación del contexto de la actividad"+
+  // "\nResponder las respuestas 'si' o afirmativas haciendo una continuación del contexto de la actividad"+
 
-  "\nResponder las respuestas 'no' o negativas haciento una continuación del contexto de la actividad"+
+  // "\nResponder las respuestas 'no' o negativas haciento una continuación del contexto de la actividad"+
 
 	"\nLa interfaz muestra un conjunto de estrellas de colores y con un número correlativo de izquierda a derecha y de arriba abajo para indentificarlas"+
 
@@ -48,12 +49,6 @@ const SYSTEM_MESSAGE1 = {
 	"\nHay un botón con un ícono de “ojo” que al presionar muestra la constelación que deben formar"+
 
 	"\nHay un botón con un ícono de “estrella” que indica el color de la estrella que se le asignó cada miembro del equipo"+
-
-	"\nA Peta se le asigno el color verde, al usuario el color azul y a Zeta el color rojo"+
-
-	"\nConsidera la siguiente matriz de estrellas:"+
-  
-  "\n[[g,b,r,f,g,r,b], [f,r,g,r,f,g,r], [r,g,f,g,r,b,f],[g,f,b,f,g,b,r],[g,b,r,r,f,b,g],[f,r,f,g,b,f,b]]"+
 
   "\ndonde cada estrella será una letra que indica su color, siendo 'g' si es verde, 'r' si es roja, 'b' si es azul y 'f' si es amarilla\n"+
 
@@ -66,11 +61,8 @@ const SYSTEM_MESSAGE1 = {
 	"\nLa conversación sólo debe estar relacionada a la actividad, cualquier preguntar fuera de contexto de la actividad debe ser respondida indicando: \n 'La pregunta esta fuera de contexto, por favor realizar una pregunta sobre la actividad'"+
 
   // FORMATO
-
-	// "\nTodas tus respuestas deben estar en formato Json, sin desviaciones"+
 	"\nTu mensaje de respuesta sea corto"+
-  // PRUEBA PARA ALUCINACIONES DE CHATGPT Y EVITAR QUE UTILICE FUNCIONES
-  // QUE NO HAN SIDO CREADAS
+
   "\nOnly use the functions you have been provided with."
 };
 
@@ -83,14 +75,9 @@ const SYSTEM_MESSAGE2 = {
 
 	"Vas a simular ser un niño años llamado Zeta " +
 
-  "debes hablar con un léxico que pertenezca al de un niño pequeño"+
+  "debes hablar como si fuera un estudiante de escuela"+
 
-	"\ntu rol principal será ayudar al resto del equipo a resolver las diferentes actividades que deben realizar"+
-
-	// "\nDebes hacer sugerencias relacionadas para poder evaluar las habilidades de la tabla PISA para medir las habilidades de resolución de problemas colaborativos"+
-
-//niño de 10 años
-
+	"\nTu rol principal será ayudar al resto del equipo a resolver las diferentes actividades que deben realizar"+
 
   // TAREA
   
@@ -98,9 +85,9 @@ const SYSTEM_MESSAGE2 = {
 
   // "\nResponder al jugador con sugerencias de que se debería hacer siguiendo las etapas para resolver un problema"+
 
-  "\nResponder las respuestas 'si' o afirmativas haciendo una continuación del contexto de la actividad"+
+  // "\nResponder las respuestas 'si' o afirmativas haciendo una continuación del contexto de la actividad"+
 
-  "\nResponder las respuestas 'no' o negativas haciento una continuación del contexto de la actividad"+
+  // "\nResponder las respuestas 'no' o negativas haciento una continuación del contexto de la actividad"+
 
   "\nLa interfaz muestra un conjunto de estrellas de colores y con un número correlativo de izquierda a derecha y de arriba abajo para indentificarlas"+
 
@@ -110,11 +97,7 @@ const SYSTEM_MESSAGE2 = {
 
 	"\nHay un botón con un ícono de “estrella” que indica el color de la estrella que se le asignó cada miembro del equipo"+
 
-	"\nA Peta se le asigno el color verde, al usuario el color azul y a Zeta el color rojo"+
-
-	"\nConsidera el siguiente conjunto de estrellas representados por una matriz:\n[[g,b,r,f,g,r,b], [f,r,g,r,f,g,r], [r,g,f,g,r,b,f],[g,f,b,f,g,b,r],[g,b,r,r,f,b,g],[f,r,f,g,b,f,b]]\n donde cada estrella será una letra que indica su color, siendo 'g' si es verde, 'r' si es roja, 'b' si es azul y 'f' si es amarilla\n"+
-
-	"\nAsignar un número correlativo a cada estrella en la matriz"+
+  "\nAsignar un número correlativo a cada estrella en la matriz"+
 
 	"\nEl objetivo es que Peta, Zeta y el usuario elijan una constelacion que tenga sus colores de estrella de forma consecutiva en la matriz"+
 
@@ -124,12 +107,8 @@ const SYSTEM_MESSAGE2 = {
 
   // FORMATO
 
-	// "\nTodas tus respuestas deben estar en formato Json, sin desviaciones"+
-  // "\nSolo utilizar palabras que pueda entender un niño de 10 años "+
-  "\nCambiar nombre matriz por dibujo"+
 	"\nTu mensaje de respuesta sea corto"+
-  // PRUEBA PARA ALUCINACIONES DE CHATGPT Y EVITAR QUE UTILICE FUNCIONES
-  // QUE NO HAN SIDO CREADAS
+
   "\nOnly use the functions you have been provided with."
 };
 
@@ -206,7 +185,7 @@ const funciones = [
             //mejorar este atributo
             "mensaje": {
                 "type": "string",
-                "description": "responder al usuario si estas de acuerdo con lo que indica",
+                "description": "",
             },              
             "Etapa": {
               "type": "string",
@@ -214,7 +193,7 @@ const funciones = [
             },
             "Acuerdo":{
               "type": "string",
-              "description": "0 si no estan de acuerdo, 1 si estan de acuerdo"
+              "description": "1 si estas de acuerdo y corresponde a tu color asignado, de lo contrario responder con 0"
             },
             "Estrella":{
               "type": "number",
@@ -286,19 +265,19 @@ var etapa = "";
 // API AGENTE PETA
 const generateResponseFromMessages1 = async (messages) => {
   // return "Acuerdo"; //BYPASS EN CASO DE NO TENER INTERNET PARA CHATGPT
+  console.log("messages: ",messages);
   const response = await openai1.createChatCompletion({
-    model: "gpt-4-1106-preview",
+    model: "gpt-4",
     messages: [SYSTEM_MESSAGE1].concat(messages),
     temperature: 0,
     functions: funciones,
     function_call: "auto",
   });
   
-
   //caso cuando no utiliza una funcion para responder
   if (response.data.choices[0].message.content != null){
     const response1 = await openai1.createChatCompletion({
-      model: "gpt-4-1106-preview",
+      model: "gpt-4",
       messages: [SYSTEM_MESSAGE1].concat(messages),
       temperature: 0,
     });
@@ -341,6 +320,7 @@ const generateResponseFromMessages1 = async (messages) => {
 //API AGENTE ZETA
 const generateResponseFromMessages2 = async (messages) => {
   // return "Acuerdo";
+  console.log("messages: ",messages);
   const response = await openai2.createChatCompletion({
     model: "gpt-4-1106-preview",
     messages: [SYSTEM_MESSAGE2].concat(messages),
@@ -357,7 +337,8 @@ const generateResponseFromMessages2 = async (messages) => {
       messages: [SYSTEM_MESSAGE2].concat(messages),
       temperature: 0,
     });
-    return response2.data.choices[0].message.content;
+    // console.log("response 2:",response2.data.choices[0]);
+    return {"mensaje":response2.data.choices[0].message.content};
   }
 
   console.log({
