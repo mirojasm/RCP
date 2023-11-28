@@ -1,10 +1,3 @@
-/*
-Orden del chat según yo:
-2
-1
-3
-4
-*/
 var host = document.getElementById("client").getAttribute("host");
 var port = document.getElementById("client").getAttribute("port");
 
@@ -67,7 +60,6 @@ Arreglo de max_estrellas_por_agente: []
 Arreglo de Total_color_por_agente: []
 Total de matriz distintas: 4
 
-context.push({ role: "assistant", content: "Peta: "+data.response.mensaje});
 */
 
 var prompt_contexto = 
@@ -219,7 +211,6 @@ function loadLevel(varLevel) {
       Math.random() * solutionsP2[nivel_actual].length
     );
 
-    
     opcionSeleccionarP2 = solutionsP2[nivel_actual][indiceSeleccion];
     opcionSeleccionarP3 = solutionsP3[nivel_actual][indiceSeleccion];
     
@@ -364,8 +355,6 @@ $(".btn-map").click(function showMap() {
     }, 5000);
 });
 
-
-//revisar aqui
 var sendButtonClick = function () {
   var data = "A-" + nino_nombre + "-Estado-CLICK para enviar estrellas.";
   server.emit("escribir_resultados", data);
@@ -376,17 +365,10 @@ var sendButtonClick = function () {
   sendMessageButton.id = 'SendMessageButton1';
   // Establece la función que quieres ejecutar cuando se haga clic en el botón
   sendMessageButton.onclick = function(e) {
-      SendMessageClick(e)
+      SendMessageClick(e);
   };
   $("#SendStarsButton1").replaceWith(sendMessageButton);
 
-  //estrellas elegidas
-  estrellas_finales = (estrellas_seleccionadas)
-    .concat(opcionSeleccionarP2)
-    .concat(opcionSeleccionarP3);
-  for (var au = 0; au < estrellas_finales.length; au++) {
-    selectStar(estrellas_finales[au].toString());
-  }
   //conjunto de soluciones del nivel
   b = solutionsData[nivel_actual];
 
@@ -394,8 +376,17 @@ var sendButtonClick = function () {
   //POR LA QUE SE INDICÓ POR EL USUARIO
 
   //revisar esto
-  //aplicar cambio de decision cuando se identifica la etapa C1.
   if (decision) { //IF DECISION = TRUE
+
+    //considerar añadir estrellas elegidas random por agentes (opcionSeleccionarP[1-2])
+    //considerar añadir estrellas elegidar en acuerdo con usuario (opcionElegidaP[1-2])
+    estrellas_finales = (estrellas_seleccionadas)
+      .concat(opcionElegidaP1)
+      .concat(opcionElegidaP2);
+    for (var au = 0; au < estrellas_finales.length; au++) {
+      selectStar(estrellas_finales[au].toString());
+    }
+
     var data =
       "A-" +
       nino_nombre +
@@ -407,27 +398,18 @@ var sendButtonClick = function () {
       "-Estado-El resultado correcto es: " +
       JSON.stringify(b);
     server.emit("escribir_resultados", data);
-
-    for (var select = 0; select < estrellas_seleccionadas.length; select++) {
-      if (
-        arreglo_decision.indexOf(estrellas_seleccionadas[select].toString()) ==
-        -1
-      ) {
-        arreglo_decision.push(estrellas_seleccionadas[select].toString());
-      }
-    }
     var data =
       "A-" +
       nino_nombre +
       "-Estado-Los jugadores han seleccionado las estrellas: " +
-      JSON.stringify(arreglo_decision);
+      JSON.stringify(estrellas_finales);
     server.emit("escribir_resultados", data);
 
     //comprueba si selección es igual a la solución
     for (var i = 0; i < b.length; i++) {
       var aparece = true;
-      for (var j = 0; j < arreglo_decision.length; j++) {
-        if (b[i].indexOf(arreglo_decision[j].toString()) == -1) {
+      for (var j = 0; j < estrellas_finales.length; j++) {
+        if (b[i].indexOf(estrellas_finales[j].toString()) == -1) {
           aparece = false;
           break;
         }
@@ -440,6 +422,16 @@ var sendButtonClick = function () {
 
   //Si decision es falso= se mantienen las estrellas de elegidas por los agentes de manera aleatoria 
   else { //IF DECISION = FALSE
+
+    //considerar añadir estrellas elegidas random por agentes (opcionSeleccionarP1-2)
+    //considerar añadir estrellas elegidar en acuerdo con usuario (opcionElegidaP1-2)
+    estrellas_finales = (estrellas_seleccionadas)
+    .concat(opcionSeleccionarP2)
+    .concat(opcionSeleccionarP3);
+    for (var au = 0; au < estrellas_finales.length; au++) {
+      selectStar(estrellas_finales[au].toString());
+    }
+
     var data =
       "A-" +
       nino_nombre +
@@ -473,7 +465,6 @@ var sendButtonClick = function () {
     // con el contenido de b
 
     //revisar esta funcion para detectar que las estrellas pertenecen a la solución
-    //revisar boton de enviar estrellas, sigue disponible aun cuando no se eligen estrellas
 
 		//comprueba si selección es igual a la solución
     for (var i = 0; i < b.length; i++) {
@@ -490,40 +481,58 @@ var sendButtonClick = function () {
     }
   }
 
-  //Se movio afuera, dado que el cambio de nivel se debe hacer independiente 
+
+  //Se movio dentro el cambio de nivel y etapas, dado que el cambio de nivel se debe hacer independiente 
+  //pero el ajuste de imagenes para indicar el avance de la actividad requiere saber si aprobaron o no
   //si el resultado es correcto o no
-  var nextLevel;
-  if (nivel_actual == "level1") {
-    etapas[0] = 2;
-    nextLevel = 2;
-  } else if (nivel_actual == "level4") {
-    etapas[1] = 2;
-    nextLevel = 3;
-  } else if (nivel_actual == "level6") {
-    etapas[2] = 2;
-    nextLevel = 4;
-  } else if (nivel_actual == "level8") {
-    etapas[0] = 2;
-    nextLevel = 5;
-  }
 
   if (aparece){ //aparece TRUE
+
+    var nextLevel;
+    if (nivel_actual == "level1") {
+      etapas[0] = 2;
+      nextLevel = 2;
+    } else if (nivel_actual == "level4") {
+      etapas[1] = 2;
+      nextLevel = 3;
+    } else if (nivel_actual == "level6") {
+      etapas[2] = 2;
+      nextLevel = 4;
+    } else if (nivel_actual == "level8") {
+      etapas[0] = 2;
+      nextLevel = 5;
+    }
+
+
     resultado = "gana";
     $("#image-final-level").attr("src", "../images/level_won.png");
     var data =
       "A-" + nino_nombre + "-resultado-" + nivel_actual + "RESULTADO CORRECTO";
     server.emit("escribir_resultados", data);
-    //var data = "A-" + nino_nombre + "-nodo-" + opcion;
     alert("aparece: TRUE");
 
     $("#image-final-level").show();
-    // decision = false;
     setTimeout(function () {
       $("#image-final-level").hide();
       revision(nextLevel,resultado);
-      // loadLevel(nextLevel);
     }, 5000);
   } else { //aparece FALSE
+
+    var nextLevel;
+    if (nivel_actual == "level1") {
+      etapas[0] = 1;
+      nextLevel = 2;
+    } else if (nivel_actual == "level4") {
+      etapas[1] = 1;
+      nextLevel = 3;
+    } else if (nivel_actual == "level6") {
+      etapas[2] = 1;
+      nextLevel = 4;
+    } else if (nivel_actual == "level8") {
+      etapas[0] = 1;
+      nextLevel = 5;
+    }
+
     resultado = "pierde";
     $("#image-final-level").attr("src", "../images/level_lost.png");
     var data =
@@ -535,7 +544,6 @@ var sendButtonClick = function () {
     server.emit("escribir_resultados", data);
     alert("aparece: FALSE");
     $("#image-final-level").show();
-    // decision = false;
     //estado monitoreo: mostrar el resultado, pero no pasar al siguiente nivel
     setTimeout(function () {
       $("#image-final-level").hide();
@@ -551,15 +559,18 @@ var sendButtonClick = function () {
 */
 function revision(level,resultado){
   console.log("resultado: ",resultado);
+  
+  //Se hace el cambio del tipo de boton para poder seguir enviando mensajes sin tener que recargar la página
+  const boton = document.getElementById("SendMessageButton1");
+  boton.type = 'submit';
 
   if (resultado === "gana") {
-    context.push({ role: "system", content: "El resultado de la etapa fue bueno, felicitaciones, ahora deben realizar una breve discusion con el usuario"});
+    context.push({ role: "system", content: "El resultado del "+level +"fue bueno, felicitaciones, ahora deben realizar una breve discusion con el usuario"});
   }
   else if (resultado === "pierde") {
-    context.push({ role: "system", content: "El resultado de la etapa fue malo, deben revisar sus respuestas elegidas, discutir sus elecciones y volver a intentarlo"});
+    context.push({ role: "system", content: "El resultado del "+level +"fue malo, deben revisar sus respuestas elegidas, discutir sus elecciones y volver a intentarlo"});
   }
   $(".erase_button").text("Siguiente nivel");
-  // $(".erase_button").attr("onclick",loadLevel(level));
   $(document).ready(function() {
     $(".erase_button").click(function () {
       loadLevel(level);
@@ -689,8 +700,6 @@ function startGame(data) {
   $(".erase_button").text("Deshacer selección");
 }
 
-//revisar aqui
-//Cuando hace click en una estrella
 function addStar(i) {
   var rtrim = /^\s+|\s+$/g;
   stars[i].on("click tap", function () {
@@ -811,7 +820,7 @@ function addStar(i) {
           server.emit("escribir_resultados", data);
           selectStar(i);
           num_seleccionadas += 1;
-          estrellas_seleccionadas.push(i+1);
+          estrellas_seleccionadas.push(i);
           var data =
             "A-" +
             nino_nombre +
@@ -882,9 +891,6 @@ function addStar(i) {
   layer.add(numbers[i]);
 }
 
-
-//REVISAR AQUI PARA SELECCION DE ESTRELLAS 
-//LOS RESULTADOS LOS MUESTRA DE MANERA INCORRECTA
 function selectStar(i) {
   //genera el circulo que ensierra la estrella
   var circle = new Kinetic.Circle({
@@ -929,7 +935,35 @@ function set_stars(level) {
   //Se limpia las variables de contexto para asignarla de manera limpia a cada agente por etapa
   prompt_contexto[0].content = "";
   prompt_contexto[1].content = "";
-  context.shift();
+  opcionElegidaP1 = [];
+  opcionElegidaP2 = [];
+
+
+  //Para mostrar los resultados posibles separados y añadirlos como prompt
+  let resultado = '';
+
+  for (let i = 0; i < Object.keys(solutionsData[nivel_actual]).length; i++) {
+    resultado += '['; // Agregar corchete de apertura
+    
+    for (let j = 0; j < solutionsData[nivel_actual][i].length; j++) {
+      resultado += solutionsData[nivel_actual][i][j];
+      
+      // Agregar un espacio excepto para el último elemento de cada fila
+      if (j !== solutionsData[nivel_actual][i].length - 1) {
+        resultado += ' '; // Separador de espacio
+      }
+    }
+    
+    resultado += ']'; // Agregar corchete de cierre
+    
+    // Agregar un espacio excepto para el último grupo
+    if (i !== Object.keys(solutionsData[nivel_actual]).length - 1) {
+      resultado += ' '; // Separador de espacio
+    }
+  }
+
+
+  // context.shift();
 
   if (level == "level1") { //LEVEL 1
     stars_current_level = levelsData.level1;
@@ -941,8 +975,8 @@ function set_stars(level) {
     current_solution = solutionsData.level1;
     current_max_select = maxSelectData.level1[0];
 
-    prompt_contexto[0].content = "\nEl mapa de estrellas es "+levelsData.level1+"\n ver el mapa como una matriz de 7 columnas y 6 filas\nTu color designado es el "+colorData.level1[1]+"\nla constelacion objetivo debe cumplir con los siguientes colores "+colorData.level1;
-    prompt_contexto[1].content = "\nEl mapa de estrellas es "+levelsData.level1+"\n ver el mapa como una matriz de 7 columnas y 6 filas\nTu color designado es el "+colorData.level1[2]+"\nla constelacion objetivo debe cumplir con los siguientes colores "+colorData.level1;
+    prompt_contexto[0].content = "\n Etapa actual: Nivel 1 \n Mapa de estrellas: "+levelsData[nivel_actual]+"\n ver el mapa como una matriz de 7 columnas y 6 filas enumeradas del 1 al 42\nTu color designado es el: "+colorData[nivel_actual][1]+"\nla constelacion objetivo debe cumplir con los siguientes colores "+colorData[nivel_actual]+"\nLa constelación debe ser una de las siguientes soluciones: "+resultado+" a cada una de estas soluciones debes sumarle 1 al numero correspondiente, es decir la solucion 0,1,2 corresponden a las estrellas 1,2,3";
+    prompt_contexto[1].content = "\n Etapa actual: Nivel 1 \n Mapa de estrellas: "+levelsData[nivel_actual]+"\n ver el mapa como una matriz de 7 columnas y 6 filas enumeradas del 1 al 42\nTu color designado es el: "+colorData[nivel_actual][2]+"\nla constelacion objetivo debe cumplir con los siguientes colores "+colorData[nivel_actual]+"\nLa constelación debe ser una de las siguientes soluciones: "+resultado+" a cada una de estas soluciones debes sumarle 1 al numero correspondiente, es decir la solucion 0,1,2 corresponden a las estrellas 1,2,3";
 
 
   } else if (level == "level2") {
@@ -970,8 +1004,8 @@ function set_stars(level) {
     current_solution = solutionsData.level4;
     current_max_select = maxSelectData.level4[0];
 
-    prompt_contexto[0].content = "\nEl mapa de estrellas es "+levelsData.level4+"\n ver el mapa como una matriz de 7 columnas y 6 filas\nTu color designado es el "+colorData.level4[1]+"\nla constelacion objetivo debe cumplir con los siguientes colores "+colorData.level4;
-    prompt_contexto[1].content = "\nEl mapa de estrellas es "+levelsData.level4+"\n ver el mapa como una matriz de 7 columnas y 6 filas\nTu color designado es el "+colorData.level4[2]+"\nla constelacion objetivo debe cumplir con los siguientes colores "+colorData.level4;
+    prompt_contexto[0].content = "\n Etapa actual: Nivel 2 \n Mapa de estrellas: "+levelsData[nivel_actual]+"\n ver el mapa como una matriz de 7 columnas y 6 filas enumeradas del 1 al 42\nTu color designado es el: "+colorData[nivel_actual][1]+"\nla constelacion objetivo debe cumplir con los siguientes colores "+colorData[nivel_actual]+"\nLa constelación debe ser una de las siguientes soluciones: "+resultado+" a cada una de estas soluciones debes sumarle 1 al numero correspondiente, es decir la solucion 0,1,2 corresponden a las estrellas 1,2,3";
+    prompt_contexto[1].content = "\n Etapa actual: Nivel 2 \n Mapa de estrellas: "+levelsData[nivel_actual]+"\n ver el mapa como una matriz de 7 columnas y 6 filas enumeradas del 1 al 42\nTu color designado es el: "+colorData[nivel_actual][2]+"\nla constelacion objetivo debe cumplir con los siguientes colores "+colorData[nivel_actual]+"\nLa constelación debe ser una de las siguientes soluciones: "+resultado+" a cada una de estas soluciones debes sumarle 1 al numero correspondiente, es decir la solucion 0,1,2 corresponden a las estrellas 1,2,3";
 
   } else if (level == "level5") {
     stars_current_level = levelsData.level5;
@@ -984,15 +1018,16 @@ function set_stars(level) {
   } else if (level == "level6") { //LEVEL 6
     stars_current_level = levelsData.level6;
     $("#lb_etapa").text("Nivel 3");
+    //Añadido cambio de texto que se muestra en esta etapa
     ocultar_color_data();
+    $("#p_color").text("Debes descubrir tus colores");
     current_color = colorData.level6[0];
     current_second_color = secondColorData.level6[0];
     current_solution = solutionsData.level6;
     current_max_select = maxSelectData.level6[0];
 
-    prompt_contexto[0].content = "\nEl mapa de estrellas es "+levelsData.level6+"\n ver el mapa como una matriz de 7 columnas y 6 filas\nTu color designado es el "+colorData.level6[1]+"\nTu segundo color designado es el "+secondColorData.level6[1]+"\nla constelacion objetivo debe cumplir con los siguientes colores "+colorData.level6;
-    prompt_contexto[1].content = "\nEl mapa de estrellas es "+levelsData.level6+"\n ver el mapa como una matriz de 7 columnas y 6 filas\nTu color designado es el "+colorData.level6[2]+"\nla constelacion objetivo debe cumplir con los siguientes colores "+colorData.level6;
-
+    prompt_contexto[0].content = "\n Etapa actual: Nivel 3 \n Mapa de estrellas: "+levelsData[nivel_actual]+"\n ver el mapa como una matriz de 7 columnas y 6 filas enumeradas del 1 al 42\nTu color designado es el: "+colorData[nivel_actual][1]+"\nTu segundo color designado es el "+secondColorData[nivel_actual][1]+"\nla constelacion objetivo debe cumplir con los siguientes colores "+colorData[nivel_actual]+"\nLa constelación debe ser una de las siguientes soluciones: "+resultado+" a cada una de estas soluciones debes sumarle 1 al numero correspondiente, es decir la solucion 0,1,2 corresponden a las estrellas 1,2,3";
+    prompt_contexto[1].content = "\n Etapa actual: Nivel 3 \n Mapa de estrellas: "+levelsData[nivel_actual]+"\n ver el mapa como una matriz de 7 columnas y 6 filas enumeradas del 1 al 42\nTu color designado es el: "+colorData[nivel_actual][2]+"\nla constelacion objetivo debe cumplir con los siguientes colores "+colorData[nivel_actual]+"\nLa constelación debe ser una de las siguientes soluciones: "+resultado+" a cada una de estas soluciones debes sumarle 1 al numero correspondiente, es decir la solucion 0,1,2 corresponden a las estrellas 1,2,3";
 
 
   } else if (level == "level7") {
@@ -1006,14 +1041,16 @@ function set_stars(level) {
   } else if (level == "level8") { //LEVEL 8
     stars_current_level = levelsData.level8;
     $("#lb_etapa").text("Nivel 4");
+    //Añadido cambio de texto que se muestra en esta etapa
     ocultar_color_data();
+    $("#p_color").text("Debes descubrir tus colores");
     current_color = colorData.level8[0];
     current_second_color = secondColorData.level8[0];
     current_solution = solutionsData.level8;
     current_max_select = maxSelectData.level8[0];
 
-    prompt_contexto[0].content = "\nEl mapa de estrellas es "+levelsData.level8+"\n ver el mapa como una matriz de 7 columnas y 6 filas\nTu color designado es el "+colorData.level8[1]+"\nla constelacion objetivo debe cumplir con los siguientes colores "+colorData.level8;
-    prompt_contexto[1].content = "\nEl mapa de estrellas es "+levelsData.level8+"\n ver el mapa como una matriz de 7 columnas y 6 filas\nTu color designado es el "+colorData.level8[2]+"\nla constelacion objetivo debe cumplir con los siguientes colores "+colorData.level8;
+    prompt_contexto[0].content = "\n Etapa actual: Nivel 4 \n Mapa de estrellas: "+levelsData[nivel_actual]+"\n ver el mapa como una matriz de 7 columnas y 6 filas enumeradas del 1 al 42\nTu color designado es el: "+colorData[nivel_actual][1]+"\nla constelacion objetivo debe cumplir con los siguientes colores "+colorData[nivel_actual]+"\nLa constelación debe ser una de las siguientes soluciones: "+resultado+" a cada una de estas soluciones debes sumarle 1 al numero correspondiente, es decir la solucion 0,1,2 corresponden a las estrellas 1,2,3";
+    prompt_contexto[1].content = "\n Etapa actual: Nivel 4 \n Mapa de estrellas: "+levelsData[nivel_actual]+"\n ver el mapa como una matriz de 7 columnas y 6 filas enumeradas del 1 al 42\nTu color designado es el: "+colorData[nivel_actual][2]+"\nla constelacion objetivo debe cumplir con los siguientes colores "+colorData[nivel_actual]+"\nLa constelación debe ser una de las siguientes soluciones: "+resultado+" a cada una de estas soluciones debes sumarle 1 al numero correspondiente, es decir la solucion 0,1,2 corresponden a las estrellas 1,2,3";
 
   }
 
@@ -1266,6 +1303,7 @@ function set_stars(level) {
 function ocultar_color_data() {
   $("#color-label").hide();
   $("#lb_color").hide();
+  
 }
 
 function cambiar_label_color() {
@@ -1391,16 +1429,16 @@ function colorToSpanish(color) {
   }
 }
 
-/* --------------------------------------------- */
+/* --------------Agentes Virtuales de CHATGPT------------------- */
 //agente random al principio
 agentes = ["peta","zeta"]
 
-let random = Math.floor(Math.random() * [agentes].length);
+let random = Math.floor(Math.random() * ["peta","zeta"].length);
 let lastAgentUsed = agentes[random];
 var check=false;
 
 
-//agregar un cambio de contexto para en función de la etapa
+//agregado un cambio de contexto para en función de la etapa
 function SendMessageClick(e){
   e.preventDefault();
   let chatHistory = $(".chat-history1 ul");
@@ -1439,8 +1477,6 @@ function SendMessageClick(e){
     const spinner = $("<div class='loading-spinner'></div>");
     loadingIcon.append(spinner).append("Escribiendo...");
     chatHistory.append(loadingIcon);
-
-    // console.log("prompt agente: ",prompt_agente);
     const apiUrl = agentName === "peta" ? "/api/openai1" : "/api/openai2";
     fetch(apiUrl, {
       method: "POST",
@@ -1458,17 +1494,39 @@ function SendMessageClick(e){
             Detectar con data.response "Cambio de estrella" y saber a que agente le corresponde
             cuando se detecta cambiar la variable opcionSeleccionarP(1-2), para ello, detectar
             que estrella estuvieron de acuerdo a cambiar.
+
+            Se resta 1 a la estrella para seguir el índice del mapa de estrellas (Arreglo Parcial)
         */
         if (data.response.Etapa==="Planificacion_y_ejecucion_de_la_solucion" && data.response.Acuerdo==="1") {
+          //opcionSeleccionarPX debe ser capaz de recibir diferentes cantidades de estrellas
+          //en funcion de variable: max_SelectData
           if (agentName==="peta") {
-            opcionSeleccionarP2=data.response.Estrella;
+            if(opcionElegidaP1.length < maxSelectData[nivel_actual][1]){
+              opcionElegidaP1.push(data.response.Estrella-1); 
+            } else {
+              //eliminar el primer valor del arreglo opcionElegidaP1 y agregar data.response.Estrella-1
+              opcionElegidaP1.shift();
+              opcionElegidaP1.push(data.response.Estrella-1);
+              const li = $("<span class='message other-message instruccion'></span>").text("Limite máximo de estrellas elegidas para Peta, se reemplazará la primera estrella elegida");
+              chatHistory.append(li);
+            }
           }
-          else{
-            opcionSeleccionarP3=data.response.Estrella;
+          else {//Se realiza la misma comparacion pero ahora con variable opcionElegidaP2
+            if (agentName === "zeta") {
+              if (opcionElegidaP2.length < maxSelectData[nivel_actual][2]) {
+                opcionElegidaP2.push(data.response.Estrella - 1);
+              } else {
+                opcionElegidaP2.shift();
+                opcionElegidaP2.push(data.response.Estrella - 1);
+                const li = $("<span class='message other-message instruccion'></span>").text("Limite máximo de estrellas elegidas para Zeta, se reemplazará la primera estrella elegida");
+                chatHistory.append(li);
+              }
+            }
           }
+          
+          //Se detecta cambio de estrella
           decision = true;
-        };
-
+        }
         /*        
           Acuerdo:
             Detectar con data.response "Acuerdo" y cuando los agentes se ponen de acuerdo
@@ -1540,4 +1598,3 @@ $("#Estado_dos").click(() => {
 $("#Estado_tres").click(() => {
   sendButtonClick();
 });
-

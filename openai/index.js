@@ -17,11 +17,10 @@ let acuerdo2=3;
   no mencionar la matriz con sus respectivos colores
 */
 
-//PROMPTS
+//----------PROMPTS-----------
 
 //PETA
 const SYSTEM_MESSAGE1 = {
-  role: "system",
   content: 
 
   // ROL
@@ -35,12 +34,6 @@ const SYSTEM_MESSAGE1 = {
   // TAREA
   
 	"\nHay otro asistente virtual llamada Zeta "+
-
-  // "\nResponder al jugador con sugerencias de que se debería hacer siguiendo las etapas para resolver un problema"+
-
-  // "\nResponder las respuestas 'si' o afirmativas haciendo una continuación del contexto de la actividad"+
-
-  // "\nResponder las respuestas 'no' o negativas haciento una continuación del contexto de la actividad"+
 
 	"\nLa interfaz muestra un conjunto de estrellas de colores y con un número correlativo de izquierda a derecha y de arriba abajo para indentificarlas"+
 
@@ -60,15 +53,19 @@ const SYSTEM_MESSAGE1 = {
 
 	"\nLa conversación sólo debe estar relacionada a la actividad, cualquier preguntar fuera de contexto de la actividad debe ser respondida indicando: \n 'La pregunta esta fuera de contexto, por favor realizar una pregunta sobre la actividad'"+
 
+  "\nSi el usuario pregunta consulta por las soluciones, debes responder vagamente con las posibles soluciones y no mencionar todas por completo"+
+
+  "\nLas soluciones debes utilizarlas para medir si estas de acuerdo con las opciones que indica el usuario y verificar si el color correspondiente es el correcto"+
   // FORMATO
 	"\nTu mensaje de respuesta sea corto"+
-
-  "\nOnly use the functions you have been provided with."
+  "\nSi preguntan por tu color asignado, solo decir cual fue tu color asignado"+
+  "\nNo mencionar tu nombre en el mensaje de respuesta"+
+  "\nOnly use the functions you have been provided with."+
+  "\n---"
 };
 
 //ZETA
 const SYSTEM_MESSAGE2 = {
-  role: "system",
   content: 
 
   // ROL
@@ -82,12 +79,6 @@ const SYSTEM_MESSAGE2 = {
   // TAREA
   
 	"\nHay otro miembro del equipo llamado Peta "+
-
-  // "\nResponder al jugador con sugerencias de que se debería hacer siguiendo las etapas para resolver un problema"+
-
-  // "\nResponder las respuestas 'si' o afirmativas haciendo una continuación del contexto de la actividad"+
-
-  // "\nResponder las respuestas 'no' o negativas haciento una continuación del contexto de la actividad"+
 
   "\nLa interfaz muestra un conjunto de estrellas de colores y con un número correlativo de izquierda a derecha y de arriba abajo para indentificarlas"+
 
@@ -104,12 +95,16 @@ const SYSTEM_MESSAGE2 = {
 	"\nAdicionalmente, no mencionar que color le corresponde a cada usuario. Solo mencionarlo si el usuario lo solicita de manera explícita"+ 
 
 	"\nLa conversación sólo debe estar relacionada a la actividad, cualquier preguntar fuera de contexto de la actividad debe ser respondida indicando: \n 'La pregunta esta fuera de contexto, por favor realizar una pregunta sobre la actividad'"+
+  "\nSi el usuario pregunta consulta por las soluciones, debes responder vagamente con las posibles soluciones y no mencionar todas por completo"+
 
+  "\nLas soluciones debes utilizarlas para medir si estas de acuerdo con las opciones que indica el usuario y verificar si el color correspondiente es el correcto"+
+  
   // FORMATO
-
 	"\nTu mensaje de respuesta sea corto"+
-
-  "\nOnly use the functions you have been provided with."
+  "\nNo mencionar tu nombre en el mensaje de respuesta"+
+  "\nSi preguntan por tu color asignado, solo decir cual fue tu color asignado"+
+  "\nOnly use the functions you have been provided with."+
+  "\n---"
 };
 
 
@@ -198,9 +193,13 @@ const funciones = [
             "Estrella":{
               "type": "number",
               "description": "numero de la estrella que va a elegir"
+            },
+            "Color_estrella":{
+              "type": "string",
+              "description": "color de la estrella, 'r' si es rojo, 'b' si es azul, 'y' si es amarillo y 'g' si es verde"
             }
         },
-        "required": ["mensaje", "Etapa", "Acuerdo", "Estrella"],
+        "required": ["mensaje", "Etapa", "Acuerdo", "Estrella", "Color_estrella"],
     },
   },
   // Eleccion_de_estrellas
@@ -217,26 +216,26 @@ const funciones = [
               "type": "string",
               "description": "Nombre de la funcion/etapa"
             },
+            "Acuerdo": {
+              "type": "number",
+              "description": "1 si estas de acuerdo a proceder a la elección de estrellas ya que las estrellas elegidas son correctas o de lo contrario no estar de acuerdo y entregar un 0 como respuesta"
+            }
         },
-        "required": ["mensaje", "Etapa"],
+        "required": ["mensaje", "Etapa", "Acuerdo"],
     },
   },
-  //Monitoreo
   {
-    "name": "Monitoreo",
-    "description": "El estudiante y el grupo reflexiona del resultado de la etapa",
+    "name": "Monitoreo_de_Etapa",
+    "description": "Evaluar el resultado de una etapa y proporcionar una respuesta reflexiva",
     "parameters": {
-        "type": "object",
-        "properties": {
-            "mensaje": {
-                "type": "string",
-            },              
-            "Etapa": {
-              "type": "string",
-              "description": "Nombre de la funcion/etapa"
-            },
-        },
-        "required": ["mensaje", "Etapa"],
+      "type": "object",
+      "properties": {
+        "mensaje": {
+          "type": "string",
+          "description": "El resultado de la etapa para evaluar"
+        }
+      },
+      "required": ["mensaje"]
     },
   },
   // Despedida
@@ -258,6 +257,7 @@ const funciones = [
         "required": ["mensaje", "Etapa"],
     },
   },
+
 ];
 
 var etapa = "";
@@ -265,10 +265,12 @@ var etapa = "";
 // API AGENTE PETA
 const generateResponseFromMessages1 = async (messages) => {
   // return "Acuerdo"; //BYPASS EN CASO DE NO TENER INTERNET PARA CHATGPT
-  console.log("messages: ",messages);
+  const contenido = SYSTEM_MESSAGE1.content + messages[0].content;
+  messages.shift(); 
+
   const response = await openai1.createChatCompletion({
     model: "gpt-4",
-    messages: [SYSTEM_MESSAGE1].concat(messages),
+    messages: [{ role: "system", content: contenido}].concat(messages),
     temperature: 0,
     functions: funciones,
     function_call: "auto",
@@ -278,9 +280,10 @@ const generateResponseFromMessages1 = async (messages) => {
   if (response.data.choices[0].message.content != null){
     const response1 = await openai1.createChatCompletion({
       model: "gpt-4",
-      messages: [SYSTEM_MESSAGE1].concat(messages),
+      messages: [{ role: "system", content: contenido}].concat(messages),
       temperature: 0,
     });
+    console.log(response1.data.choices[0].message)
     return {"mensaje":response1.data.choices[0].message.content};
   }
 
@@ -294,18 +297,19 @@ const generateResponseFromMessages1 = async (messages) => {
   // Verificación de estado acuerdo
   var mensaje = response.data.choices[0].message.function_call;
   etapa = mensaje.name;
-  console.log("etapa: ",etapa);
 
-  //condicion para saber si el agente está de acuerdo con el usuario
+  //condicion para saber si el agente está de acuerdo con el usuario al cambio de estrellas
   if(etapa === "Planificacion_y_ejecucion_de_la_solucion"){
+
+  }
+  //reconocimiento de iniciar etapa de seleccion de estrellas
+  //condicion para saber si el agente está de acuerdo con el usuario para pasar a la eleccion de estrellas
+  if(etapa == "Eleccion_de_estrellas"){ 
     acu = JSON.parse(mensaje.arguments).Acuerdo;
-    if(acu === "1"){
+    if(acu === 1){
       acuerdo1 = 1;
       console.log("Peta esta de acuerdo");
     }
-  }
-  //reconocimiento de iniciar etapa de seleccion de estrellas
-  if(etapa == "Eleccion_de_estrellas"){  
     if(acuerdo1===acuerdo2){
       console.log("Acuerdo Total")
       let acuerdo1=2;
@@ -320,10 +324,12 @@ const generateResponseFromMessages1 = async (messages) => {
 //API AGENTE ZETA
 const generateResponseFromMessages2 = async (messages) => {
   // return "Acuerdo";
-  console.log("messages: ",messages);
+  const contenido = SYSTEM_MESSAGE2.content + messages[0].content;
+  messages.shift(); //eliminar el primer mensaje
+
   const response = await openai2.createChatCompletion({
-    model: "gpt-4-1106-preview",
-    messages: [SYSTEM_MESSAGE2].concat(messages),
+    model: "gpt-4",
+    messages: [{ role: "system", content: contenido}].concat(messages),
     temperature: 0,
     functions: funciones,
     function_call: "auto",
@@ -333,8 +339,8 @@ const generateResponseFromMessages2 = async (messages) => {
   //caso cuando no utiliza una funcion para responder
   if (response.data.choices[0].message.content != null){
     const response2 = await openai2.createChatCompletion({
-      model: "gpt-4-1106-preview",
-      messages: [SYSTEM_MESSAGE2].concat(messages),
+      model: "gpt-4",
+      messages: [{ role: "system", content: contenido}].concat(messages),
       temperature: 0,
     });
     // console.log("response 2:",response2.data.choices[0]);
@@ -352,18 +358,20 @@ const generateResponseFromMessages2 = async (messages) => {
   etapa = mensaje.name;
   console.log("etapa: ",etapa);
 
-  //condicion para saber si el agente está de acuerdo con el usuario
+  //condicion para saber si el agente está de acuerdo con el usuario al cambio de estrellas
   if(etapa === "Planificacion_y_ejecucion_de_la_solucion"){
+
+  }
+  //reconocimiento de iniciar etapa de seleccion de estrellas
+  //condicion para saber si el agente está de acuerdo con el usuario para pasar a la eleccion de estrellas
+  if(etapa == "Eleccion_de_estrellas"){ 
     acu = JSON.parse(mensaje.arguments).Acuerdo;
-    if(acu === "1"){
+    if(acu === 1){
       acuerdo2 = 1;
       console.log("Zeta esta de acuerdo");
     }
-  }
-  //reconocimiento de iniciar etapa de seleccion de estrellas
-  if(etapa == "Eleccion_de_estrellas"){  
     if(acuerdo1===acuerdo2){
-      console.log("Acuerdo Total");
+      console.log("Ambos agentes están de acuerdo");
       let acuerdo1=2;
       let acuerdo2=3;
       return "Acuerdo";
