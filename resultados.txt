@@ -2882,3 +2882,518 @@ A-ALVAREZ PEREZ NICOLAS JOAQUIN-NUEVO JUEGO-Hora: Tue Oct 03 2023 16:15:25 GMT-0
 A-ALVAREZ PEREZ NICOLAS JOAQUIN-LEVEL1
 A-ALVAREZ PEREZ NICOLAS JOAQUIN-NUEVO JUEGO-Hora: Tue Oct 03 2023 16:18:32 GMT-0300 (hora de verano de Chile)
 A-ALVAREZ PEREZ NICOLAS JOAQUIN-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-Estado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefined-Estado-El usuario ha seleccionado la estrella 0
+A-undefined-Estado-Estrellas seleccionadas hasta el momento: [0]
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-Estado-CLICK para enviar estrellas.
+A-undefined-Estado-Se va a comparar con la decisón tomada por el niño.
+A-undefined-Estado-El resultado correcto es: [["0","1","2"],["25","26","27"],["28","29","30"]]
+A-undefined-Estado-Los jugadores han seleccionado las estrellas: [0,1,2]
+A-undefined-resultado-level1RESULTADO CORRECTO
+A-undefined-Estado-CLICK en estrella. RESULT: número máximo de estrellas elegidas -> estrella no seleccionada.
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefinedEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefinedEstado-El usuario ha seleccionado la estrella 0
+A-undefinedEstado-Estrellas seleccionadas hasta el momento: [0]
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-Estado-CLICK para enviar estrellas.
+A-undefined-Estado-El niño ha elegido las estrellas: [0]
+A-undefined-Estado-Se va a comparar con los valores por defecto de los autómatas.
+A-undefined-Estado-Las estrellas del niño junto con los autómatas son: [0,"26","27"]
+A-undefined-resultado-level1-El resultado correcto es: [["0","1","2"],["25","26","27"],["28","29","30"]]
+A-undefined-resultado-level1RESULTADO INCORRECTO
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefinedEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefinedEstado-El usuario ha seleccionado la estrella 0
+A-undefinedEstado-Estrellas seleccionadas hasta el momento: [0]
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-Estado-CLICK para enviar estrellas.
+A-undefined-Estado-Se va a comparar con la decisón tomada por el niño.
+A-undefined-Estado-El resultado correcto es: [["0","1","2"],["25","26","27"],["28","29","30"]]
+A-undefined-Estado-Los jugadores han seleccionado las estrellas: [0,1,2]
+A-undefined-resultado-level1RESULTADO CORRECTO
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefinedEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefinedEstado-El usuario ha seleccionado la estrella 0
+A-undefinedEstado-Estrellas seleccionadas hasta el momento: [0]
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-Estado-CLICK para enviar estrellas.
+A-undefined-Estado-El resultado correcto es: [["0","1","2"],["25","26","27"],["28","29","30"]]
+A-undefined-Estado-Se va a comparar con la decisón tomada por el niño.
+A-undefined-Estado-Los jugadores han seleccionado las estrellas: [0,1,2]
+A-undefined-resultado-level1RESULTADO CORRECTO
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefinedEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefinedEstado-El usuario ha seleccionado la estrella 0
+A-undefinedEstado-Estrellas seleccionadas hasta el momento: [0]
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-Estado-CLICK para enviar estrellas.
+A-undefined-Estado-Se va a comparar con la decisón tomada por el niño.
+A-undefined-Estado-El resultado correcto es: [["0","1","2"],["25","26","27"],["28","29","30"]]
+A-undefined-Estado-Los jugadores han seleccionado las estrellas: [0,1,2]
+A-undefined-resultado-level1RESULTADO CORRECTO
+A-undefined-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-undefined-LEVEL4
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefinedEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefinedEstado-El usuario ha seleccionado la estrella 0
+A-undefinedEstado-Estrellas seleccionadas hasta el momento: [0]
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-Estado-CLICK para enviar estrellas.
+A-undefined-Estado-Se va a comparar con la decisón tomada por el niño.
+A-undefined-Estado-El resultado correcto es: [["0","1","2"],["25","26","27"],["28","29","30"]]
+A-undefined-resultado-level1RESULTADO CORRECTO
+A-undefined-Estado-Los jugadores han seleccionado las estrellas: [0,1,2]
+A-undefined-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-undefined-LEVEL4
+A-undefinedEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefinedEstado-El usuario ha seleccionado la estrella 30
+A-undefinedEstado-Estrellas seleccionadas hasta el momento: [30]
+A-undefinedEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefinedEstado-Estrellas seleccionadas hasta el momento: [30,22]
+A-undefinedEstado-El usuario ha seleccionado la estrella 22
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-Estado-CLICK para enviar estrellas.
+A-undefined-Estado-Se va a comparar con la decisón tomada por el niño.
+A-undefined-Estado-Los jugadores han seleccionado las estrellas: [30,22,28,29]
+A-undefined-Estado-El resultado correcto es: [["12","20","18","19"],["22","30","28","29"],["32","40","38","39"]]
+A-undefined-resultado-level4RESULTADO CORRECTO
+A-undefined-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-undefined-LEVEL6
+A-undefined-LEVEL6
+A-undefinedEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefinedEstado-El usuario ha seleccionado la estrella 22
+A-undefinedEstado-Estrellas seleccionadas hasta el momento: [22]
+A-undefinedEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefinedEstado-Estrellas seleccionadas hasta el momento: [22,31]
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefinedEstado-El usuario ha seleccionado la estrella 31
+A-undefined-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-undefined-LEVEL6
+A-undefined-LEVEL6
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefinedEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefinedEstado-El usuario ha seleccionado la estrella 25
+A-undefinedEstado-Estrellas seleccionadas hasta el momento: [25]
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-undefinedEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefinedEstado-Estrellas seleccionadas hasta el momento: [25]
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefinedEstado-El usuario ha seleccionado la estrella 25
+A-undefined-Estado-CLICK para enviar estrellas.
+A-undefined-Estado-El resultado correcto es: [["0","1","2"],["25","26","27"],["28","29","30"]]
+A-undefined-Estado-Se va a comparar con la decisón tomada por el niño.
+A-undefined-Estado-Los jugadores han seleccionado las estrellas: [25,26,27]
+A-undefined-resultado-level1RESULTADO CORRECTO
+A-undefined-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-undefined-LEVEL4
+A-undefined-Estado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefined-Estado-El usuario ha seleccionado la estrella 12
+A-undefined-Estado-Estrellas seleccionadas hasta el momento: [12]
+A-undefined-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-undefined-LEVEL4
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefinedEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefinedEstado-El usuario ha seleccionado la estrella 0
+A-undefinedEstado-Estrellas seleccionadas hasta el momento: [0]
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-undefinedEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefinedEstado-El usuario ha seleccionado la estrella 0
+A-undefinedEstado-Estrellas seleccionadas hasta el momento: [0]
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-undefinedEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefinedEstado-Estrellas seleccionadas hasta el momento: [0]
+A-undefinedEstado-El usuario ha seleccionado la estrella 0
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-undefinedEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefinedEstado-El usuario ha seleccionado la estrella 0
+A-undefinedEstado-Estrellas seleccionadas hasta el momento: [0]
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-Estado-CLICK para enviar estrellas.
+A-undefined-Estado-Se va a comparar con la decisón tomada por el niño.
+A-undefined-Estado-El resultado correcto es: [["0","1","2"],["25","26","27"],["28","29","30"]]
+A-undefined-Estado-Los jugadores han seleccionado las estrellas: [0,1,2]
+A-undefined-resultado-level1RESULTADO CORRECTO
+A-undefined-LEVEL4
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefinedEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefinedEstado-El usuario ha seleccionado la estrella 0
+A-undefinedEstado-Estrellas seleccionadas hasta el momento: [0]
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-undefined-Estado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefined-Estado-El usuario ha seleccionado la estrella 0
+A-undefined-Estado-Estrellas seleccionadas hasta el momento: [0]
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-Estado-CLICK para enviar estrellas.
+A-undefined-Estado-Se va a comparar con los valores por defecto de los autómatas.
+A-undefined-Estado-El niño ha elegido las estrellas: [0]
+A-undefined-resultado-level1-El resultado correcto es: [["0","1","2"],["25","26","27"],["28","29","30"]]
+A-undefined-Estado-Las estrellas del niño junto con los autómatas son: [0,"26","27"]
+A-undefined-resultado-level1RESULTADO INCORRECTO
+A-undefined-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-undefined-LEVEL4
+A-undefinedEstado-CLICK en estrella. RESULT: color incorrecto -> estrella no seleccionada.
+A-undefined-Estado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefined-Estado-El usuario ha seleccionado la estrella 0
+A-undefined-Estado-Estrellas seleccionadas hasta el momento: [0]
+A-undefined-Estado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefined-Estado-Estrellas seleccionadas hasta el momento: [0,7]
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-Estado-El usuario ha seleccionado la estrella 7
+A-undefined-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-undefined-LEVEL4
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefined-LEVEL1
+A-undefined-Estado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefined-Estado-El usuario ha seleccionado la estrella 0
+A-undefined-Estado-Estrellas seleccionadas hasta el momento: [0]
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-undefined-Estado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefined-Estado-El usuario ha seleccionado la estrella 0
+A-undefined-Estado-Estrellas seleccionadas hasta el momento: [0]
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-Estado-CLICK para enviar estrellas.
+A-undefined-Estado-El niño ha elegido las estrellas: [0]
+A-undefined-Estado-Las estrellas del niño junto con los autómatas son: [0,"26","27"]
+A-undefined-Estado-Se va a comparar con los valores por defecto de los autómatas.
+A-undefined-resultado-level1-El resultado correcto es: [["0","1","2"],["25","26","27"],["28","29","30"]]
+A-undefined-resultado-level1RESULTADO INCORRECTO
+A-undefined-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-undefined-LEVEL4
+A-undefined-Estado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefined-Estado-El usuario ha seleccionado la estrella 0
+A-undefined-Estado-Estrellas seleccionadas hasta el momento: [0]
+A-undefined-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-undefined-LEVEL4
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-Estado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefined-Estado-El usuario ha seleccionado la estrella 0
+A-undefined-Estado-Estrellas seleccionadas hasta el momento: [0]
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-undefinedEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefinedEstado-El usuario ha seleccionado la estrella 0
+A-undefinedEstado-Estrellas seleccionadas hasta el momento: [0]
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-Estado-CLICK para enviar estrellas.
+A-undefined-Estado-Las estrellas del niño junto con los autómatas son: [0,"29","30"]
+A-undefined-Estado-El niño ha elegido las estrellas: [0]
+A-undefined-Estado-Se va a comparar con los valores por defecto de los autómatas.
+A-undefined-resultado-level1-El resultado correcto es: [["0","1","2"],["25","26","27"],["28","29","30"]]
+A-undefined-resultado-level1RESULTADO INCORRECTO
+A-undefined-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-undefined-LEVEL4
+A-undefined-Estado-CLICK en estrella. RESULT: no es momento de elegir estrellas -> estrella no seleccionada.
+A-undefinedEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefinedEstado-El usuario ha seleccionado la estrella 0
+A-undefinedEstado-Estrellas seleccionadas hasta el momento: [0]
+A-undefined-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-undefined-LEVEL4
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefined-Estado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefined-Estado-El usuario ha seleccionado la estrella 0
+A-undefined-Estado-Estrellas seleccionadas hasta el momento: [0]
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-Estado-CLICK para enviar estrellas.
+A-undefined-Estado-Se va a comparar con los valores por defecto de los autómatas.
+A-undefined-Estado-El niño ha elegido las estrellas: [0]
+A-undefined-Estado-Las estrellas del niño junto con los autómatas son: [0,"29","30"]
+A-undefined-resultado-level1-El resultado correcto es: [["0","1","2"],["25","26","27"],["28","29","30"]]
+A-undefined-resultado-level1RESULTADO INCORRECTO
+A-undefined-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-undefined-LEVEL4
+A-undefinedEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefinedEstado-El usuario ha seleccionado la estrella 0
+A-undefinedEstado-Estrellas seleccionadas hasta el momento: [0]
+A-undefined-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-undefined-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-undefined-LEVEL4
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefinedEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefinedEstado-El usuario ha seleccionado la estrella 0
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefinedEstado-Estrellas seleccionadas hasta el momento: [0]
+A-undefined-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-undefinedEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefinedEstado-El usuario ha seleccionado la estrella 0
+A-undefinedEstado-Estrellas seleccionadas hasta el momento: [0]
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-undefined-Estado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefined-Estado-Estrellas seleccionadas hasta el momento: [0]
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-Estado-El usuario ha seleccionado la estrella 0
+A-undefined-Estado-CLICK para enviar estrellas.
+A-undefined-Estado-El niño ha elegido las estrellas: [0]
+A-undefined-Estado-Se va a comparar con los valores por defecto de los autómatas.
+A-undefined-resultado-level1-El resultado correcto es: [["0","1","2"],["25","26","27"],["28","29","30"]]
+A-undefined-resultado-level1RESULTADO INCORRECTO
+A-undefined-Estado-Las estrellas del niño junto con los autómatas son: [0,"26","27"]
+A-undefined-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-undefined-LEVEL4
+A-undefinedEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefinedEstado-El usuario ha seleccionado la estrella 0
+A-undefinedEstado-Estrellas seleccionadas hasta el momento: [0]
+A-undefined-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-undefined-Estado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefined-Estado-Estrellas seleccionadas hasta el momento: [0]
+A-undefined-Estado-El usuario ha seleccionado la estrella 0
+A-undefined-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-undefinedEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefinedEstado-El usuario ha seleccionado la estrella 0
+A-undefinedEstado-Estrellas seleccionadas hasta el momento: [0]
+A-undefinedEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefinedEstado-El usuario ha seleccionado la estrella 7
+A-undefinedEstado-Estrellas seleccionadas hasta el momento: [0,7]
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-Estado-CLICK para enviar estrellas.
+A-undefined-Estado-El niño ha elegido las estrellas: [0,7]
+A-undefined-Estado-Se va a comparar con los valores por defecto de los autómatas.
+A-undefined-Estado-Las estrellas del niño junto con los autómatas son: [0,7,"38","39"]
+A-undefined-resultado-level4-El resultado correcto es: [["12","20","18","19"],["22","30","28","29"],["32","40","38","39"]]
+A-undefined-resultado-level4RESULTADO INCORRECTO
+A-undefined-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-undefined-LEVEL6
+A-undefined-LEVEL1
+A-undefined-LEVEL1
+A-undefinedEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefinedEstado-El usuario ha seleccionado la estrella 0
+A-undefinedEstado-Estrellas seleccionadas hasta el momento: [0]
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-Estado-CLICK para enviar estrellas.
+A-undefined-Estado-Se va a comparar con la decisón tomada por el niño.
+A-undefined-Estado-El resultado correcto es: [["0","1","2"],["25","26","27"],["28","29","30"]]
+A-undefined-Estado-Los jugadores han seleccionado las estrellas: [0,1,2]
+A-undefined-resultado-level1RESULTADO CORRECTO
+A-undefined-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-undefined-LEVEL4
+A-undefinedEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefinedEstado-El usuario ha seleccionado la estrella 22
+A-undefinedEstado-Estrellas seleccionadas hasta el momento: [22]
+A-undefinedEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefinedEstado-El usuario ha seleccionado la estrella 30
+A-undefinedEstado-Estrellas seleccionadas hasta el momento: [22,30]
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-Estado-CLICK para enviar estrellas.
+A-undefined-Estado-Se va a comparar con la decisón tomada por el niño.
+A-undefined-Estado-El resultado correcto es: [["12","20","18","19"],["22","30","28","29"],["32","40","38","39"]]
+A-undefined-Estado-Los jugadores han seleccionado las estrellas: [22,30,28,29]
+A-undefined-resultado-level4RESULTADO CORRECTO
+A-undefined-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-undefined-LEVEL6
+A-undefinedEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefinedEstado-El usuario ha seleccionado la estrella 41
+A-undefinedEstado-Estrellas seleccionadas hasta el momento: [41]
+A-undefined-Estado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefined-Estado-El usuario ha seleccionado la estrella 32
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-Estado-Estrellas seleccionadas hasta el momento: [41,32]
+A-undefined-Estado-CLICK para enviar estrellas.
+A-undefined-Estado-El resultado correcto es: [["9","10","15","16","17","18"],["22","23","28","29","30","31"],["32","33","38","39","40","41"]]
+A-undefined-Estado-Se va a comparar con la decisón tomada por el niño.
+A-undefined-Estado-Los jugadores han seleccionado las estrellas: [41,32,33,39,38,40]
+A-undefined-resultado-level6RESULTADO CORRECTO
+A-undefined-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0
+A-undefined-LEVEL8
+A-undefinedEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefinedEstado-El usuario ha seleccionado la estrella 1
+A-undefinedEstado-Estrellas seleccionadas hasta el momento: [1]
+A-undefinedEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefinedEstado-El usuario ha seleccionado la estrella 10
+A-undefinedEstado-Estrellas seleccionadas hasta el momento: [1,10]
+A-undefinedEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefinedEstado-El usuario ha seleccionado la estrella 24
+A-undefinedEstado-Estrellas seleccionadas hasta el momento: [1,10,24]
+A-undefinedEstado-CLICK en estrella. RESULT: estrella correctamente seleccionada.
+A-undefinedEstado-El usuario ha seleccionado la estrella 30
+A-undefinedEstado-Estrellas seleccionadas hasta el momento: [1,10,24,30]
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-Estado-CLICK en estrella. RESULT: número máximo de estrellas elegidas -> estrella no seleccionada.
+A-undefined-Estado-numero maximo de estrellas coincide con las seleccionadas. Se activa botón para enviar respuestas.
+A-undefined-Estado-CLICK para enviar estrellas.
+A-undefined-Estado-Se va a comparar con la decisón tomada por el niño.
+A-undefined-Estado-El resultado correcto es: [["1","2","7","30","10","15","16","21","24","29"],["11","12","17","40","20","25","26","31","34","39"]]
+A-undefined-resultado-level8RESULTADO CORRECTO
+A-undefined-Estado-Los jugadores han seleccionado las estrellas: [1,10,24,30,2,16,29,7,15]
+A-undefined-Estado-CLICK en BOTÓN para deshacer selección. Número de estrellas elegidas = 0

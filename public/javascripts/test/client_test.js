@@ -499,7 +499,7 @@ var sendButtonClick = function () {
       etapas[2] = 2;
       nextLevel = 4;
     } else if (nivel_actual == "level8") {
-      etapas[0] = 2;
+      etapas[3] = 2;
       nextLevel = 5;
     }
 
@@ -529,7 +529,7 @@ var sendButtonClick = function () {
       etapas[2] = 1;
       nextLevel = 4;
     } else if (nivel_actual == "level8") {
-      etapas[0] = 1;
+      etapas[3] = 1;
       nextLevel = 5;
     }
 
@@ -696,8 +696,15 @@ function startGame(data) {
   mensajeColorMalo.hide();
   stage.add(layer);
   stage.add(layer2);
-  $(".erase_button").attr("onclick","unselectStar()");
-  $(".erase_button").text("Deshacer selección");
+  $(document).ready(function() {
+    $('.erase_button').off('click').on('click', function () {
+      return false;
+    });   
+    $(".erase_button").click(function () {
+      unselectStar();
+    });
+    $(".erase_button").text("Deshacer selección");    
+  });
 }
 
 function addStar(i) {
@@ -1488,7 +1495,10 @@ function SendMessageClick(e){
       .then((res) => res.json())
       .then((data) => {
         chatHistory.find("li.loading-message").remove();
-
+        // console.log(JSON.parse(data.response).respuesta);
+        console.log("data.response: ", data.response);
+        data.response = JSON.parse(data.response);
+        console.log("post_json parse: ",data.response);
         /*        
           Cambio de estrella:
             Detectar con data.response "Cambio de estrella" y saber a que agente le corresponde
@@ -1497,42 +1507,55 @@ function SendMessageClick(e){
 
             Se resta 1 a la estrella para seguir el índice del mapa de estrellas (Arreglo Parcial)
         */
-        if (data.response.Etapa==="Planificacion_y_ejecucion_de_la_solucion" && data.response.Acuerdo==="1") {
+        if (typeof data.response.estrellaPeta !== "undefined" && data.response.acuerdoPeta===1) {
           //opcionSeleccionarPX debe ser capaz de recibir diferentes cantidades de estrellas
           //en funcion de variable: max_SelectData
-          if (agentName==="peta") {
-            if(opcionElegidaP1.length < maxSelectData[nivel_actual][1]){
-              opcionElegidaP1.push(data.response.Estrella-1); 
-            } else {
-              //eliminar el primer valor del arreglo opcionElegidaP1 y agregar data.response.Estrella-1
-              opcionElegidaP1.shift();
-              opcionElegidaP1.push(data.response.Estrella-1);
-              const li = $("<span class='message other-message instruccion'></span>").text("Limite máximo de estrellas elegidas para Peta, se reemplazará la primera estrella elegida");
-              chatHistory.append(li);
-            }
+          if(opcionElegidaP1.length < maxSelectData[nivel_actual][1]){
+            opcionElegidaP1.push(data.response.estrellaPeta-1); 
+          } 
+          //eliminar el primer valor del arreglo opcionElegidaP1 y agregar data.response.Estrella-1
+          else{
+          opcionElegidaP1.shift();
+          opcionElegidaP1.push(data.response.estrellaPeta-1);
+          // const li = $("<span class='message other-message instruccion'></span>").text("Limite máximo de estrellas elegidas para Peta, se reemplazará la primera estrella elegida");
+          // chatHistory.append(li);
           }
-          else {//Se realiza la misma comparacion pero ahora con variable opcionElegidaP2
-            if (agentName === "zeta") {
-              if (opcionElegidaP2.length < maxSelectData[nivel_actual][2]) {
-                opcionElegidaP2.push(data.response.Estrella - 1);
-              } else {
-                opcionElegidaP2.shift();
-                opcionElegidaP2.push(data.response.Estrella - 1);
-                const li = $("<span class='message other-message instruccion'></span>").text("Limite máximo de estrellas elegidas para Zeta, se reemplazará la primera estrella elegida");
-                chatHistory.append(li);
-              }
-            }
+        }   
+
+        //Se realiza la misma comparacion pero ahora con variable opcionElegidaP2
+        else if (typeof data.response.estrellaZeta !== "undefined" && data.response.acuerdoZeta===1){
+
+
+          if (opcionElegidaP2.length < maxSelectData[nivel_actual][2]) {
+                opcionElegidaP2.push(data.response.estrellaZeta - 1);
           }
-          
+          else{
+            opcionElegidaP2.shift();
+            opcionElegidaP2.push(data.response.estrellaZeta - 1);
+            // const li = $("<span class='message other-message instruccion'></span>").text("Limite máximo de estrellas elegidas para Zeta, se reemplazará la primera estrella elegida");
+            // chatHistory.append(li);
+          }
           //Se detecta cambio de estrella
           decision = true;
         }
+
+
+        cantidad_seleccionada = (Number(maxSelectData[nivel_actual][1]) + Number(maxSelectData[nivel_actual][2])) - (opcionElegidaP1.length + opcionElegidaP2.length);
+       
+        // if (cantidad_seleccionada === 0) {
+        //     const li = $("<span class='message other-message instruccion'></span>").text("Número máximo de estrellas elegidas para cada agente, pueden proceder a Seleccionar las estrellas");
+        //     chatHistory.append(li);
+        // }
+        
+        
         /*        
           Acuerdo:
             Detectar con data.response "Acuerdo" y cuando los agentes se ponen de acuerdo
             y pasar a la etapa de seleccion de estrellas.
+            && cantidad_seleccionada === 0
         */
-        if(data.response==="Acuerdo"){
+
+        if (data.response.acuerdo === "Acuerdo" ){
           alert("acuerdo");
           //Funcion de acuerdo
           $("#SendMessageButton1").replaceWith(
@@ -1541,35 +1564,36 @@ function SendMessageClick(e){
           time_to_select = true;
           $("#SendStarsButton1").prop("disabled", true);
         }
+
         /*        
           Mensaje:
             En caso de que no corresponda a ninguno de los casos anteriores, solo se considera
             el mensaje de respuesta de la API y se muestra en el Chat.
         */
         else{
-        const li = $("<li class='message other-message'></li>").text(
-          data.response.mensaje
-        );
-        // Agregar nombre del agente y cambiar color según el agente
-        // Cambiado color de fondo del chat de Peta
-        if (agentName === "peta") {
-          context.push({ role: "assistant", content: "Peta: "+data.response.mensaje});
-          li.prepend("<span class='agent-name' style='color: #0cff00;'>Peta:</span> ");
-        } else if (agentName === "zeta") {
-          context.push({ role: "assistant", content: "Zeta: "+data.response.mensaje});
-          li.prepend("<span class='agent-name' style='color: #7fff00;'>Zeta:</span> ");
-        }
-        else{
-          agentName="zeta";
-          context.push({ role: "assistant", content: "Zeta: "+data.response.mensaje});
-          li.prepend("<span class='agent-name' style='color: #7fff00;'>Zeta:</span> ");
-        }
-        li.addClass(agentName);
+          const li = $("<li class='message other-message'></li>").text(
+            data.response.respuesta
+          );
+          // Agregar nombre del agente y cambiar color según el agente
+          // Cambiado color de fondo del chat de Peta
+          if (agentName === "peta") {
+            context.push({ role: "assistant", content: "Peta: "+data.response.respuesta});
+            li.prepend("<span class='agent-name' style='color: #0cff00;'>Peta:</span> ");
+          } else if (agentName === "zeta") {
+            context.push({ role: "assistant", content: "Zeta: "+data.response.respuesta});
+            li.prepend("<span class='agent-name' style='color: #7fff00;'>Zeta:</span> ");
+          }
+          else{
+            agentName="zeta";
+            context.push({ role: "assistant", content: "Zeta: "+data.response.respuesta});
+            li.prepend("<span class='agent-name' style='color: #7fff00;'>Zeta:</span> ");
+          }
+          li.addClass(agentName);
 
-        chatHistory.append(li);
-        chatHistory.scrollTop(chatHistory[0].scrollHeight);
-      }
-      });
+          chatHistory.append(li);
+          chatHistory.scrollTop(chatHistory[0].scrollHeight);
+        }
+    });
     chatHistory.scrollTop(chatHistory[0].scrollHeight);
   }
 }

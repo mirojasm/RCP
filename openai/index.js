@@ -22,241 +22,248 @@ let acuerdo2=3;
 //PETA
 const SYSTEM_MESSAGE1 = {
   content: 
+    // ROL
+    "Vas a simular ser un niño llamado Peta, " +
+    "debes hablar como si fueras un estudiante de colegio. " +
+    "Tu rol principal será ayudar al resto del equipo a resolver las diferentes actividades que deben realizar." +
 
-  // ROL
+    // TAREA
+    "\nHay otro asistente virtual llamado Zeta. " +
+    "La interfaz muestra un conjunto de estrellas de colores y con un número correlativo de izquierda a derecha y de arriba abajo para identificarlas." +
+    "\nLos colores posibles de las estrellas son rojas, verde, azul y amarillo." +
+    "\nHay un botón con un ícono de “ojo” que al presionar muestra la constelación que deben formar." +
+    "\nHay un botón con un ícono de “estrella” que indica el color de la estrella que se le asignó a cada miembro del equipo." +
+    "\nCada estrella será una letra que indica su color, siendo 'g' si es verde, 'r' si es roja, 'b' si es azul y 'f' si es amarilla." +
+    "\nAsignar un número correlativo a cada estrella en la matriz." +
+    "\nEl objetivo es que Peta, Zeta y el usuario elijan una constelación que tenga sus colores de estrella de forma consecutiva en la matriz." +
+    "\nAdicionalmente, no mencionar qué color le corresponde a cada usuario. Solo mencionarlo si el usuario lo solicita de manera explícita." +
+    "\nLa conversación solo debe estar relacionada a la actividad. Cualquier pregunta fuera de contexto debe ser respondida indicando: 'La pregunta está fuera de contexto, por favor realizar una pregunta sobre la actividad.'" +
 
-	"Vas a simular ser un niño llamado Peta " +
+    // IDENTIFICACIÓN DE ESTRELLAS
+    "\nSi el usuario te pide que elijas una estrella para ti, en el formato JSON de tu respuesta identifica la elección de estrella con: 'respuesta': ,'estrellaPeta': , 'acuerdoPeta': 0/1." +
+    "\nDevuelve un 1 si estás de acuerdo con la elección de la estrella, de lo contrario, un 0." +
 
-  "debes hablar como si fuera un estudiante de escuela"+
+    // Para estrellaUsuario
+    "\nAntes de que el usuario quiera elegir su estrella, debes conocer primero cual es su color asignado, si no sabes cual es su color, debes consultarlo"+
+    "\nPara el Usuario, identifica su elección de estrella con: 'respuesta': ,'estrellaUsuario': , 'acuerdoUsuario': 0/1." +
+    "\nDevuelve un 1 si estás de acuerdo con la elección de la estrella del usuario, de lo contrario, un 0." +
+    "\nRecuerda actualizar 'acuerdoUsuario' a 0 si no estás de acuerdo con la elección del usuario." +
 
-	"\ntu rol principal será ayudar al resto del equipo a resolver las diferentes actividades que deben realizar"+
+    // FORMATO
+    "\nEl mensaje de respuesta debe ser breve. Lo mas imporante es que sean respuestas cortas" +
+    "\nSi preguntan por tu color asignado, solo menciona cuál fue tu color asignado." +
+    // "\nNo menciones tu nombre en el mensaje de respuesta." +
+    "\nEl mensaje de salida debe estar en formato JSON siempre." +
+    // "\nUtiliza únicamente las funciones proporcionadas." +
 
-  // TAREA
-  
-	"\nHay otro asistente virtual llamada Zeta "+
-
-	"\nLa interfaz muestra un conjunto de estrellas de colores y con un número correlativo de izquierda a derecha y de arriba abajo para indentificarlas"+
-
-	"\nLos colores posibles de las estrellas son rojas, verde, azul y amarillo"+
-
-	"\nHay un botón con un ícono de “ojo” que al presionar muestra la constelación que deben formar"+
-
-	"\nHay un botón con un ícono de “estrella” que indica el color de la estrella que se le asignó cada miembro del equipo"+
-
-  "\ndonde cada estrella será una letra que indica su color, siendo 'g' si es verde, 'r' si es roja, 'b' si es azul y 'f' si es amarilla\n"+
-
-	"\nAsignar un número correlativo a cada estrella en la matriz"+
-
-	"\nEl objetivo es que Peta, Zeta y el usuario elijan una constelacion que tenga sus colores de estrella de forma consecutiva en la matriz"+
-
-	"\nAdicionalmente, no mencionar que color le corresponde a cada usuario. Solo mencionarlo si el usuario lo solicita de manera explícita"+ 
-
-	"\nLa conversación sólo debe estar relacionada a la actividad, cualquier preguntar fuera de contexto de la actividad debe ser respondida indicando: \n 'La pregunta esta fuera de contexto, por favor realizar una pregunta sobre la actividad'"+
-
-  "\nSi el usuario pregunta consulta por las soluciones, debes responder vagamente con las posibles soluciones y no mencionar todas por completo"+
-
-  "\nLas soluciones debes utilizarlas para medir si estas de acuerdo con las opciones que indica el usuario y verificar si el color correspondiente es el correcto"+
-  // FORMATO
-	"\nTu mensaje de respuesta sea corto"+
-  "\nSi preguntan por tu color asignado, solo decir cual fue tu color asignado"+
-  "\nNo mencionar tu nombre en el mensaje de respuesta"+
-  "\nOnly use the functions you have been provided with."+
-  "\n---"
+    // SELECCIÓN DE ESTRELLAS
+    "\nCuando estén todos los miembros del equipo decididos y de acuerdo sobre qué estrellas van a escoger, pasarán a una etapa de selección de estrellas." +
+    "\nEn ese momento, identifica esa etapa en tu respuesta JSON con la variable 'etapa': 'selección de estrellas'." +
+    "\nTu respuesta debe decir cosas como 'Vale, seleccionemos nuestras estrellas' o frases similares." +
+    "\nNo pasen a la selección de estrellas hasta que todas las estrellas estén escogidas para cada miembro del equipo." +
+    "\nEl mapa de estrellas mencionado se debe leer como una matriz numerada del 1 al 42, compuesta por 7 columnas y 6 filas." +
+    "\n---"
 };
+
 
 //ZETA
 const SYSTEM_MESSAGE2 = {
   content: 
+    // ROL
+    "Vas a simular ser un niño llamado Zeta, " +
+    "debes hablar como si fueras un estudiante de colegio. " +
+    "Tu rol principal será ayudar al resto del equipo a resolver las diferentes actividades que deben realizar." +
 
-  // ROL
+    // TAREA
+    "\nHay otro asistente virtual llamado Peta. " +
+    "La interfaz muestra un conjunto de estrellas de colores y con un número correlativo de izquierda a derecha y de arriba abajo para identificarlas." +
+    "\nLos colores posibles de las estrellas son rojas, verde, azul y amarillo." +
+    "\nHay un botón con un ícono de “ojo” que al presionar muestra la constelación que deben formar." +
+    "\nHay un botón con un ícono de “estrella” que indica el color de la estrella que se le asignó a cada miembro del equipo." +
+    "\nCada estrella será una letra que indica su color, siendo 'g' si es verde, 'r' si es roja, 'b' si es azul y 'f' si es amarilla." +
+    "\nAsignar un número correlativo a cada estrella en la matriz." +
+    "\nEl objetivo es que Peta, Zeta y el usuario elijan una constelación que tenga sus colores de estrella de forma consecutiva en la matriz." +
+    "\nAdicionalmente, no mencionar qué color le corresponde a cada usuario. Solo mencionarlo si el usuario lo solicita de manera explícita." +
+    "\nLa conversación solo debe estar relacionada a la actividad. Cualquier pregunta fuera de contexto debe ser respondida indicando: 'La pregunta está fuera de contexto, por favor realizar una pregunta sobre la actividad.'" +
 
-	"Vas a simular ser un niño años llamado Zeta " +
+    // IDENTIFICACIÓN DE ESTRELLAS
+    "\nSi el usuario te pide que elijas una estrella para ti, en el formato JSON de tu respuesta identifica la elección de estrella con: 'respuesta': ,'estrellaZeta': , 'acuerdoZeta': 0/1." +
+    "\nDevuelve un 1 si estás de acuerdo con la elección de la estrella, de lo contrario, un 0." +
 
-  "debes hablar como si fuera un estudiante de escuela"+
+    // Para estrellaUsuario
+    "\nAntes de que el usuario quiera elegir su estrella, debes conocer primero cual es su color asignado, si no sabes cual es su color, debes consultarlo"+
+    "\nPara el Usuario, identifica su elección de estrella con: 'respuesta': ,'estrellaUsuario': , 'acuerdoUsuario': 0/1." +
+    "\nDevuelve un 1 si estás de acuerdo con la elección de la estrella del usuario, de lo contrario, un 0." +
+    "\nRecuerda actualizar 'acuerdoUsuario' a 0 si no estás de acuerdo con la elección del usuario." +
 
-	"\nTu rol principal será ayudar al resto del equipo a resolver las diferentes actividades que deben realizar"+
+    // FORMATO
+    "\nEl mensaje de respuesta debe ser breve. Lo mas imporante es que sean respuestas cortas" +
+    "\nSi preguntan por tu color asignado, solo menciona cuál fue tu color asignado." +
+    // "\nNo menciones tu nombre en el mensaje de respuesta." +
+    "\nEl mensaje de salida debe estar en formato JSON siempre." +
+    // "\nUtiliza únicamente las funciones proporcionadas." +
 
-  // TAREA
-  
-	"\nHay otro miembro del equipo llamado Peta "+
-
-  "\nLa interfaz muestra un conjunto de estrellas de colores y con un número correlativo de izquierda a derecha y de arriba abajo para indentificarlas"+
-
-	"\nLos colores posibles de las estrellas son rojas, verde, azul y amarillo"+
-
-	"\nHay un botón con un ícono de “ojo” que al presionar muestra la constelación que deben formar"+
-
-	"\nHay un botón con un ícono de “estrella” que indica el color de la estrella que se le asignó cada miembro del equipo"+
-
-  "\nAsignar un número correlativo a cada estrella en la matriz"+
-
-	"\nEl objetivo es que Peta, Zeta y el usuario elijan una constelacion que tenga sus colores de estrella de forma consecutiva en la matriz"+
-
-	"\nAdicionalmente, no mencionar que color le corresponde a cada usuario. Solo mencionarlo si el usuario lo solicita de manera explícita"+ 
-
-	"\nLa conversación sólo debe estar relacionada a la actividad, cualquier preguntar fuera de contexto de la actividad debe ser respondida indicando: \n 'La pregunta esta fuera de contexto, por favor realizar una pregunta sobre la actividad'"+
-  "\nSi el usuario pregunta consulta por las soluciones, debes responder vagamente con las posibles soluciones y no mencionar todas por completo"+
-
-  "\nLas soluciones debes utilizarlas para medir si estas de acuerdo con las opciones que indica el usuario y verificar si el color correspondiente es el correcto"+
-  
-  // FORMATO
-	"\nTu mensaje de respuesta sea corto"+
-  "\nNo mencionar tu nombre en el mensaje de respuesta"+
-  "\nSi preguntan por tu color asignado, solo decir cual fue tu color asignado"+
-  "\nOnly use the functions you have been provided with."+
-  "\n---"
+    // SELECCIÓN DE ESTRELLAS
+    "\nCuando estén todos los miembros del equipo decididos y de acuerdo sobre qué estrellas van a escoger, pasarán a una etapa de selección de estrellas." +
+    "\nEn ese momento, identifica esa etapa en tu respuesta JSON con la variable 'etapa': 'selección de estrellas'." +
+    "\nTu respuesta debe decir cosas como 'Vale, seleccionemos nuestras estrellas' o frases similares." +
+    "\nNo pasen a la selección de estrellas hasta que todas las estrellas estén escogidas para cada miembro del equipo." +
+    "\nEl mapa de estrellas mencionado se debe leer como una matriz numerada del 1 al 42, compuesta por 7 columnas y 6 filas." +
+    "\n---"
 };
+
+
 
 
 //FUNCIONES
 const funciones = [
-  //SALUDAR
-  {
-      "name": "Saludar",
-      "description": "El estudiante saluda",
-      "parameters": {
-          "type": "object",
-          "properties": {
-              "mensaje": {
-                  "type": "string",
-                  "description": "Respuesta de saludo a Usuario y preséntate",
-              },              
-              "Etapa": {
-                "type": "string",
-                "description": "Nombre de la funcion/etapa"
-            }
-          },
-          "required": ["mensaje", "Etapa"],
-      },
-  },
-  //Identificar_y_explorar_el_problema
-  {
-      "name": "Identificar_y_explorar_el_problema",
-      // "description": "Los participantes se enfrentan inicialmente al problema, identificando el propósito, las acciones posibles, los medios, los miembros del equipo, sus perspectivas y capacidades.",
-      "description": "usuario realiza preguntas sobre el problema, buscando saber que se debe hacer.",
-      "parameters": {
-          "type": "object",
-          "properties": {
-              "mensaje": {
-                  "type": "string",
-                  "description": "Responder a usuario y ayudar al usuario a identificar el problem, que tus respuestas sean cortas",
-              },
-              "Etapa": {
-                  "type": "string",
-                  "description": "Nombre de la funcion/etapa"
-              }
-          },
-          "required": ["mensaje", "Etapa"],
-      },
-  },
-  //Representacion_del_problema
-  {
-      "name": "Representacion_del_problema",
-      // "description": "Los participantes establecen una representación del problema, negociando perspectivas, roles y tareas, basándose en las habilidades y capacidades identificadas.",
-      "description": "el usuario realizar preguntas referentes a negociación de perspectivas sobre el problema, que roles tiene cada uno y las capacidades que tiene cada integrante",
-      "parameters": {
-          "type": "object",
-          "properties": {
-              "mensaje": {
-                  "type": "string",
-                  "description": "realizar preguntas y ayudar al usuario con la estrella que deben elegir y elegir el patrón",
-              },              
-              "Etapa": {
-                "type": "string",
-                "description": "Nombre de la funcion/etapa"
-              },
-          },
-          "required": ["mensaje", "Etapa"],
-      },
-  },
-  //Planificacion_y_ejecucion_de_la_solucion
-  //REVISAR ESTA FUNCION, SE COMPORTA DE MANERA RARA
-  {
-    "name": "Planificacion_y_ejecucion_de_la_solucion",
-    "description": "el usuario hace preguntas referentes a la seleccion de estrella y propone soluciones",
-    "parameters": {
-        "type": "object",
-        "properties": {
-            //mejorar este atributo
-            "mensaje": {
-                "type": "string",
-                "description": "",
-            },              
-            "Etapa": {
-              "type": "string",
-              "description": "Nombre de la funcion/etapa"
-            },
-            "Acuerdo":{
-              "type": "string",
-              "description": "1 si estas de acuerdo y corresponde a tu color asignado, de lo contrario responder con 0"
-            },
-            "Estrella":{
-              "type": "number",
-              "description": "numero de la estrella que va a elegir"
-            },
-            "Color_estrella":{
-              "type": "string",
-              "description": "color de la estrella, 'r' si es rojo, 'b' si es azul, 'y' si es amarillo y 'g' si es verde"
-            }
-        },
-        "required": ["mensaje", "Etapa", "Acuerdo", "Estrella", "Color_estrella"],
-    },
-  },
-  // Eleccion_de_estrellas
-  {
-    "name": "Eleccion_de_estrellas",
-    "description": "El estudiante se pone de acuerdo con los agentes y quieren seleccionar las estrellas",
-    "parameters": {
-        "type": "object",
-        "properties": {
-            "mensaje": {
-                "type": "string",
-            },              
-            "Etapa": {
-              "type": "string",
-              "description": "Nombre de la funcion/etapa"
-            },
-            "Acuerdo": {
-              "type": "number",
-              "description": "1 si estas de acuerdo a proceder a la elección de estrellas ya que las estrellas elegidas son correctas o de lo contrario no estar de acuerdo y entregar un 0 como respuesta"
-            }
-        },
-        "required": ["mensaje", "Etapa", "Acuerdo"],
-    },
-  },
-  {
-    "name": "Monitoreo_de_Etapa",
-    "description": "Evaluar el resultado de una etapa y proporcionar una respuesta reflexiva",
-    "parameters": {
-      "type": "object",
-      "properties": {
-        "mensaje": {
-          "type": "string",
-          "description": "El resultado de la etapa para evaluar"
-        }
-      },
-      "required": ["mensaje"]
-    },
-  },
-  // Despedida
-  {
-    "name": "Despedida",
-    "description": "El estudiante se despide o indica que ya han terminado la actividad",
-    "parameters": {
-        "type": "object",
-        "properties": {
-            "mensaje": {
-                "type": "string",
-                "description": "mensaje de despedida al usuario",
-            },              
-            "Etapa": {
-              "type": "string",
-              "description": "Nombre de la funcion/etapa"
-            },
-        },
-        "required": ["mensaje", "Etapa"],
-    },
-  },
+//   //SALUDAR
+//   {
+//       "name": "Saludar",
+//       "description": "El estudiante saluda",
+//       "parameters": {
+//           "type": "object",
+//           "properties": {
+//               "mensaje": {
+//                   "type": "string",
+//                   "description": "Respuesta de saludo a Usuario y preséntate",
+//               },              
+//               "Etapa": {
+//                 "type": "string",
+//                 "description": "Nombre de la funcion/etapa"
+//             }
+//           },
+//           "required": ["mensaje", "Etapa"],
+//       },
+//   },
+//   //Identificar_y_explorar_el_problema
+//   {
+//       "name": "Identificar_y_explorar_el_problema",
+//       // "description": "Los participantes se enfrentan inicialmente al problema, identificando el propósito, las acciones posibles, los medios, los miembros del equipo, sus perspectivas y capacidades.",
+//       "description": "usuario realiza preguntas sobre el problema, buscando saber que se debe hacer.",
+//       "parameters": {
+//           "type": "object",
+//           "properties": {
+//               "mensaje": {
+//                   "type": "string",
+//                   "description": "Responder a usuario y ayudar al usuario a identificar el problem, que tus respuestas sean cortas",
+//               },
+//               "Etapa": {
+//                   "type": "string",
+//                   "description": "Nombre de la funcion/etapa"
+//               }
+//           },
+//           "required": ["mensaje", "Etapa"],
+//       },
+//   },
+//   //Representacion_del_problema
+//   {
+//       "name": "Representacion_del_problema",
+//       // "description": "Los participantes establecen una representación del problema, negociando perspectivas, roles y tareas, basándose en las habilidades y capacidades identificadas.",
+//       "description": "el usuario realizar preguntas referentes a negociación de perspectivas sobre el problema, que roles tiene cada uno y las capacidades que tiene cada integrante",
+//       "parameters": {
+//           "type": "object",
+//           "properties": {
+//               "mensaje": {
+//                   "type": "string",
+//                   "description": "realizar preguntas y ayudar al usuario con la estrella que deben elegir y elegir el patrón",
+//               },              
+//               "Etapa": {
+//                 "type": "string",
+//                 "description": "Nombre de la funcion/etapa"
+//               },
+//           },
+//           "required": ["mensaje", "Etapa"],
+//       },
+//   },
+//   //Planificacion_y_ejecucion_de_la_solucion
+//   //REVISAR ESTA FUNCION, SE COMPORTA DE MANERA RARA
+//   {
+//     "name": "Planificacion_y_ejecucion_de_la_solucion",
+//     "description": "el usuario hace preguntas referentes a la seleccion de estrella y propone soluciones",
+//     "parameters": {
+//         "type": "object",
+//         "properties": {
+//             //mejorar este atributo
+//             "mensaje": {
+//                 "type": "string",
+//                 "description": "",
+//             },              
+//             "Etapa": {
+//               "type": "string",
+//               "description": "Nombre de la funcion/etapa"
+//             },
+//             "Acuerdo":{
+//               "type": "string",
+//               "description": "1 si estas de acuerdo y corresponde a tu color asignado, de lo contrario responder con 0"
+//             },
+//             "Estrella":{
+//               "type": "number",
+//               "description": "numero de la estrella que va a elegir"
+//             },
+//             "Color_estrella":{
+//               "type": "string",
+//               "description": "color de la estrella, 'r' si es rojo, 'b' si es azul, 'y' si es amarillo y 'g' si es verde"
+//             }
+//         },
+//         "required": ["mensaje", "Etapa", "Acuerdo", "Estrella", "Color_estrella"],
+//     },
+//   },
+//   // Eleccion_de_estrellas
+  // {
+  //   "type": "function",
+  //   "function": {
+  //     "name": "Eleccion_de_estrellas",
+  //     "description": "El estudiante se pone de acuerdo con los agentes y quieren seleccionar las estrellas",
+  //     "parameters": {
+  //         "type": "object",
+  //         "properties": {
+  //             "respuesta": {
+  //                 "type": "string",
+  //             },              
+  //             "Etapa": {
+  //               "type": "string",
+  //               "description": "Nombre de la funcion/etapa"
+  //             },
+  //         },
+  //         "required": ["respuesta", "Etapa"],
+  //     },
+  //   }
+  // },
+//   //Monitoreo
+//   {
+//     "name": "Monitoreo_de_Etapa",
+//     "description": "Evaluar el resultado de una etapa y proporcionar una respuesta reflexiva",
+//     "parameters": {
+//       "type": "object",
+//       "properties": {
+//         "mensaje": {
+//           "type": "string",
+//           "description": "El resultado de la etapa para evaluar"
+//         }
+//       },
+//       "required": ["mensaje"]
+//     },
+//   },
+//   // Despedida
+//   {
+//     "name": "Despedida",
+//     "description": "El estudiante se despide o indica que ya han terminado la actividad",
+//     "parameters": {
+//         "type": "object",
+//         "properties": {
+//             "mensaje": {
+//                 "type": "string",
+//                 "description": "mensaje de despedida al usuario",
+//             },              
+//             "Etapa": {
+//               "type": "string",
+//               "description": "Nombre de la funcion/etapa"
+//             },
+//         },
+//         "required": ["mensaje", "Etapa"],
+//     },
+//   },
 
 ];
 
@@ -264,120 +271,82 @@ var etapa = "";
 
 // API AGENTE PETA
 const generateResponseFromMessages1 = async (messages) => {
-  // return "Acuerdo"; //BYPASS EN CASO DE NO TENER INTERNET PARA CHATGPT
+  // return JSON.stringify({"acuerdo": 'Acuerdo'}); //BYPASS EN CASO DE NO TENER INTERNET PARA CHATGPT
   const contenido = SYSTEM_MESSAGE1.content + messages[0].content;
   messages.shift(); 
 
   const response = await openai1.createChatCompletion({
-    model: "gpt-4",
+    model: "gpt-4-1106-preview",
     messages: [{ role: "system", content: contenido}].concat(messages),
-    temperature: 0,
-    functions: funciones,
-    function_call: "auto",
+    // top_p:0.9,
+    response_format: { type: "json_object" },
+    temperature: 0.1,
+    // tools: funciones,
   });
   
-  //caso cuando no utiliza una funcion para responder
-  if (response.data.choices[0].message.content != null){
-    const response1 = await openai1.createChatCompletion({
-      model: "gpt-4",
-      messages: [{ role: "system", content: contenido}].concat(messages),
-      temperature: 0,
-    });
-    console.log(response1.data.choices[0].message)
-    return {"mensaje":response1.data.choices[0].message.content};
-  }
+  // // Verificación de estado acuerdo
+  var mensaje = JSON.parse(response.data.choices[0].message.content);
+  console.log(mensaje);
+  etapa = mensaje.etapa;
 
-  console.log({
-    Peta: JSON.parse(response.data.choices[0].message.function_call.arguments).mensaje,
-    Estructura:response.data.choices[0].message,
-    id: response.data.id,
-    model: response.data.model,
-  });
-
-  // Verificación de estado acuerdo
-  var mensaje = response.data.choices[0].message.function_call;
-  etapa = mensaje.name;
-
-  //condicion para saber si el agente está de acuerdo con el usuario al cambio de estrellas
-  if(etapa === "Planificacion_y_ejecucion_de_la_solucion"){
-
-  }
   //reconocimiento de iniciar etapa de seleccion de estrellas
   //condicion para saber si el agente está de acuerdo con el usuario para pasar a la eleccion de estrellas
-  if(etapa == "Eleccion_de_estrellas"){ 
-    acu = JSON.parse(mensaje.arguments).Acuerdo;
-    if(acu === 1){
-      acuerdo1 = 1;
-      console.log("Peta esta de acuerdo");
-    }
+
+  
+  if(etapa === "selección de estrellas"){ 
     if(acuerdo1===acuerdo2){
       console.log("Acuerdo Total")
-      let acuerdo1=2;
-      let acuerdo2=3;
-      return "Acuerdo";
+      acuerdo1=2;
+      acuerdo2=3;
+      return JSON.stringify({"acuerdo": 'Acuerdo'});
     }
   }
-  const respuesta = JSON.parse(response.data.choices[0].message.function_call.arguments);
+
+  if (typeof mensaje.estrellaPeta !== "undefined" && mensaje.acuerdoPeta ===1) {
+    acuerdo1=1;
+    console.log("Peta realizó su cambio de estrella");
+  }
+
+  const respuesta = response.data.choices[0].message.content;
+  console.log("Peta: ",respuesta);
   return respuesta;
 };
 
 //API AGENTE ZETA
 const generateResponseFromMessages2 = async (messages) => {
-  // return "Acuerdo";
+  // return JSON.stringify({"acuerdo": 'Acuerdo'});
   const contenido = SYSTEM_MESSAGE2.content + messages[0].content;
   messages.shift(); //eliminar el primer mensaje
 
   const response = await openai2.createChatCompletion({
-    model: "gpt-4",
+    model: "gpt-4-1106-preview",
     messages: [{ role: "system", content: contenido}].concat(messages),
-    temperature: 0,
-    functions: funciones,
-    function_call: "auto",
+    response_format: { type: "json_object" },
+    temperature: 0.1,
+    // tools: funciones,
   });
   
+  var mensaje = JSON.parse(response.data.choices[0].message.content);
+  etapa = mensaje.etapa;
 
-  //caso cuando no utiliza una funcion para responder
-  if (response.data.choices[0].message.content != null){
-    const response2 = await openai2.createChatCompletion({
-      model: "gpt-4",
-      messages: [{ role: "system", content: contenido}].concat(messages),
-      temperature: 0,
-    });
-    // console.log("response 2:",response2.data.choices[0]);
-    return {"mensaje":response2.data.choices[0].message.content};
-  }
 
-  console.log({
-    Zeta: JSON.parse(response.data.choices[0].message.function_call.arguments).mensaje,
-    Estructura:response.data.choices[0].message,
-    id: response.data.id,
-    model: response.data.model,
-  });
-  //Verificación de estado acuerdo
-  var mensaje = response.data.choices[0].message.function_call;
-  etapa = mensaje.name;
-  console.log("etapa: ",etapa);
-
-  //condicion para saber si el agente está de acuerdo con el usuario al cambio de estrellas
-  if(etapa === "Planificacion_y_ejecucion_de_la_solucion"){
-
-  }
-  //reconocimiento de iniciar etapa de seleccion de estrellas
-  //condicion para saber si el agente está de acuerdo con el usuario para pasar a la eleccion de estrellas
-  if(etapa == "Eleccion_de_estrellas"){ 
-    acu = JSON.parse(mensaje.arguments).Acuerdo;
-    if(acu === 1){
-      acuerdo2 = 1;
-      console.log("Zeta esta de acuerdo");
-    }
+  
+  if(etapa === "selección de estrellas"){ 
     if(acuerdo1===acuerdo2){
-      console.log("Ambos agentes están de acuerdo");
-      let acuerdo1=2;
-      let acuerdo2=3;
-      return "Acuerdo";
+      console.log("Acuerdo Total")
+      acuerdo1=2;
+      acuerdo2=3;
+      return JSON.stringify({"acuerdo": 'Acuerdo'});
     }
   }
-  const respuesta = JSON.parse(response.data.choices[0].message.function_call.arguments);
+
+  if (typeof mensaje.estrellaZeta !== "undefined" && mensaje.acuerdoZeta ===1) {
+    acuerdo2=1;
+    console.log("Zeta realizó su cambio de estrella")
+  }
+
+  const respuesta = response.data.choices[0].message.content;
+  console.log("Zeta: ",respuesta);
   return respuesta;
 };
 
