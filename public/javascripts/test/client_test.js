@@ -969,6 +969,27 @@ function set_stars(level) {
     }
   }
 
+  //Formating de mapa del nivel
+  const mapa_level = levelsData[nivel_actual];
+
+  const numRows = 6;
+  const numCols = 7;
+
+  let mapOutput = 'Mapa de Estrellas:\n';
+
+  for (let row = 0; row < numRows; row++) {
+    for (let col = 0; col < numCols; col++) {
+      const starNumber = row * numCols + col + 1;
+      const starColor = mapa_level[row * numCols + col];
+      mapOutput += ` ${starNumber}: ${starColor} `;
+      mapOutput += col !== numCols - 1 ? '| ' : '';
+    }
+    mapOutput += '\n';
+  }
+
+
+
+
 
   // context.shift();
 
@@ -982,8 +1003,8 @@ function set_stars(level) {
     current_solution = solutionsData.level1;
     current_max_select = maxSelectData.level1[0];
 
-    prompt_contexto[0].content = "\n Etapa actual: Nivel 1 \n Mapa de estrellas: "+levelsData[nivel_actual]+"\n ver el mapa como una matriz de 7 columnas y 6 filas enumeradas del 1 al 42\nTu color designado es el: "+colorData[nivel_actual][1]+"\nla constelacion objetivo debe cumplir con los siguientes colores "+colorData[nivel_actual]+"\nLa constelación debe ser una de las siguientes soluciones: "+resultado+" a cada una de estas soluciones debes sumarle 1 al numero correspondiente, es decir la solucion 0,1,2 corresponden a las estrellas 1,2,3";
-    prompt_contexto[1].content = "\n Etapa actual: Nivel 1 \n Mapa de estrellas: "+levelsData[nivel_actual]+"\n ver el mapa como una matriz de 7 columnas y 6 filas enumeradas del 1 al 42\nTu color designado es el: "+colorData[nivel_actual][2]+"\nla constelacion objetivo debe cumplir con los siguientes colores "+colorData[nivel_actual]+"\nLa constelación debe ser una de las siguientes soluciones: "+resultado+" a cada una de estas soluciones debes sumarle 1 al numero correspondiente, es decir la solucion 0,1,2 corresponden a las estrellas 1,2,3";
+    prompt_contexto[0].content = "\n Etapa actual: Nivel 1 \n "+mapOutput+"\n ver el mapa como una matriz de 7 columnas y 6 filas enumeradas del 1 al 42\nTu color designado es el: "+colorData[nivel_actual][1]+"\nla constelacion objetivo debe cumplir con los siguientes colores "+colorData[nivel_actual]+"\nLa constelación debe ser una de las siguientes soluciones: "+resultado+" a cada una de estas soluciones debes sumarle 1 al numero correspondiente, es decir la solucion 0,1,2 corresponden a las estrellas 1,2,3";
+    prompt_contexto[1].content = "\n Etapa actual: Nivel 1 \n "+mapOutput+"\n ver el mapa como una matriz de 7 columnas y 6 filas enumeradas del 1 al 42\nTu color designado es el: "+colorData[nivel_actual][2]+"\nla constelacion objetivo debe cumplir con los siguientes colores "+colorData[nivel_actual]+"\nLa constelación debe ser una de las siguientes soluciones: "+resultado+" a cada una de estas soluciones debes sumarle 1 al numero correspondiente, es decir la solucion 0,1,2 corresponden a las estrellas 1,2,3";
 
 
   } else if (level == "level2") {
@@ -1011,8 +1032,8 @@ function set_stars(level) {
     current_solution = solutionsData.level4;
     current_max_select = maxSelectData.level4[0];
 
-    prompt_contexto[0].content = "\n Etapa actual: Nivel 2 \n Mapa de estrellas: "+levelsData[nivel_actual]+"\n ver el mapa como una matriz de 7 columnas y 6 filas enumeradas del 1 al 42\nTu color designado es el: "+colorData[nivel_actual][1]+"\nla constelacion objetivo debe cumplir con los siguientes colores "+colorData[nivel_actual]+"\nLa constelación debe ser una de las siguientes soluciones: "+resultado+" a cada una de estas soluciones debes sumarle 1 al numero correspondiente, es decir la solucion 0,1,2 corresponden a las estrellas 1,2,3";
-    prompt_contexto[1].content = "\n Etapa actual: Nivel 2 \n Mapa de estrellas: "+levelsData[nivel_actual]+"\n ver el mapa como una matriz de 7 columnas y 6 filas enumeradas del 1 al 42\nTu color designado es el: "+colorData[nivel_actual][2]+"\nla constelacion objetivo debe cumplir con los siguientes colores "+colorData[nivel_actual]+"\nLa constelación debe ser una de las siguientes soluciones: "+resultado+" a cada una de estas soluciones debes sumarle 1 al numero correspondiente, es decir la solucion 0,1,2 corresponden a las estrellas 1,2,3";
+    prompt_contexto[0].content = "\n Etapa actual: Nivel 2 \n "+mapOutput+"\n ver el mapa como una matriz de 7 columnas y 6 filas enumeradas del 1 al 42\nTu color designado es el: "+colorData[nivel_actual][1]+"\nla constelacion objetivo debe cumplir con los siguientes colores "+colorData[nivel_actual]+"\nLa constelación debe ser una de las siguientes soluciones: "+resultado+" a cada una de estas soluciones debes sumarle 1 al numero correspondiente, es decir la solucion 0,1,2 corresponden a las estrellas 1,2,3";
+    prompt_contexto[1].content = "\n Etapa actual: Nivel 2 \n "+mapOutput+"\n ver el mapa como una matriz de 7 columnas y 6 filas enumeradas del 1 al 42\nTu color designado es el: "+colorData[nivel_actual][2]+"\nla constelacion objetivo debe cumplir con los siguientes colores "+colorData[nivel_actual]+"\nLa constelación debe ser una de las siguientes soluciones: "+resultado+" a cada una de estas soluciones debes sumarle 1 al numero correspondiente, es decir la solucion 0,1,2 corresponden a las estrellas 1,2,3";
 
   } else if (level == "level5") {
     stars_current_level = levelsData.level5;
@@ -1033,8 +1054,8 @@ function set_stars(level) {
     current_solution = solutionsData.level6;
     current_max_select = maxSelectData.level6[0];
 
-    prompt_contexto[0].content = "\n Etapa actual: Nivel 3 \n Mapa de estrellas: "+levelsData[nivel_actual]+"\n ver el mapa como una matriz de 7 columnas y 6 filas enumeradas del 1 al 42\nTu color designado es el: "+colorData[nivel_actual][1]+"\nTu segundo color designado es el "+secondColorData[nivel_actual][1]+"\nla constelacion objetivo debe cumplir con los siguientes colores "+colorData[nivel_actual]+"\nLa constelación debe ser una de las siguientes soluciones: "+resultado+" a cada una de estas soluciones debes sumarle 1 al numero correspondiente, es decir la solucion 0,1,2 corresponden a las estrellas 1,2,3";
-    prompt_contexto[1].content = "\n Etapa actual: Nivel 3 \n Mapa de estrellas: "+levelsData[nivel_actual]+"\n ver el mapa como una matriz de 7 columnas y 6 filas enumeradas del 1 al 42\nTu color designado es el: "+colorData[nivel_actual][2]+"\nla constelacion objetivo debe cumplir con los siguientes colores "+colorData[nivel_actual]+"\nLa constelación debe ser una de las siguientes soluciones: "+resultado+" a cada una de estas soluciones debes sumarle 1 al numero correspondiente, es decir la solucion 0,1,2 corresponden a las estrellas 1,2,3";
+    prompt_contexto[0].content = "\n Etapa actual: Nivel 3 \n Mapa de estrellas: "+mapOutput+"\n ver el mapa como una matriz de 7 columnas y 6 filas enumeradas del 1 al 42\nTu color designado es el: "+colorData[nivel_actual][1]+"\nTu segundo color designado es el "+secondColorData[nivel_actual][1]+"\nla constelacion objetivo debe cumplir con los siguientes colores "+colorData[nivel_actual]+"\nLa constelación debe ser una de las siguientes soluciones: "+resultado+" a cada una de estas soluciones debes sumarle 1 al numero correspondiente, es decir la solucion 0,1,2 corresponden a las estrellas 1,2,3";
+    prompt_contexto[1].content = "\n Etapa actual: Nivel 3 \n Mapa de estrellas: "+mapOutput+"\n ver el mapa como una matriz de 7 columnas y 6 filas enumeradas del 1 al 42\nTu color designado es el: "+colorData[nivel_actual][2]+"\nla constelacion objetivo debe cumplir con los siguientes colores "+colorData[nivel_actual]+"\nLa constelación debe ser una de las siguientes soluciones: "+resultado+" a cada una de estas soluciones debes sumarle 1 al numero correspondiente, es decir la solucion 0,1,2 corresponden a las estrellas 1,2,3";
 
 
   } else if (level == "level7") {
@@ -1056,8 +1077,8 @@ function set_stars(level) {
     current_solution = solutionsData.level8;
     current_max_select = maxSelectData.level8[0];
 
-    prompt_contexto[0].content = "\n Etapa actual: Nivel 4 \n Mapa de estrellas: "+levelsData[nivel_actual]+"\n ver el mapa como una matriz de 7 columnas y 6 filas enumeradas del 1 al 42\nTu color designado es el: "+colorData[nivel_actual][1]+"\nla constelacion objetivo debe cumplir con los siguientes colores "+colorData[nivel_actual]+"\nLa constelación debe ser una de las siguientes soluciones: "+resultado+" a cada una de estas soluciones debes sumarle 1 al numero correspondiente, es decir la solucion 0,1,2 corresponden a las estrellas 1,2,3";
-    prompt_contexto[1].content = "\n Etapa actual: Nivel 4 \n Mapa de estrellas: "+levelsData[nivel_actual]+"\n ver el mapa como una matriz de 7 columnas y 6 filas enumeradas del 1 al 42\nTu color designado es el: "+colorData[nivel_actual][2]+"\nla constelacion objetivo debe cumplir con los siguientes colores "+colorData[nivel_actual]+"\nLa constelación debe ser una de las siguientes soluciones: "+resultado+" a cada una de estas soluciones debes sumarle 1 al numero correspondiente, es decir la solucion 0,1,2 corresponden a las estrellas 1,2,3";
+    prompt_contexto[0].content = "\n Etapa actual: Nivel 4 \n Mapa de estrellas: "+mapOutput+"\n ver el mapa como una matriz de 7 columnas y 6 filas enumeradas del 1 al 42\nTu color designado es el: "+colorData[nivel_actual][1]+"\nla constelacion objetivo debe cumplir con los siguientes colores "+colorData[nivel_actual]+"\nLa constelación debe ser una de las siguientes soluciones: "+resultado+" a cada una de estas soluciones debes sumarle 1 al numero correspondiente, es decir la solucion 0,1,2 corresponden a las estrellas 1,2,3";
+    prompt_contexto[1].content = "\n Etapa actual: Nivel 4 \n Mapa de estrellas: "+mapOutput+"\n ver el mapa como una matriz de 7 columnas y 6 filas enumeradas del 1 al 42\nTu color designado es el: "+colorData[nivel_actual][2]+"\nla constelacion objetivo debe cumplir con los siguientes colores "+colorData[nivel_actual]+"\nLa constelación debe ser una de las siguientes soluciones: "+resultado+" a cada una de estas soluciones debes sumarle 1 al numero correspondiente, es decir la solucion 0,1,2 corresponden a las estrellas 1,2,3";
 
   }
 
