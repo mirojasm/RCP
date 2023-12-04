@@ -76,11 +76,11 @@ module.exports = function(io, socket) {
         }     
     });
 
-    socket.on("phraseChosen", function(data) {
+    socket.on("phraseChosen", function(data) {
       if (cm != null){ 
         cm.PlayNode(cm.GetNode(data));
         }
-    });
+    });
 
     socket.on("varChanged", function(data) {
         //cambiar variables
@@ -91,22 +91,25 @@ module.exports = function(io, socket) {
             cm.SetVar("eleccionTT", data.eleccionTT);
             cm.PlayNode(cm.GetNode(data.nodeId));
     }
-    });
+    });
 
-    socket.on("conversationPlay", function(data) {
+    socket.on("conversationPlay", function(data) {
         if (cm != null){ 
             cm.PlayConversation(cm.GetConversationIndex(data));
         }
-    });
+    });
 
     socket.on('escribir_resultados', function(data){
         write_results(data);
     });
 
+    socket.on('escribir_conversacion', function(data){
+        write_conversation(data);
+    });
+
     socket.on('escribir_puntajes', function(data){
         write_scores(data);
     });
-
 
 }
 
@@ -480,6 +483,18 @@ function write_results(data) {
     var data = data + "\r\n"
     var fs = require('fs');
     fs.appendFile("./resultados.txt", data, function(err) {
+        if(err) {
+            return console.log(err);
+        }
+
+        //console.log("The file was saved!");
+    });
+}
+
+function write_conversation(data) {
+    var data = data + "\r\n"
+    var fs = require('fs');
+    fs.appendFile("./conversacion.txt", data, function(err) {
         if(err) {
             return console.log(err);
         }

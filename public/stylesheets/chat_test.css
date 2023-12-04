@@ -1,6 +1,6 @@
 
 .chat1 {
-  width: 650px;
+  width: 700px;
   display: inline-block;
   vertical-align: top;
   max-width: 800px;
@@ -72,6 +72,9 @@
   text-align: left;
   list-style-type: none;
 }
+
+
+
 
 .message {
   padding: 10px;

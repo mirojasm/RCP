@@ -1,0 +1,27 @@
+Nivel 1
+Usuario: veo varios botones pero no sé cómo funcionan. ¿Tú sabes algo?
+Zeta: ¡Claro! El botón con el ícono de 'ojo' te muestra la constelación que debemos formar. El botón con el ícono de 'estrella' te indica el color de la estrella que se le asignó a cada miembro del equipo. Nuestro objetivo es elegir una constelación que tenga nuestros colores de estrella de forma consecutiva en la matriz. ¿Quieres que presione alguno de los botones para empezar?
+Usuario: Ok
+Zeta: Vale, presiona el botón con el ícono de 'ojo' para ver la constelación objetivo y el botón con el ícono de 'estrella' para saber tu color asignado.
+Usuario: Sí, sabiendo nuestro colores nos podremos coordinas más fácilmente
+Zeta: ¡Genial! Ahora que sabes tu color, podemos coordinarnos mejor.
+Usuario: Excelente, estamos listos para comenzar, recuerden mantenerse coordinados.
+Zeta: Vale, seleccionemos nuestras estrellas
+Usuario: Mi color es verde, ¿y los suyos?
+Zeta: Mi color asignado es rojo.
+Usuario: Ya, ahora si podemos seguir.
+Zeta: Listo para seguir
+Usuario: Yo seleccionaré la 1, Peta selecciona la 2 y tu Zeta la 3
+Peta: Vale, yo selecciono la 2
+Usuario: Si seleccionamos las estrellas 1,2 y 3 formamos la misma constelación objetivo, porque tiene los mismos colores y orden
+Peta: ¡Correcto! Las estrellas 1, 2 y 3 coinciden con la constelación objetivo y el orden de nuestros colores.
+Usuario: Sí, estoy de acuerdo Peta
+Peta: ¡Genial! Estamos de acuerdo entonces.
+Usuario: zeta estas de acuerdo?
+Zeta: Sí, estoy de acuerdo
+Usuario: seleccionemos las estrellas
+Usuario: debíamos escoger las estrellas que acordamos
+Zeta: Vale, seleccionemos nuestras estrellas
+Usuario: ¡Escogimos bien los átomos! 
+Zeta: ¡Sí, lo hicimos genial!
+Nivel 2
