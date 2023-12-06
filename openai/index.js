@@ -69,7 +69,7 @@ const SYSTEM_MESSAGE1 = {
     // SELECCIÓN DE ESTRELLAS
     "\nCuando estén todos los miembros del equipo decididos y de acuerdo sobre qué estrellas van a escoger, pasarán a una etapa de selección de estrellas." +
     "\nEn ese momento, identifica esa etapa en tu respuesta JSON con la variable 'etapa': 'selección de estrellas'." +
-    "\nTu respuesta debe decir cosas como 'Vale, seleccionemos nuestras estrellas' o frases similares." +
+    // "\nTu respuesta debe decir cosas como 'Vale, seleccionemos nuestras estrellas' o frases similares." +
     "\nNo pasen a la selección de estrellas hasta que todas las estrellas estén escogidas para cada miembro del equipo." +
     "\nEl mapa de estrellas mencionado se debe leer como una matriz numerada del 1 al 42, compuesta por 7 columnas y 6 filas." +
     
@@ -132,7 +132,7 @@ const SYSTEM_MESSAGE2 = {
     // SELECCIÓN DE ESTRELLAS
     "\nCuando estén todos los miembros del equipo decididos y de acuerdo sobre qué estrellas van a escoger, pasarán a una etapa de selección de estrellas." +
     "\nEn ese momento, identifica esa etapa en tu respuesta JSON con la variable 'etapa': 'selección de estrellas'." +
-    "\nTu respuesta debe decir cosas como 'Vale, seleccionemos nuestras estrellas' o frases similares." +
+    // "\nTu respuesta debe decir cosas como 'Vale, seleccionemos nuestras estrellas' o frases similares." +
     "\nNo pasen a la selección de estrellas hasta que todas las estrellas estén escogidas para cada miembro del equipo." +
     "\nEl mapa de estrellas mencionado se debe leer como una matriz numerada del 1 al 42, compuesta por 7 columnas y 6 filas." +
     

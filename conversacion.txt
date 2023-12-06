@@ -1,27 +1,227 @@
 Nivel 1
-Usuario: veo varios botones pero no sé cómo funcionan. ¿Tú sabes algo?
-Zeta: ¡Claro! El botón con el ícono de 'ojo' te muestra la constelación que debemos formar. El botón con el ícono de 'estrella' te indica el color de la estrella que se le asignó a cada miembro del equipo. Nuestro objetivo es elegir una constelación que tenga nuestros colores de estrella de forma consecutiva en la matriz. ¿Quieres que presione alguno de los botones para empezar?
-Usuario: Ok
-Zeta: Vale, presiona el botón con el ícono de 'ojo' para ver la constelación objetivo y el botón con el ícono de 'estrella' para saber tu color asignado.
-Usuario: Sí, sabiendo nuestro colores nos podremos coordinas más fácilmente
-Zeta: ¡Genial! Ahora que sabes tu color, podemos coordinarnos mejor.
-Usuario: Excelente, estamos listos para comenzar, recuerden mantenerse coordinados.
+Usuario: Veo varios botones pero no sé cómo funcionan. ¿Tú sabes algo?
+Zeta: Sí, puedo explicarte. El botón con el ícono de 'ojo' te muestra la constelación que debemos formar. El botón con el ícono de 'estrella' indica el color de la estrella que se le asignó a cada miembro del equipo. Debemos elegir una constelación que tenga nuestros colores de estrella de forma consecutiva en la matriz. ¿Quieres que presione alguno de los botones para empezar?
+Usuario: Sí, para mi también.
+Zeta: Vale, presionemos el botón con el ícono de 'ojo' para ver la constelación objetivo.
+Usuario: Como quieran.
 Zeta: Vale, seleccionemos nuestras estrellas
 Usuario: Mi color es verde, ¿y los suyos?
 Zeta: Mi color asignado es rojo.
+Usuario: ¿y el tuyo peta?
+Peta: Mi color asignado es azul.
 Usuario: Ya, ahora si podemos seguir.
-Zeta: Listo para seguir
-Usuario: Yo seleccionaré la 1, Peta selecciona la 2 y tu Zeta la 3
-Peta: Vale, yo selecciono la 2
-Usuario: Si seleccionamos las estrellas 1,2 y 3 formamos la misma constelación objetivo, porque tiene los mismos colores y orden
-Peta: ¡Correcto! Las estrellas 1, 2 y 3 coinciden con la constelación objetivo y el orden de nuestros colores.
-Usuario: Sí, estoy de acuerdo Peta
-Peta: ¡Genial! Estamos de acuerdo entonces.
-Usuario: zeta estas de acuerdo?
-Zeta: Sí, estoy de acuerdo
-Usuario: seleccionemos las estrellas
-Usuario: debíamos escoger las estrellas que acordamos
+Peta: Perfecto, ahora que sabemos nuestros colores, podemos buscar una constelación que tenga verde, azul y rojo consecutivamente.
+Usuario: Yo seleccionaré la 1, Peta selecciona la 2
+Peta: Entendido, seleccionaré la 2
+Usuario: y tu Zeta la 3
+Zeta: Entendido, seleccionaré la 3
+Usuario: Si seleccionamos las estrellas 1, 2 y 3, formamos la misma constelación objetivo, porque tiene los mismos colores y orden.
+Usuario: Para la próxima deberíamos ponernos de acuerdo.
+Zeta: Vale, para la próxima nos coordinamos mejor antes de elegir.
+Usuario: Hay que ser cuidadosos con los mensajes para ponernos de acuerdo.
+Zeta: Sí, es importante comunicarnos claramente para trabajar en equipo.
+Nivel 1
+Usuario: Veo varios botones pero no sé cómo funcionan. ¿Tú sabes algo?
+Nivel 1
+Nivel 1
+Usuario: Veo varios botones pero no sé cómo funcionan. ¿Tú sabes algo?
+Peta: ¡Claro! El botón con el ícono de 'ojo' te muestra la constelación que debemos formar. El botón con el ícono de 'estrella' indica el color de la estrella que se le asignó a cada miembro del equipo. Nuestro objetivo es elegir una constelación que tenga nuestros colores de estrella de forma consecutiva en la matriz. ¿Quieres que presione alguno de los botones para empezar?
+Usuario: Parece que sí. ¿Estás de acuerdo Peta?
+Peta: Vale, presiona el botón con el ícono de 'ojo' para ver la constelación objetivo.
+Usuario: Sí, sabiendo nuestros colores nos podremos coordinar más fácilmente
+Peta: Presiona el botón con el ícono de 'estrella' para saber el color asignado a cada uno.
+Usuario: Ok, comencemos.
+Peta: Vale, comencemos con la actividad.
+Usuario: ¿Qué color les tocó a ustedes?
+Peta: Mi color asignado es azul.
+Usuario: ¿y el tuyo zeta?
+Zeta: Mi color asignado es rojo.
+Usuario: Mi color es verde.
+Zeta: Entendido, tu color es verde.
+Usuario: Voy a elegir la estrella 1
+Zeta: Has elegido la estrella 1
+Usuario: Si seleccionamos las estrellas 1, 2 y 3, formamos la misma constelación objetivo, porque tiene los mismos colores y orden.
 Zeta: Vale, seleccionemos nuestras estrellas
-Usuario: ¡Escogimos bien los átomos! 
-Zeta: ¡Sí, lo hicimos genial!
-Nivel 2
+Usuario: Sí, estoy de acuerdo Zeta.
+Zeta: Perfecto, estamos de acuerdo.
+Usuario: ¿Estas de acuerdo Peta?
+Peta: Sí, estoy de acuerdo.
+Usuario: Seleccionemos las estrellas
+Usuario: ¿Entendieron bien qué estrella escoger?
+Peta: Sí, entendí bien qué estrella escoger.
+Usuario: Hay que ser cuidadosos con los mensajes para ponernos de acuerdo.
+Peta: Vale, seleccionemos nuestras estrellas
+Nivel 1
+Nivel 1
+Usuario: Veo varios botones pero no sé cómo funcionan. ¿Tú sabes algo?
+Zeta: Sí, claro. El botón con el ícono de 'ojo' te muestra la constelación que debemos formar. El botón con el ícono de 'estrella' indica el color de la estrella que se le asignó a cada miembro del equipo. ¡Podemos usarlos para resolver la actividad!
+Usuario: Parece que sí. ¿Estás de acuerdo Peta?
+Peta: Sí, estoy de acuerdo. Podemos usar esos botones para ayudarnos a encontrar las estrellas correctas para nuestra constelación.
+Usuario: Sí, sabiendo nuestros colores nos podremos coordinar más fácilmente
+Peta: ¡Exacto! Una vez que sepamos los colores de cada uno, podremos elegir las estrellas que forman la constelación correcta.
+Usuario: Ok, comencemos.
+Peta: ¡Genial! Primero necesitamos saber cuál es tu color asignado. ¿Puedes presionar el botón con el ícono de 'estrella' para averiguarlo?
+Usuario: ¿Qué color les tocó a ustedes?
+Peta: Mi color asignado es azul.
+Usuario: ¿y a ti zeta?
+Zeta: Mi color asignado es rojo.
+Usuario: Mi color es verde.
+Zeta: ¡Perfecto! Ahora que sabemos nuestros colores, podemos buscar una constelación que tenga verde, azul y rojo en ese orden.
+Usuario: ¿Qué estrellas escogemos?
+Zeta: Podemos buscar estrellas consecutivas en la matriz que coincidan con los colores verde, azul y rojo. ¿Qué te parece si buscas en el mapa y me dices qué combinación encuentras?
+Usuario: Voy a elegir la estrella 1
+Zeta: Has elegido la estrella 1
+Usuario: Sí, estoy de acuerdo Zeta.
+Zeta: Has elegido la estrella 1 para ti
+Usuario: ¿que estrella vas a elegir tu?
+Zeta: Voy a elegir la estrella 3 para mí
+Usuario: ¿y tu peta?
+Peta: Voy a elegir la estrella 2 para mí
+Usuario: Seleccionemos las estrellas
+Usuario: ¿Entendieron bien qué estrella escoger?
+Peta: Vale, seleccionemos nuestras estrellas
+Usuario: ¿y tu zeta?
+Zeta: Vale, seleccionemos nuestras estrellas
+Usuario: ¿Entendieron bien qué  hacer?
+Nivel 1
+Usuario: Veo varios botones pero no sé cómo funcionan. ¿Tú sabes algo?
+Zeta: ¡Claro! Si presionas el botón con el ícono de 'ojo', te mostrará la constelación que debemos formar. Y si presionas el botón con el ícono de 'estrella', te indicará el color de la estrella que se le asignó a cada miembro del equipo. ¡Vamos a intentarlo!
+Usuario: Parece que sí. ¿Estás de acuerdo Peta?
+Peta: Sí, estoy de acuerdo. ¡Vamos a ver la constelación y a encontrar nuestras estrellas!
+Usuario: Sí, sabiendo nuestros colores nos podremos coordinar más fácilmente
+Peta: ¡Genial! Ahora que sabemos nuestros colores, podemos empezar a buscar las estrellas que coincidan con la secuencia de colores de la constelación.
+Usuario: Excelente, estamos listos para comenzar, recuerden mantenerse coordinados.
+Peta: Vale, seleccionemos nuestras estrellas
+Usuario: Mi color es verde, ¿y los suyos?
+Peta: Mi color asignado es azul.
+Usuario: ¿y el tuyo zeta?
+Zeta: Mi color asignado es rojo.
+Usuario: No olviden seleccionar la estrella del color que les tocó
+Zeta: ¡Entendido! Vamos a buscar las estrellas con nuestros colores asignados.
+Usuario: Yo seleccionaré la 1, Peta selecciona la 2
+Peta: He seleccionado la estrella 2
+Usuario:  y tu Zeta la 3
+Zeta: He seleccionado la estrella 3
+Usuario: Voy a elegir la estrella 1
+Zeta: Has elegido la estrella 1
+Usuario: Seleccionemos las estrellas
+Usuario: ¿Entendieron bien qué estrella escoger?
+Zeta: Sí, entendimos bien qué estrella escoger.
+Usuario: ¿Entendieron bien qué  hacer?
+Zeta: Sí, entendimos bien qué hacer.
+Nivel 1
+Nivel 1
+Usuario: Veo varios botones pero no sé cómo funcionan. ¿Tú sabes algo?
+Peta: Sí, claro. El botón con el ícono de 'ojo' muestra la constelación que debemos formar, y el botón con el ícono de 'estrella' indica el color de la estrella que se le asignó a cada miembro del equipo. Debemos elegir una constelación que tenga nuestros colores de estrella de forma consecutiva en la matriz. ¿Ya sabes cuál es tu color asignado?
+Usuario: Ok.
+Peta: Parece que no me has dicho tu color asignado. Necesito saberlo para poder ayudarte a elegir la estrella correcta.
+Usuario: Sí, sabiendo nuestros colores nos podremos coordinar más fácilmente
+Peta: ¡Genial! Una vez que sepamos los colores de cada uno, podremos elegir las estrellas que forman la constelación. ¿Me puedes decir cuál es tu color asignado para que te ayude a encontrar tu estrella?
+Usuario: Excelente, estamos listos para comenzar, recuerden mantenerse coordinados.
+Peta: Vale, seleccionemos nuestras estrellas
+Usuario: Mi color es verde, ¿y los suyos?
+Peta: Mi color asignado es azul.
+Usuario: ¿y el tuyo zeta?
+Zeta: Mi color asignado es rojo.
+Usuario: Ya, ahora si podemos seguir.
+Zeta: Vale, ahora que sabemos nuestros colores, podemos elegir las estrellas correctas para formar la constelación.
+Usuario: Seleccionen sus estrellas
+Zeta: De acuerdo, voy a elegir mi estrella.
+Usuario: tu también peta
+Peta: Voy a elegir mi estrella
+Usuario: ¡Hagan lo que dije!
+Peta: Entiendo, veamos cómo avanzamos con la selección de estrellas.
+Usuario: Seleccionemos las estrellas
+Usuario: ¿Entendieron bien qué estrella escoger?
+Peta: Sí, entendí qué estrella escoger.
+Usuario: Mejor continuemos.
+Peta: Vale, seleccionemos nuestras estrellas
+Nivel 1
+Nivel 1
+Usuario: Veo varios botones pero no sé cómo funcionan. ¿Tú sabes algo?
+Peta: Sí, claro. El botón con el ícono de 'ojo' te muestra la constelación que debemos formar. El botón con el ícono de 'estrella' indica el color de la estrella que se le asignó a cada miembro del equipo. ¡Podemos usarlos para resolver la actividad!
+Nivel 1
+Nivel 1
+Usuario: Veo varios botones pero no sé cómo funcionan. ¿Tú sabes algo?
+Zeta: Sí, sé cómo funcionan los botones. El botón con el ícono de 'ojo' te muestra la constelación que debemos formar, y el botón con el ícono de 'estrella' indica el color de la estrella que se le asignó a cada miembro del equipo. ¡Podemos usarlos para resolver la actividad!
+Usuario: Parece que sí. ¿Estás de acuerdo Peta?
+Peta: ¡Claro! Los botones nos ayudan a saber qué constelación formar y qué color de estrella nos toca a cada uno. ¡Vamos a resolver esto juntos!
+Usuario: Sí, sabiendo nuestros colores nos podremos coordinar más fácilmente
+Peta: ¡Exacto! Una vez que sepamos los colores de cada uno, podremos elegir las estrellas correctas para formar la constelación.
+Usuario: Excelente, estamos listos para comenzar, recuerden mantenerse coordinados.
+Peta: Vale, seleccionemos nuestras estrellas
+Usuario: Mi color es verde, ¿y los suyos?
+Peta: Mi color asignado es azul.
+Usuario: ¿y el tuyo zeta?
+Zeta: Mi color asignado es rojo.
+Usuario: No olviden seleccionar la estrella del color que les tocó
+Zeta: Vale, seleccionemos nuestras estrellas con los colores correctos.
+Usuario: ¿Qué estrellas escogemos?
+Zeta: Debemos escoger estrellas que formen la constelación con nuestros colores asignados de forma consecutiva.
+Usuario: Voy a elegir la estrella 1
+Zeta: Has elegido la estrella 1
+Usuario: Sí, estoy de acuerdo Zeta.
+Zeta: Has elegido la estrella 1
+Nivel 1
+Usuario: Veo varios botones pero no sé cómo funcionan. ¿Tú sabes algo?
+Peta: ¡Claro! El botón con el ícono de 'ojo' te muestra la constelación que debemos formar. El botón con el ícono de 'estrella' indica el color de la estrella asignado a cada miembro del equipo. ¡Podemos usarlos para resolver la actividad!
+Nivel 1
+Usuario: Veo varios botones pero no sé cómo funcionan. ¿Tú sabes algo?
+Peta: Sí, puedo explicarte. El botón con el ícono de 'ojo' muestra la constelación que debemos formar. El botón con el ícono de 'estrella' indica el color de la estrella que se le asignó a cada miembro del equipo. Nuestro objetivo es elegir una constelación que tenga nuestros colores de estrella de forma consecutiva en la matriz. ¿Quieres que presione alguno de los botones para empezar?
+Nivel 1
+Usuario: Veo varios botones pero no sé cómo funcionan. ¿Tú sabes algo?
+Peta: ¡Claro! El botón con el ícono de 'ojo' te muestra la constelación que debemos formar. El botón con el ícono de 'estrella' te indica el color de la estrella que se le asignó a cada miembro del equipo. ¡Podemos usarlos para resolver la actividad!
+Nivel 1
+Nivel 1
+Usuario: Veo varios botones pero no sé cómo funcionan. ¿Tú sabes algo?
+Peta: ¡Claro! El botón con el ícono de 'ojo' te muestra la constelación que debemos formar. El botón con el ícono de 'estrella' te indica el color de la estrella que se le asignó a cada miembro del equipo. ¡Podemos usarlos para resolver la actividad!
+Nivel 1
+Usuario: Veo varios botones pero no sé cómo funcionan. ¿Tú sabes algo?
+Zeta: ¡Claro! El botón con el ícono de 'ojo' te muestra la constelación que debemos formar. El botón con el ícono de 'estrella' indica el color de la estrella que se le asignó a cada miembro del equipo. ¡Podemos usarlos para encontrar las estrellas correctas para nuestra constelación!
+Usuario: Parece que sí. ¿Estás de acuerdo Peta?
+Peta: ¡Sí, estoy de acuerdo! Podemos usar esos botones para ayudarnos a encontrar las estrellas que necesitamos para nuestra constelación.
+Usuario: Sí, sabiendo nuestros colores nos podremos coordinar más fácilmente
+Peta: ¡Exacto! Una vez que sepamos los colores de cada uno, podremos elegir las estrellas correctas para formar la constelación.
+Usuario: Excelente, estamos listos para comenzar, recuerden mantenerse coordinados.
+Peta: ¡Listo para empezar!
+Usuario: Mi color es verde, ¿y los suyos?
+Peta: Mi color asignado es azul.
+Usuario: ¿y el tuyo zeta?
+Zeta: Mi color asignado es rojo.
+Usuario: No olviden seleccionar la estrella del color que les tocó
+Zeta: ¡Entendido! Vamos a buscar las estrellas con nuestros colores asignados.
+Usuario: ¿Qué estrellas escogemos?
+Zeta: Podemos escoger estrellas que estén consecutivas y que coincidan con nuestros colores asignados.
+Usuario: Voy a elegir la estrella 1
+Zeta: Has elegido la estrella 1
+Usuario: Peta, voy a elegir la estrella 1
+Peta: Has elegido la estrella 1
+Nivel 1
+Nivel 1
+Usuario: Veo varios botones pero no sé cómo funcionan. ¿Tú sabes algo?
+Zeta: Sí, claro. El botón con el ícono de 'ojo' te muestra la constelación que debemos formar. El botón con el ícono de 'estrella' indica el color de la estrella que se le asignó a cada miembro del equipo. Debemos elegir estrellas que formen una constelación con nuestros colores asignados de forma consecutiva en la matriz. ¿Quieres que presione alguno de los botones para empezar?
+Usuario: Parece que sí. ¿Estás de acuerdo Peta?
+Peta: Sí, estoy de acuerdo. Podemos empezar presionando el botón con el ícono de 'ojo' para ver la constelación objetivo.
+Usuario: Sí, sabiendo nuestros colores nos podremos coordinar más fácilmente
+Peta: Entendido, presionemos el botón con el ícono de 'ojo' para ver la constelación objetivo y coordinarnos con nuestros colores.
+Usuario: Excelente, estamos listos para comenzar, recuerden mantenerse coordinados.
+Peta: Listo para comenzar y mantenernos coordinados.
+Usuario: Mi color es verde, ¿y los suyos?
+Peta: Mi color asignado es azul.
+Usuario: ¿y el tuyo zeta?
+Zeta: Mi color asignado es rojo.
+Usuario: No olviden seleccionar la estrella del color que les tocó
+Zeta: Entendido, debemos seleccionar estrellas de nuestro color asignado.
+Usuario: ¿Qué estrellas escogemos?
+Zeta: Podemos escoger estrellas que formen una constelación con nuestros colores asignados de forma consecutiva. ¿Qué tal si miramos las opciones que tenemos en la matriz?
+Usuario: Voy a elegir la estrella 1
+Zeta: Has elegido la estrella 1
+Usuario: ¿que estrella vas a elegir?
+Zeta: Voy a elegir la estrella 3
+Usuario: ¿y tu peta?
+Peta: Voy a elegir la estrella 2
+Usuario: seleccionemos las estrellas
+Usuario: ¿Entendieron bien qué estrella escoger?
+Peta: Sí, entendí bien qué estrella escoger.
+Usuario: ¡Escogimos bien las estrellas!
+Peta: ¡Sí, lo hicimos genial!

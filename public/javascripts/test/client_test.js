@@ -1606,7 +1606,7 @@ function SendMessageClick(e){
         */
 
         //Cambio estrella Peta
-        if (typeof data.response.estrellaPeta !== "undefined" && data.response.acuerdoPeta===1) {
+        if (typeof data.response.estrellaPeta !== "undefined" && data.response.acuerdoPeta===1 && agentName === "peta") {
           //opcionSeleccionarPX debe ser capaz de recibir diferentes cantidades de estrellas
           //en funcion de variable: max_SelectData
 
@@ -1639,7 +1639,7 @@ function SendMessageClick(e){
         //Se realiza la misma comparacion pero ahora con variable opcionElegidaP2
 
         //Cambio estrella Zeta
-        else if (typeof data.response.estrellaZeta !== "undefined" && data.response.acuerdoZeta===1){
+        else if (typeof data.response.estrellaZeta !== "undefined" && data.response.acuerdoZeta===1 && agentName === "zeta"){
 
           if (data.response.estrellaZeta.length > 1) {
             //en caso de que reciba multiples numero de estrellas a elegir
